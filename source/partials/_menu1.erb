@@ -1,0 +1,12 @@
+<nav class="fixed-l fixed-m w-100 mw-100 bg-white pa4">
+  <div>
+    <%= link_to "Filipao Nunes", "/", :class => "link roboto fw9 ttu f6 tracked-mega" %>
+  </div>
+  <div class="dn">
+    <ul class="list ma0 pa0">
+      <% data.site.links.each do |section| %>
+        <li class="dib"><%= link_to section.title, section.path, :class => "link" %></li>
+      <% end %>
+    </ul>
+  </div>
+</nav>
