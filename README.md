@@ -7,4 +7,3 @@ For this project I'll be working with Tachyons for the first time. I decided to 
 ### Tools —
 + [Middleman](https://middlemanapp.com)
 + [Tachyons](http://tachyons.io)
-+ [Gulp](http://gulpjs.com)
