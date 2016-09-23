@@ -1,0 +1,24 @@
+{
+  "links": [
+    {
+      "title": "Projects",
+      "path": "/projects"
+    },
+    {
+      "title": "Studio",
+      "path": "/studio"
+    },
+    {
+      "title": "Contact",
+      "path": "/contact"
+    },
+    {
+      "title": "Instagram",
+      "path": "https://www.instagram.com/filipao78/"
+    },
+    {
+      "title": "Twitter",
+      "path": "https://twitter.com/filipao78"
+    }
+  ]
+}
