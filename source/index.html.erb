@@ -1,13 +1,16 @@
 ---
-title: Welcome to Middleman
+layout: prototype1
 ---
-
-<div class="welcome">
-  <div class="logo">
-    <%= image_tag "middleman-logo.svg" %>
-  </div>
-  <h1>Middleman is Running</h1>
-  <p class="doc">
-    <%= link_to "Read Documentation Online", "https://middlemanapp.com", target: "_blank" %>
-  </p><!-- .doc -->
-</div><!-- .welcome -->
+<div class="ph4 mv6">
+  <h1 class="noto-sans fw4 f3 lh-copy">This is who we are. This is what we do.</h1>
+</div>
+<div class="ph4 mw-100">
+  <% data.projects.each_with_index do |project, r| %>
+    <a class="db flex items-end pa4 <% if r != data.projects.length %>mb4<% end %> h4 link bg-near-white" href="/projects/<%= purl project.name %>">
+      <div>
+        <h4 class="mt0 mb2 noto-sans fw4 f6 light-silver"><%= project.category %></h4>
+        <h2 class="ma0 noto-sans fw4 f3 dark-gray lh-title"><%= project.name %></h2>
+      </div>
+    </a>
+  <% end %>
+</div>
