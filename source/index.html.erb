@@ -1,16 +1,20 @@
 ---
 layout: prototype1
 ---
-<div class="ph4 mv6">
+<div class="ph4 mt7 mb6">
   <h1 class="noto-sans fw4 f3 lh-copy">This is who we are. This is what we do.</h1>
 </div>
-<div class="ph4 mw-100">
-  <% data.projects.each_with_index do |project, r| %>
-    <a class="db flex items-end pa4 <% if r != data.projects.length %>mb4<% end %> h4 link bg-near-white" href="/projects/<%= purl project.name %>">
-      <div>
-        <h4 class="mt0 mb2 noto-sans fw4 f6 light-silver"><%= project.category %></h4>
-        <h2 class="ma0 noto-sans fw4 f3 dark-gray lh-title"><%= project.name %></h2>
+<div class="ph3 pb1">
+  <div class="cf">
+    <% data.projects.each_with_index do |project, r| %>
+      <div class="fl w-100 w-50-ns w-33-l ph2 mb3">
+        <a class="db flex items-end h5 link bg-near-white pa4" href="/projects/<%= purl project.name %>">
+          <div>
+            <h4 class="mt0 mb2 noto-sans fw4 f6 light-silver"><%= project.category %></h4>
+            <h2 class="ma0 noto-sans fw4 f4 dark-gray lh-title"><%= project.name %></h2>
+          </div>
+        </a>
       </div>
-    </a>
-  <% end %>
+    <% end %>
+  </div>
 </div>
