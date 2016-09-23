@@ -1,0 +1,278 @@
+[
+  {
+    "featured": true,
+    "name": "Bisou",
+    "category": "Nightclub",
+    "location": "Monterrey, MX",
+    "date": "Jan 2016",
+    "client": "Carlos Bianchezi",
+    "images": {
+      "card": {
+        "path": "",
+        "alt": ""
+      },
+      "hero": {
+        "path": "",
+        "alt": ""
+      },
+      "details": [
+        {
+          "type": "full",
+          "path": "",
+          "alt": ""
+        },
+        {
+          "type": "half",
+          "path": "",
+          "alt": ""
+        },
+        {
+          "type": "half",
+          "path": "",
+          "alt": ""
+        },
+        {
+          "type": "full",
+          "path": "",
+          "alt": ""
+        }
+      ]
+    },
+    "details": {
+      "intro": [
+        "The paragraph should summarize the scope and other important factors that lead to the published piece.",
+        "More details can be added to describe unexpected challenges or particularly fascinating areas of the project."
+      ]
+    }
+  },
+  {
+    "featured": true,
+    "name": "Hula",
+    "category": "Restaurant",
+    "location": "Monterrey, MX",
+    "date": "Jan 2016",
+    "client": "Carlos Bianchezi",
+    "images": {
+      "card": {
+        "path": "",
+        "alt": ""
+      },
+      "hero": {
+        "path": "",
+        "alt": ""
+      },
+      "details": [
+        {
+          "type": "full",
+          "path": "",
+          "alt": ""
+        },
+        {
+          "type": "half",
+          "path": "",
+          "alt": ""
+        },
+        {
+          "type": "half",
+          "path": "",
+          "alt": ""
+        },
+        {
+          "type": "full",
+          "path": "",
+          "alt": ""
+        }
+      ]
+    },
+    "details": {
+      "intro": [
+        "The paragraph should summarize the scope and other important factors that lead to the published piece.",
+        "More details can be added to describe unexpected challenges or particularly fascinating areas of the project."
+      ]
+    }
+  },
+  {
+    "featured": true,
+    "name": "The Burger Company",
+    "category": "Restaurant",
+    "location": "Guadalajara, MX",
+    "date": "Jan 2016",
+    "client": "Carlos Bianchezi",
+    "images": {
+      "card": {
+        "path": "",
+        "alt": ""
+      },
+      "hero": {
+        "path": "",
+        "alt": ""
+      },
+      "details": [
+        {
+          "type": "full",
+          "path": "",
+          "alt": ""
+        },
+        {
+          "type": "half",
+          "path": "",
+          "alt": ""
+        },
+        {
+          "type": "half",
+          "path": "",
+          "alt": ""
+        },
+        {
+          "type": "full",
+          "path": "",
+          "alt": ""
+        }
+      ]
+    },
+    "details": {
+      "intro": [
+        "The paragraph should summarize the scope and other important factors that lead to the published piece.",
+        "More details can be added to describe unexpected challenges or particularly fascinating areas of the project."
+      ]
+    }
+  },
+  {
+    "featured": true,
+    "name": "Casa Canela",
+    "category": "Restaurant",
+    "location": "Monterrey, MX",
+    "date": "Jan 2016",
+    "client": "Carlos Bianchezi",
+    "images": {
+      "card": {
+        "path": "",
+        "alt": ""
+      },
+      "hero": {
+        "path": "",
+        "alt": ""
+      },
+      "details": [
+        {
+          "type": "full",
+          "path": "",
+          "alt": ""
+        },
+        {
+          "type": "half",
+          "path": "",
+          "alt": ""
+        },
+        {
+          "type": "half",
+          "path": "",
+          "alt": ""
+        },
+        {
+          "type": "full",
+          "path": "",
+          "alt": ""
+        }
+      ]
+    },
+    "details": {
+      "intro": [
+        "The paragraph should summarize the scope and other important factors that lead to the published piece.",
+        "More details can be added to describe unexpected challenges or particularly fascinating areas of the project."
+      ]
+    }
+  },
+  {
+    "featured": true,
+    "name": "La Leyenda 111",
+    "category": "Restaurant",
+    "location": "Guadalajara, MX",
+    "date": "Jan 2016",
+    "client": "Carlos Bianchezi",
+    "images": {
+      "card": {
+        "path": "",
+        "alt": ""
+      },
+      "hero": {
+        "path": "",
+        "alt": ""
+      },
+      "details": [
+        {
+          "type": "full",
+          "path": "",
+          "alt": ""
+        },
+        {
+          "type": "half",
+          "path": "",
+          "alt": ""
+        },
+        {
+          "type": "half",
+          "path": "",
+          "alt": ""
+        },
+        {
+          "type": "full",
+          "path": "",
+          "alt": ""
+        }
+      ]
+    },
+    "details": {
+      "intro": [
+        "The paragraph should summarize the scope and other important factors that lead to the published piece.",
+        "More details can be added to describe unexpected challenges or particularly fascinating areas of the project."
+      ]
+    }
+  },
+  {
+    "featured": true,
+    "name": "La Ospina",
+    "category": "Residential",
+    "location": "Oaxaca, MX",
+    "date": "Jan 2016",
+    "client": "Carlos Bianchezi",
+    "images": {
+      "card": {
+        "path": "",
+        "alt": ""
+      },
+      "hero": {
+        "path": "",
+        "alt": ""
+      },
+      "details": [
+        {
+          "type": "full",
+          "path": "",
+          "alt": ""
+        },
+        {
+          "type": "half",
+          "path": "",
+          "alt": ""
+        },
+        {
+          "type": "half",
+          "path": "",
+          "alt": ""
+        },
+        {
+          "type": "full",
+          "path": "",
+          "alt": ""
+        }
+      ]
+    },
+    "details": {
+      "intro": [
+        "The paragraph should summarize the scope and other important factors that lead to the published piece.",
+        "More details can be added to describe unexpected challenges or particularly fascinating areas of the project."
+      ]
+    }
+  }
+]
