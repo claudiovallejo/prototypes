@@ -1,0 +1,15 @@
+{
+  "number": "+52 (81) 2317 4740",
+  "email": "info@filipaonunes.com",
+  "address": {
+    "street": "Ave. Bosques del Valle 106-9",
+    "city": "San Pedro Garza García",
+    "state": "N.L.",
+    "country": "Mexico",
+    "zip": "66250"
+  },
+  "hours": {
+    "weekdays": "8.30 — 19.00",
+    "saturdays": "8.30 — 13.30"
+  }
+}
