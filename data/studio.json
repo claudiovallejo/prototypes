@@ -1,0 +1,36 @@
+{
+  "caption": "Caption describing studio's vision and focus.",
+  "details": [
+    "This paragraph should introduce the studio, where they are located and what they care about the most.",
+    "This paragraph should introduce the team, and briefly talk about their skills and what they enjoy most about working with their clients."
+  ],
+  "conclusion": "Concluding paragraph that invites the user to contact the studio if they are interested in working in a new project together or if they are interested in being part of the team.",
+  "images": {
+    "hero": {
+      "path": "",
+      "alt": ""
+    },
+    "details": [
+      {
+        "type": "half",
+        "path": "",
+        "alt": ""
+      },
+      {
+        "type": "half",
+        "path": "",
+        "alt": ""
+      },
+      {
+        "type": "half",
+        "path": "",
+        "alt": ""
+      },
+      {
+        "type": "half",
+        "path": "",
+        "alt": ""
+      }
+    ]
+  }
+}
