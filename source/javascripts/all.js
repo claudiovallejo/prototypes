@@ -1,6 +1,4 @@
-const $html = document.getElementsByTagName('html')[0];
 const $menu = document.getElementById('menu');
-const $logo = document.getElementById('logo');
 const $nav = document.getElementById('nav-links').children;
 console.log($nav);
 
@@ -11,12 +9,11 @@ $menu.addEventListener('click', function(){
 });
 
 function toggle() {
-  $menu.classList.toggle('fo');
-  $logo.classList.toggle('fo');
-
+  $menu.classList.toggle('fade-1');
   for (var i = 0; i < $nav.length; i++) {
-    $nav[i].classList.toggle('fo');
+    $nav[i].classList.toggle('fade-2');
   }
-
-  active_menu = true;
+  window.setTimeout(function(){
+    $menu.classList.toggle('dn');
+  }, 350);
 }
