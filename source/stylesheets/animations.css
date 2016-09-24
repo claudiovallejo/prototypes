@@ -9,3 +9,4 @@
 .delay3 { -webkit-transition-delay: 0.60s; transition-delay: 0.60s; }
 .delay4 { -webkit-transition-delay: 0.80s; transition-delay: 0.80s; }
 .delay5 { -webkit-transition-delay: 1s; transition-delay: 1s; }
+#nav-links::-webkit-scrollbar { display: none; }
