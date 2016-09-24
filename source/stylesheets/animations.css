@@ -2,6 +2,7 @@
 .animate-1 { -webkit-transition: transform .25s ease-in, opacity 0.25s ease-in-out; transition: transform .25s ease-in, opacity 0.25s ease-in-out; }
 .animate-2 { -webkit-transition: transform 0.75s ease-out, opacity 1.25s ease-in-out; transition: transform 0.75s ease-out, opacity 1.25s ease-in-out; }
 .fade-1, .fade-2 { opacity: 0; pointer-events: none; }
+.cursor-pointer:hover { cursor: pointer; }
 .fade-1 { transform: translateX(0.25rem); }
 .fade-2 { transform: translateX(1rem); }
 .delay1 { -webkit-transition-delay: 0.20s; transition-delay: 0.20s; }
