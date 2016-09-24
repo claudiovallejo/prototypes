@@ -1008,6 +1008,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .overflow-y-hidden { overflow-y: hidden; }
 .overflow-y-scroll { overflow-y: scroll; }
 .overflow-y-auto { overflow-y: auto; }
+.overflow-scrolling { -webkit-overflow-scrolling: touch; }
 /*
 
    POSITIONING
@@ -2064,6 +2065,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .overflow-y-hidden-ns { overflow-y: hidden; }
  .overflow-y-scroll-ns { overflow-y: scroll; }
  .overflow-y-auto-ns { overflow-y: auto; }
+ .overflow-scrolling-ns { -webkit-overflow-scrolling: touch; }
  .static-ns { position: static; }
  .relative-ns { position: relative; }
  .absolute-ns { position: absolute; }
@@ -2422,6 +2424,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .overflow-y-hidden-m { overflow-y: hidden; }
  .overflow-y-scroll-m { overflow-y: scroll; }
  .overflow-y-auto-m { overflow-y: auto; }
+ .overflow-scrolling-m { -webkit-overflow-scrolling: touch; }
  .static-m { position: static; }
  .relative-m { position: relative; }
  .absolute-m { position: absolute; }
@@ -2774,6 +2777,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .overflow-y-hidden-l { overflow-y: hidden; }
  .overflow-y-scroll-l { overflow-y: scroll; }
  .overflow-y-auto-l { overflow-y: auto; }
+ .overflow-scrolling-l { -webkit-overflow-scrolling: touch; }
  .static-l { position: static; }
  .relative-l { position: relative; }
  .absolute-l { position: absolute; }
