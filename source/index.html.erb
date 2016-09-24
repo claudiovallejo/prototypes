@@ -7,7 +7,7 @@ layout: prototype1
 <div class="ph3 pb1">
   <div class="cf">
     <% data.projects.each_with_index do |project, r| %>
-      <div class="fl w-100 w-50-ns w-33-l ph2 mb3">
+      <div class="relative fl w-100 w-50-ns w-33-l ph2 mb3">
         <a class="db flex items-end h5 link bg-near-white pa4" href="/projects/<%= purl project.name %>">
           <div>
             <h4 class="mt0 mb2 noto-sans fw4 f6 light-silver"><%= project.category %></h4>

@@ -1,0 +1,17 @@
+.am {
+  opacity: 1;
+  transform: translateX(0);
+  pointer-events: auto;
+  -webkit-transition: transform .25s ease-in, opacity 0.25s ease-in-out;
+  transition: transform .25s ease-in, opacity 0.25s ease-in-out;
+}
+.fo {
+  opacity: 0;
+  transform: translateX(0.25rem);
+  pointer-events: none;
+}
+.delay1 { -webkit-transition-delay: 0.20s; transition-delay: 0.20s; }
+.delay2 { -webkit-transition-delay: 0.40s; transition-delay: 0.40s; }
+.delay3 { -webkit-transition-delay: 0.60s; transition-delay: 0.60s; }
+.delay4 { -webkit-transition-delay: 0.80s; transition-delay: 0.80s; }
+.delay5 { -webkit-transition-delay: 1s; transition-delay: 1s; }

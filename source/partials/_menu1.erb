@@ -1,12 +1,15 @@
-<nav class="fixed top-0 w-100 bg-white pa4">
-  <div>
+<div class="fixed top-0 z-max w-100 bg-white pa4">
+  <div id="logo" class="dtc v-mid tl w-50 am">
     <%= link_to "Filipao Nunes", "/", :class => "roboto fw9 f6 ttu tracked-mega link dark-gray" %>
   </div>
-  <div class="dn">
-    <ul class="list ma0 pa0">
-      <% data.site.links.each do |section| %>
-        <li class="dib"><%= link_to section.title, section.path, :class => "link" %></li>
+  <div id="menu" class="relative dtc v-mid tr w-55 left-1 am">
+    <%= image_tag "menu.svg" %>
+  </div>
+  <nav>
+    <ul id="nav-links" class="list ma0 pa0">
+      <% data.site.links.each_with_index do |section, s| %>
+        <li class="dib delay<%= s + 1 %> fo am"><%= link_to section.title, section.path, :class => "link" %></li>
       <% end %>
     </ul>
-  </div>
-</nav>
+  </nav>
+</div>
