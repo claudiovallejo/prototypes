@@ -1,15 +1,9 @@
-.am {
-  opacity: 1;
-  transform: translateX(0);
-  pointer-events: auto;
-  -webkit-transition: transform .25s ease-in, opacity 0.25s ease-in-out;
-  transition: transform .25s ease-in, opacity 0.25s ease-in-out;
-}
-.fo {
-  opacity: 0;
-  transform: translateX(0.25rem);
-  pointer-events: none;
-}
+.animate-1, .animate-2 { opacity: 1; transform: translateX(0); pointer-events: auto; }
+.animate-1 { -webkit-transition: transform .25s ease-in, opacity 0.25s ease-in-out; transition: transform .25s ease-in, opacity 0.25s ease-in-out; }
+.animate-2 { -webkit-transition: transform 0.75s ease-out, opacity 1.25s ease-in-out; transition: transform 0.75s ease-out, opacity 1.25s ease-in-out; }
+.fade-1, .fade-2 { opacity: 0; pointer-events: none; }
+.fade-1 { transform: translateX(0.25rem); }
+.fade-2 { transform: translateX(1rem); }
 .delay1 { -webkit-transition-delay: 0.20s; transition-delay: 0.20s; }
 .delay2 { -webkit-transition-delay: 0.40s; transition-delay: 0.40s; }
 .delay3 { -webkit-transition-delay: 0.60s; transition-delay: 0.60s; }
