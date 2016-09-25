@@ -12,23 +12,23 @@
     },
     "details": [
       {
-        "type": "half",
+        "type": "full",
         "path": "studio-detail-1.jpg",
         "alt": "Lorem ipsum dolor."
       },
       {
         "type": "half",
-        "path": "studio-detail-2.jpg",
-        "alt": "Sit amet consectetur adi."
-      },
-      {
-        "type": "half",
-        "path": "studio-detail-3.jpg",
+        "path": "studio-detail-1.jpg",
         "alt": "Prescient maecenas frente."
       },
       {
         "type": "half",
-        "path": "studio-detail-4.jpg",
+        "path": "studio-detail-1.jpg",
+        "alt": "Prescient maecenas frente."
+      },
+      {
+        "type": "full",
+        "path": "studio-detail-1.jpg",
         "alt": "Scolo di folin humus rex."
       }
     ]

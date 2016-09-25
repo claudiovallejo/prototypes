@@ -870,11 +870,11 @@ code, .code { font-family: Consolas, monaco, monospace; }
    Docs: http://tachyons.io/docs/elements/links/
 
 */
-.link { text-decoration: none; -webkit-transition: color .15s ease-in; transition: color .15s ease-in; }
-.link:link, .link:visited { -webkit-transition: color .15s ease-in; transition: color .15s ease-in; }
-.link:hover { -webkit-transition: color .15s ease-in; transition: color .15s ease-in; }
-.link:active { -webkit-transition: color .15s ease-in; transition: color .15s ease-in; }
-.link:focus { -webkit-transition: color .15s ease-in; transition: color .15s ease-in; outline: 1px dotted currentColor; }
+.link { text-decoration: none; -webkit-transition: color .35s ease-in-out; transition: color .35s ease-in-out; }
+.link:link, .link:visited { -webkit-transition: color .35s ease-in-out; transition: color .35s ease-in-out; }
+.link:hover { -webkit-transition: color .35s ease-in-out; transition: color .35s ease-in-out; }
+.link:active { -webkit-transition: color .35s ease-in-out; transition: color .35s ease-in-out; }
+.link:focus { -webkit-transition: color .35s ease-in-out; transition: color .35s ease-in-out; outline: 1px dotted currentColor; }
 /*
 
    LISTS
@@ -1364,6 +1364,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .pa6 { padding: 8rem; }
 .pa7 { padding: 16rem; }
 .pl0 { padding-left: 0; }
+.pl15 { padding-left: .125rem; }
 .pl1 { padding-left: .25rem; }
 .pl2 { padding-left: .5rem; }
 .pl3 { padding-left: 1rem; }
@@ -1372,6 +1373,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .pl6 { padding-left: 8rem; }
 .pl7 { padding-left: 16rem; }
 .pr0 { padding-right: 0; }
+.pr15 { padding-right: 0.125rem; }
 .pr1 { padding-right: .25rem; }
 .pr2 { padding-right: .5rem; }
 .pr3 { padding-right: 1rem; }
@@ -2080,6 +2082,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .pa6-ns { padding: 8rem; }
  .pa7-ns { padding: 16rem; }
  .pl0-ns { padding-left: 0; }
+ .pl15-ns { padding-left: .125rem; }
  .pl1-ns { padding-left: .25rem; }
  .pl2-ns { padding-left: .5rem; }
  .pl3-ns { padding-left: 1rem; }
@@ -2088,6 +2091,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .pl6-ns { padding-left: 8rem; }
  .pl7-ns { padding-left: 16rem; }
  .pr0-ns { padding-right: 0; }
+ .pr15-ns { padding-right: 0.125rem; }
  .pr1-ns { padding-right: .25rem; }
  .pr2-ns { padding-right: .5rem; }
  .pr3-ns { padding-right: 1rem; }
@@ -2440,6 +2444,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .pa6-m { padding: 8rem; }
  .pa7-m { padding: 16rem; }
  .pl0-m { padding-left: 0; }
+ .pl15-m { padding-left: .125rem; }
  .pl1-m { padding-left: .25rem; }
  .pl2-m { padding-left: .5rem; }
  .pl3-m { padding-left: 1rem; }
@@ -2448,6 +2453,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .pl6-m { padding-left: 8rem; }
  .pl7-m { padding-left: 16rem; }
  .pr0-m { padding-right: 0; }
+ .pr15-m { padding-right: 0.125rem; }
  .pr1-m { padding-right: .25rem; }
  .pr2-m { padding-right: .5rem; }
  .pr3-m { padding-right: 1rem; }
@@ -2794,6 +2800,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .pa6-l { padding: 8rem; }
  .pa7-l { padding: 16rem; }
  .pl0-l { padding-left: 0; }
+ .pl15-l { padding-left: .125rem; }
  .pl1-l { padding-left: .25rem; }
  .pl2-l { padding-left: .5rem; }
  .pl3-l { padding-left: 1rem; }
@@ -2802,6 +2809,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .pl6-l { padding-left: 8rem; }
  .pl7-l { padding-left: 16rem; }
  .pr0-l { padding-right: 0; }
+ .pr15-l { padding-right: 0.125rem; }
  .pr1-l { padding-right: .25rem; }
  .pr2-l { padding-right: .5rem; }
  .pr3-l { padding-right: 1rem; }

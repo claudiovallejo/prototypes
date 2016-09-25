@@ -6,8 +6,10 @@
   <%= stylesheet_link_tag :tachyons %>
   <%= stylesheet_link_tag :animations %>
   <body>
-    <%= partial "partials/menu1" %>
-    <%= yield %>
+    <%= partial "partials/menu1_black" %>
+    <div id="content" class="animate-3">
+      <%= yield %>
+    </div>
     <%= javascript_include_tag :all %>
   </body>
 </html>

@@ -38,3 +38,26 @@ function toggle() {
       active_menu = false;
     }
 }
+/* - - - - - - - - - */
+const $filters = document.getElementsByClassName('filter');
+for (var i = 0; i < $filters.length; i ++) {
+  $filters[i].addEventListener('click', function(e){
+    e.preventDefault();
+    console.log(this.innerHTML);
+    filterToggle(this);
+  });
+}
+
+function filterToggle($el) {
+  for (var i = 0; i < $filters.length; i++) {
+    $filters[i].classList.remove('dark-gray');
+    $filters[i].classList.add('moon-gray');
+  }
+  $el.classList.remove('moon-gray');
+  $el.classList.add('dark-gray');
+}
+/* - - - - - - - - - */
+const $content = document.getElementById('content');
+setTimeout(function(){
+  $content.classList.add('fi');
+}, 250);

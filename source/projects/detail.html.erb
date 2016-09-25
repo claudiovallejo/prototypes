@@ -2,5 +2,12 @@
 layout: detail1
 ---
 <% project = locals[:project] %>
-<h1 class="noto-sans mt7"><%= project.name %></h1>
-<h1 class="noto-sans"><%= project.category %></h1>
+<%= image_tag project.images.hero.path, :alt => project.images.hero.alt %>
+<div id="content" class="animate-3">
+  <div class="ph4 pv5 center w-75-m w-50-l">
+    <h4 class="mb5 noto-sans fw4 f7 ttu light-silver tracked-mega mb3"><%= project.location %></h4>
+    <% project.details.intro.each_with_index do |detail, d| %>
+      <p class="noto-sans fw4 f4 lh-copy <% if d != project.details.intro.length %>mb5<% end %>"><%= detail %></p>
+    <% end %>
+  </div>
+</div>
