@@ -3,13 +3,16 @@ layout: main1
 ---
 <% studio = data.studio %>
 <div class="mw8 center">
+  <%# Caption %>
   <div class="ph4 mt7 mb6">
     <h1 class="noto-sans fw4 f3 lh-title"><%= studio.caption %></h1>
   </div>
   <%# Hero %>
-  <%= image_tag studio.images.hero.path, :alt => studio.images.hero.alt %>
+  <div class="ph4-l">
+    <%= image_tag studio.images.hero.path, :alt => studio.images.hero.alt %>
+  </div>
   <%# Studio Details %>
-  <div class="ph3 pv5">
+  <div class="ph3 pv5 center w-75-m w-50-l ">
     <% studio.details.each_with_index do |detail, d| %>
       <p class="noto-sans f4 lh-copy <% if d != studio.details.length %>mb5<% end %>"><%= detail %></p>
     <% end %>
@@ -19,11 +22,11 @@ layout: main1
     <%= image_tag detail.path, :alt => detail.alt %>
   <% end %>
   <%# Conclusion %>
-  <div class="ph3 pt5 pb3">
+  <div class="ph3 pt5 center w-75-m w-50-l">
     <p class="noto-sans f4 lh-copy mb5"><%= studio.conclusion %></p>
   </div>
   <%# Contact %>
-  <div class="ph3 pb6">
+  <div class="ph3 pb6 center w-75-m w-50-l">
     <%= link_to "View Contact Details", "/contact",:class => "noto-sans link f4 moon-gray" %>
   </div>
 </div>
