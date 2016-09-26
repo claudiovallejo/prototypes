@@ -550,6 +550,7 @@ img { max-width: 100%; }
 .left-0 { left: 0; }
 .top-1 { top: 1rem; }
 .right-1 { right: 1rem; }
+.bottom-02 { bottom: 0.20rem; }
 .bottom-1 { bottom: 1rem; }
 .left-1 { left: 1rem; }
 .top-2 { top: 2rem; }
@@ -815,6 +816,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 
 */
 /* Height Scale */
+.h05 { height: 0.25rem; }
 .h1 { height: 1rem; }
 .h2 { height: 2rem; }
 .h3 { height: 4rem; }
@@ -964,6 +966,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 
 */
 /* Width Scale */
+.w05 { width: 0.25rem; }
 .w1 { width: 1rem; }
 .w2 { width: 2rem; }
 .w3 { width: 4rem; }

@@ -8,8 +8,8 @@
     "client": "Carlos Bianchezi",
     "images": {
       "card": {
-        "path": "",
-        "alt": ""
+        "path": "bisou-hero.jpg",
+        "alt": "Lorem ipsum dolor sit amet."
       },
       "hero": {
         "path": "bisou-hero.jpg",
@@ -18,23 +18,43 @@
       "details": [
         {
           "type": "full",
-          "path": "",
-          "alt": ""
-        },
-        {
-          "type": "half",
-          "path": "",
-          "alt": ""
-        },
-        {
-          "type": "half",
-          "path": "",
-          "alt": ""
+          "path": "bisou-hero.jpg",
+          "alt": "Bisou ipsum dolorum herux."
         },
         {
           "type": "full",
-          "path": "",
-          "alt": ""
+          "path": "bisou-hero.jpg",
+          "alt": "Bisou ipsum dolorum herux."
+        },
+        {
+          "type": "full",
+          "path": "bisou-hero.jpg",
+          "alt": "Bisou ipsum dolorum herux."
+        },
+        {
+          "type": "half",
+          "path": "bisou-hero.jpg",
+          "alt": "Bisou ipsum dolorum herux."
+        },
+        {
+          "type": "half",
+          "path": "bisou-hero.jpg",
+          "alt": "Bisou ipsum dolorum herux."
+        },
+        {
+          "type": "half",
+          "path": "bisou-hero.jpg",
+          "alt": "Bisou ipsum dolorum herux."
+        },
+        {
+          "type": "half",
+          "path": "bisou-hero.jpg",
+          "alt": "Bisou ipsum dolorum herux."
+        },
+        {
+          "type": "full",
+          "path": "bisou-hero.jpg",
+          "alt": "Bisou ipsum dolorum herux."
         }
       ]
     },
@@ -54,33 +74,33 @@
     "client": "Carlos Bianchezi",
     "images": {
       "card": {
-        "path": "",
-        "alt": ""
+        "path": "hula-hero.jpg",
+        "alt": "Lorem ipsum dolor sit amet."
       },
       "hero": {
-        "path": "",
-        "alt": ""
+        "path": "hula-hero.jpg",
+        "alt": "Hula lorem ipsum dolor sit met."
       },
       "details": [
         {
           "type": "full",
-          "path": "",
-          "alt": ""
+          "path": "hula-hero.jpg",
+          "alt": "Hula lorem ipsum dolor sit met."
         },
         {
           "type": "half",
-          "path": "",
-          "alt": ""
+          "path": "hula-hero.jpg",
+          "alt": "Hula lorem ipsum dolor sit met."
         },
         {
           "type": "half",
-          "path": "",
-          "alt": ""
+          "path": "hula-hero.jpg",
+          "alt": "Hula lorem ipsum dolor sit met."
         },
         {
           "type": "full",
-          "path": "",
-          "alt": ""
+          "path": "hula-hero.jpg",
+          "alt": "Hula lorem ipsum dolor sit met."
         }
       ]
     },
@@ -100,33 +120,33 @@
     "client": "Carlos Bianchezi",
     "images": {
       "card": {
-        "path": "",
-        "alt": ""
+        "path": "the-burger-company-hero.jpg",
+        "alt": "Lorem ipsum dolor sit amet."
       },
       "hero": {
-        "path": "",
-        "alt": ""
+        "path": "the-burger-company-hero.jpg",
+        "alt": "Burger ipsum maecenas rex."
       },
       "details": [
         {
           "type": "full",
-          "path": "",
-          "alt": ""
+          "path": "the-burger-company-hero.jpg",
+          "alt": "Burger ipsum maecenas rex."
         },
         {
           "type": "half",
-          "path": "",
-          "alt": ""
+          "path": "the-burger-company-hero.jpg",
+          "alt": "Burger ipsum maecenas rex."
         },
         {
           "type": "half",
-          "path": "",
-          "alt": ""
+          "path": "the-burger-company-hero.jpg",
+          "alt": "Burger ipsum maecenas rex."
         },
         {
           "type": "full",
-          "path": "",
-          "alt": ""
+          "path": "the-burger-company-hero.jpg",
+          "alt": "Burger ipsum maecenas rex."
         }
       ]
     },
@@ -146,12 +166,12 @@
     "client": "Carlos Bianchezi",
     "images": {
       "card": {
-        "path": "",
-        "alt": ""
+        "path": "studio.jpg",
+        "alt": "Lorem ipsum dolor sit amet."
       },
       "hero": {
         "path": "",
-        "alt": ""
+        "alt": "Lorem ipsum dolor sit amet."
       },
       "details": [
         {
@@ -192,8 +212,8 @@
     "client": "Carlos Bianchezi",
     "images": {
       "card": {
-        "path": "",
-        "alt": ""
+        "path": "studio-detail-1.jpg",
+        "alt": "Lorem ipsum dolor sit amet."
       },
       "hero": {
         "path": "",
@@ -238,8 +258,8 @@
     "client": "Carlos Bianchezi",
     "images": {
       "card": {
-        "path": "",
-        "alt": ""
+        "path": "studio-detail-2.jpg",
+        "alt": "Lorem ipsum dolor sit amet."
       },
       "hero": {
         "path": "",
