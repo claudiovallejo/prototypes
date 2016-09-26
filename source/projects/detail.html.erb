@@ -45,7 +45,7 @@ layout: detail1
     <div class="cf">
       <% index = project_index project.name %>
       <% others = other_projects index %>
-      <% others.each do |project, r| %>
+      <% others.each do |product| %>
         <div class="fl w-100 w-50-ns w-33-l ph2 mb3 dim">
           <a class="db flex items-end h5 link pa4 cover" title="<%= project.images.card.alt %>" style="background:url(../images/<%= project.images.card.path %>) no-repeat center;" href="/projects/<%= purl project.name %>">
             <div>

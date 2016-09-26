@@ -67,40 +67,60 @@
   },
   {
     "featured": true,
-    "name": "Hula",
-    "category": "Restaurant",
+    "name": "Bisou",
+    "category": "Nightclub",
     "location": "Monterrey, MX",
     "date": "Jan 2016",
     "client": "Carlos Bianchezi",
     "images": {
       "card": {
-        "path": "hula-hero.jpg",
+        "path": "bisou-hero.jpg",
         "alt": "Lorem ipsum dolor sit amet."
       },
       "hero": {
-        "path": "hula-hero.jpg",
-        "alt": "Hula lorem ipsum dolor sit met."
+        "path": "bisou-hero.jpg",
+        "alt": "Bisou ipsum dolorum herux."
       },
       "details": [
         {
           "type": "full",
-          "path": "hula-hero.jpg",
-          "alt": "Hula lorem ipsum dolor sit met."
-        },
-        {
-          "type": "half",
-          "path": "hula-hero.jpg",
-          "alt": "Hula lorem ipsum dolor sit met."
-        },
-        {
-          "type": "half",
-          "path": "hula-hero.jpg",
-          "alt": "Hula lorem ipsum dolor sit met."
+          "path": "bisou-hero.jpg",
+          "alt": "Bisou ipsum dolorum herux."
         },
         {
           "type": "full",
-          "path": "hula-hero.jpg",
-          "alt": "Hula lorem ipsum dolor sit met."
+          "path": "bisou-hero.jpg",
+          "alt": "Bisou ipsum dolorum herux."
+        },
+        {
+          "type": "full",
+          "path": "bisou-hero.jpg",
+          "alt": "Bisou ipsum dolorum herux."
+        },
+        {
+          "type": "half",
+          "path": "bisou-hero.jpg",
+          "alt": "Bisou ipsum dolorum herux."
+        },
+        {
+          "type": "half",
+          "path": "bisou-hero.jpg",
+          "alt": "Bisou ipsum dolorum herux."
+        },
+        {
+          "type": "half",
+          "path": "bisou-hero.jpg",
+          "alt": "Bisou ipsum dolorum herux."
+        },
+        {
+          "type": "half",
+          "path": "bisou-hero.jpg",
+          "alt": "Bisou ipsum dolorum herux."
+        },
+        {
+          "type": "full",
+          "path": "bisou-hero.jpg",
+          "alt": "Bisou ipsum dolorum herux."
         }
       ]
     },
@@ -113,86 +133,60 @@
   },
   {
     "featured": true,
-    "name": "The Burger Company",
-    "category": "Restaurant",
-    "location": "Guadalajara, MX",
-    "date": "Jan 2016",
-    "client": "Carlos Bianchezi",
-    "images": {
-      "card": {
-        "path": "the-burger-company-hero.jpg",
-        "alt": "Lorem ipsum dolor sit amet."
-      },
-      "hero": {
-        "path": "the-burger-company-hero.jpg",
-        "alt": "Burger ipsum maecenas rex."
-      },
-      "details": [
-        {
-          "type": "full",
-          "path": "the-burger-company-hero.jpg",
-          "alt": "Burger ipsum maecenas rex."
-        },
-        {
-          "type": "half",
-          "path": "the-burger-company-hero.jpg",
-          "alt": "Burger ipsum maecenas rex."
-        },
-        {
-          "type": "half",
-          "path": "the-burger-company-hero.jpg",
-          "alt": "Burger ipsum maecenas rex."
-        },
-        {
-          "type": "full",
-          "path": "the-burger-company-hero.jpg",
-          "alt": "Burger ipsum maecenas rex."
-        }
-      ]
-    },
-    "details": {
-      "intro": [
-        "The paragraph should summarize the scope and other important factors that lead to the published piece.",
-        "More details can be added to describe unexpected challenges or particularly fascinating areas of the project."
-      ]
-    }
-  },
-  {
-    "featured": true,
-    "name": "Casa Canela",
-    "category": "Restaurant",
+    "name": "Bisou",
+    "category": "Nightclub",
     "location": "Monterrey, MX",
     "date": "Jan 2016",
     "client": "Carlos Bianchezi",
     "images": {
       "card": {
-        "path": "studio.jpg",
+        "path": "bisou-hero.jpg",
         "alt": "Lorem ipsum dolor sit amet."
       },
       "hero": {
-        "path": "",
-        "alt": "Lorem ipsum dolor sit amet."
+        "path": "bisou-hero.jpg",
+        "alt": "Bisou ipsum dolorum herux."
       },
       "details": [
         {
           "type": "full",
-          "path": "",
-          "alt": ""
-        },
-        {
-          "type": "half",
-          "path": "",
-          "alt": ""
-        },
-        {
-          "type": "half",
-          "path": "",
-          "alt": ""
+          "path": "bisou-hero.jpg",
+          "alt": "Bisou ipsum dolorum herux."
         },
         {
           "type": "full",
-          "path": "",
-          "alt": ""
+          "path": "bisou-hero.jpg",
+          "alt": "Bisou ipsum dolorum herux."
+        },
+        {
+          "type": "full",
+          "path": "bisou-hero.jpg",
+          "alt": "Bisou ipsum dolorum herux."
+        },
+        {
+          "type": "half",
+          "path": "bisou-hero.jpg",
+          "alt": "Bisou ipsum dolorum herux."
+        },
+        {
+          "type": "half",
+          "path": "bisou-hero.jpg",
+          "alt": "Bisou ipsum dolorum herux."
+        },
+        {
+          "type": "half",
+          "path": "bisou-hero.jpg",
+          "alt": "Bisou ipsum dolorum herux."
+        },
+        {
+          "type": "half",
+          "path": "bisou-hero.jpg",
+          "alt": "Bisou ipsum dolorum herux."
+        },
+        {
+          "type": "full",
+          "path": "bisou-hero.jpg",
+          "alt": "Bisou ipsum dolorum herux."
         }
       ]
     },
@@ -205,86 +199,60 @@
   },
   {
     "featured": true,
-    "name": "La Leyenda 111",
-    "category": "Restaurant",
-    "location": "Guadalajara, MX",
+    "name": "Bisou",
+    "category": "Nightclub",
+    "location": "Monterrey, MX",
     "date": "Jan 2016",
     "client": "Carlos Bianchezi",
     "images": {
       "card": {
-        "path": "studio-detail-1.jpg",
+        "path": "bisou-hero.jpg",
         "alt": "Lorem ipsum dolor sit amet."
       },
       "hero": {
-        "path": "",
-        "alt": ""
+        "path": "bisou-hero.jpg",
+        "alt": "Bisou ipsum dolorum herux."
       },
       "details": [
         {
           "type": "full",
-          "path": "",
-          "alt": ""
-        },
-        {
-          "type": "half",
-          "path": "",
-          "alt": ""
-        },
-        {
-          "type": "half",
-          "path": "",
-          "alt": ""
+          "path": "bisou-hero.jpg",
+          "alt": "Bisou ipsum dolorum herux."
         },
         {
           "type": "full",
-          "path": "",
-          "alt": ""
-        }
-      ]
-    },
-    "details": {
-      "intro": [
-        "The paragraph should summarize the scope and other important factors that lead to the published piece.",
-        "More details can be added to describe unexpected challenges or particularly fascinating areas of the project."
-      ]
-    }
-  },
-  {
-    "featured": true,
-    "name": "La Ospina",
-    "category": "Residential",
-    "location": "Oaxaca, MX",
-    "date": "Jan 2016",
-    "client": "Carlos Bianchezi",
-    "images": {
-      "card": {
-        "path": "studio-detail-2.jpg",
-        "alt": "Lorem ipsum dolor sit amet."
-      },
-      "hero": {
-        "path": "",
-        "alt": ""
-      },
-      "details": [
-        {
-          "type": "full",
-          "path": "",
-          "alt": ""
-        },
-        {
-          "type": "half",
-          "path": "",
-          "alt": ""
-        },
-        {
-          "type": "half",
-          "path": "",
-          "alt": ""
+          "path": "bisou-hero.jpg",
+          "alt": "Bisou ipsum dolorum herux."
         },
         {
           "type": "full",
-          "path": "",
-          "alt": ""
+          "path": "bisou-hero.jpg",
+          "alt": "Bisou ipsum dolorum herux."
+        },
+        {
+          "type": "half",
+          "path": "bisou-hero.jpg",
+          "alt": "Bisou ipsum dolorum herux."
+        },
+        {
+          "type": "half",
+          "path": "bisou-hero.jpg",
+          "alt": "Bisou ipsum dolorum herux."
+        },
+        {
+          "type": "half",
+          "path": "bisou-hero.jpg",
+          "alt": "Bisou ipsum dolorum herux."
+        },
+        {
+          "type": "half",
+          "path": "bisou-hero.jpg",
+          "alt": "Bisou ipsum dolorum herux."
+        },
+        {
+          "type": "full",
+          "path": "bisou-hero.jpg",
+          "alt": "Bisou ipsum dolorum herux."
         }
       ]
     },

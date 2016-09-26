@@ -25,7 +25,7 @@ module CustomHelpers
     a = ""
     b = ""
     if i === projects.length - 2
-      a = projects[projects.length]
+      a = projects[projects.length - 1]
       b = projects[0]
     elsif i === projects.length - 1
       a = projects[0]
@@ -34,6 +34,8 @@ module CustomHelpers
       a = projects[i + 1]
       b = projects[i + 2]
     end
-    others += [a, b]
+    others.push(a)
+    others.push(b)
+    others
   end
 end

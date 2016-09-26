@@ -18,7 +18,7 @@ layout: main1
   </nav>
   <div class="ph3 pb1">
     <div id="projects" class="cf animate-4">
-      <% data.projects.each_with_index do |project, r| %>
+      <% data.projects.each do |project| %>
         <div class="project fl w-100 w-50-ns w-33-l ph2 mb3 dim" data-category="<%= project.category %>">
           <a class="db flex items-end h5 link pa4 cover" title="<%= project.images.card.alt %>" style="background:url(../images/<%= project.images.card.path %>) no-repeat center;" href="/projects/<%= purl project.name %>">
             <div>

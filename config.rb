@@ -9,7 +9,7 @@ page '/*.txt', layout: false
 
 # Proxies
 data.projects.each do |project|
-  proxy "/projects/#{ I18n.transliterate(project.name).downcase.strip.gsub(' ', '-') }/index.html", "/projects/detail.html", :locals => { :project => project }
+  proxy "/projects/#{ I18n.transliterate(project.name).downcase.strip.gsub(' ', '-') }/index.html", "/projects/detail.html", :locals => { :project => project }, :ignore => true
 end
 
 # Relative Links & Directory Indexing
