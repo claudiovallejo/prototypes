@@ -3,5 +3,11 @@
   -webkit-transition: transform 0.15s ease-in-out;
   transition: transform 0.15s ease-in-out;
 }
-.rotate { transform: rotate(180deg); }
-#main-menu { bottom: -84px; }
+.a2 {
+  -webkit-transition: transform 0.25s cubic-bezier(.455, .03, .515, .955);
+  transition: transform 0.25s cubic-bezier(.455, .03, .515, .955);
+}
+.tr-180 { transform: rotate(180deg); }
+.bottom--84 { bottom: -84px; }
+.tty-84 { transform: translateY(-84px); }
+#prototype-nav::-webkit-scrollbar { display: none; }
