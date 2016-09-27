@@ -1,0 +1,307 @@
+[
+  {
+    "featured": true,
+    "name": "Bisou",
+    "category": "Nightclub",
+    "location": "Monterrey, NL",
+    "date": "Jan 2016",
+    "client": "Carlos Bianchezi",
+    "images": {
+      "card": {
+        "type": "full",
+        "path": "bisou-hero.jpg",
+        "alt": "Lorem ipsum dolor sit amet."
+      },
+      "hero": {
+        "path": "bisou-hero.jpg",
+        "alt": "Bisou ipsum dolorum herux."
+      },
+      "details": [
+        {
+          "type": "full",
+          "path": "bisou-hero.jpg",
+          "alt": "Bisou ipsum dolorum herux."
+        },
+        {
+          "type": "full",
+          "path": "bisou-hero.jpg",
+          "alt": "Bisou ipsum dolorum herux."
+        },
+        {
+          "type": "full",
+          "path": "bisou-hero.jpg",
+          "alt": "Bisou ipsum dolorum herux."
+        },
+        {
+          "type": "half",
+          "path": "bisou-hero.jpg",
+          "alt": "Bisou ipsum dolorum herux."
+        },
+        {
+          "type": "half",
+          "path": "bisou-hero.jpg",
+          "alt": "Bisou ipsum dolorum herux."
+        },
+        {
+          "type": "half",
+          "path": "bisou-hero.jpg",
+          "alt": "Bisou ipsum dolorum herux."
+        },
+        {
+          "type": "half",
+          "path": "bisou-hero.jpg",
+          "alt": "Bisou ipsum dolorum herux."
+        },
+        {
+          "type": "full",
+          "path": "bisou-hero.jpg",
+          "alt": "Bisou ipsum dolorum herux."
+        }
+      ]
+    }
+  },
+  {
+    "featured": true,
+    "name": "Hula",
+    "category": "Restaurant",
+    "location": "Monterrey, NL",
+    "date": "Nov 2015",
+    "client": "Carlos Bianchezi",
+    "images": {
+      "card": {
+        "type": "half",
+        "path": "bisou-hero.jpg",
+        "alt": "Lorem ipsum dolor sit amet."
+      },
+      "hero": {
+        "path": "bisou-hero.jpg",
+        "alt": "Bisou ipsum dolorum herux."
+      },
+      "details": [
+        {
+          "type": "full",
+          "path": "bisou-hero.jpg",
+          "alt": "Bisou ipsum dolorum herux."
+        },
+        {
+          "type": "full",
+          "path": "bisou-hero.jpg",
+          "alt": "Bisou ipsum dolorum herux."
+        },
+        {
+          "type": "full",
+          "path": "bisou-hero.jpg",
+          "alt": "Bisou ipsum dolorum herux."
+        },
+        {
+          "type": "half",
+          "path": "bisou-hero.jpg",
+          "alt": "Bisou ipsum dolorum herux."
+        },
+        {
+          "type": "half",
+          "path": "bisou-hero.jpg",
+          "alt": "Bisou ipsum dolorum herux."
+        },
+        {
+          "type": "half",
+          "path": "bisou-hero.jpg",
+          "alt": "Bisou ipsum dolorum herux."
+        },
+        {
+          "type": "half",
+          "path": "bisou-hero.jpg",
+          "alt": "Bisou ipsum dolorum herux."
+        },
+        {
+          "type": "full",
+          "path": "bisou-hero.jpg",
+          "alt": "Bisou ipsum dolorum herux."
+        }
+      ]
+    }
+  },
+  {
+    "featured": true,
+    "name": "Macheta 15",
+    "category": "Restaurant",
+    "location": "Monterrey, NL",
+    "date": "Jun 2015",
+    "client": false,
+    "images": {
+      "card": {
+        "type": "half",
+        "path": "bisou-hero.jpg",
+        "alt": "Lorem ipsum dolor sit amet."
+      },
+      "hero": {
+        "path": "bisou-hero.jpg",
+        "alt": "Bisou ipsum dolorum herux."
+      },
+      "details": [
+        {
+          "type": "full",
+          "path": "bisou-hero.jpg",
+          "alt": "Bisou ipsum dolorum herux."
+        },
+        {
+          "type": "full",
+          "path": "bisou-hero.jpg",
+          "alt": "Bisou ipsum dolorum herux."
+        },
+        {
+          "type": "full",
+          "path": "bisou-hero.jpg",
+          "alt": "Bisou ipsum dolorum herux."
+        },
+        {
+          "type": "half",
+          "path": "bisou-hero.jpg",
+          "alt": "Bisou ipsum dolorum herux."
+        },
+        {
+          "type": "half",
+          "path": "bisou-hero.jpg",
+          "alt": "Bisou ipsum dolorum herux."
+        },
+        {
+          "type": "half",
+          "path": "bisou-hero.jpg",
+          "alt": "Bisou ipsum dolorum herux."
+        },
+        {
+          "type": "half",
+          "path": "bisou-hero.jpg",
+          "alt": "Bisou ipsum dolorum herux."
+        },
+        {
+          "type": "full",
+          "path": "bisou-hero.jpg",
+          "alt": "Bisou ipsum dolorum herux."
+        }
+      ]
+    }
+  },
+  {
+    "featured": true,
+    "name": "Avanta Gardens",
+    "category": "Shops",
+    "location": "Querétaro, QRO",
+    "date": "Jan 2016",
+    "client": "Carlos Bianchezi",
+    "images": {
+      "card": {
+        "type": "full",
+        "path": "bisou-hero.jpg",
+        "alt": "Lorem ipsum dolor sit amet."
+      },
+      "hero": {
+        "path": "bisou-hero.jpg",
+        "alt": "Bisou ipsum dolorum herux."
+      },
+      "details": [
+        {
+          "type": "full",
+          "path": "bisou-hero.jpg",
+          "alt": "Bisou ipsum dolorum herux."
+        },
+        {
+          "type": "full",
+          "path": "bisou-hero.jpg",
+          "alt": "Bisou ipsum dolorum herux."
+        },
+        {
+          "type": "full",
+          "path": "bisou-hero.jpg",
+          "alt": "Bisou ipsum dolorum herux."
+        },
+        {
+          "type": "half",
+          "path": "bisou-hero.jpg",
+          "alt": "Bisou ipsum dolorum herux."
+        },
+        {
+          "type": "half",
+          "path": "bisou-hero.jpg",
+          "alt": "Bisou ipsum dolorum herux."
+        },
+        {
+          "type": "half",
+          "path": "bisou-hero.jpg",
+          "alt": "Bisou ipsum dolorum herux."
+        },
+        {
+          "type": "half",
+          "path": "bisou-hero.jpg",
+          "alt": "Bisou ipsum dolorum herux."
+        },
+        {
+          "type": "full",
+          "path": "bisou-hero.jpg",
+          "alt": "Bisou ipsum dolorum herux."
+        }
+      ]
+    }
+  },
+  {
+    "featured": true,
+    "name": "Gardenia",
+    "category": "Residential",
+    "location": "Puebla, PUE",
+    "date": "Jan 2016",
+    "client": "Carlos Bianchezi",
+    "images": {
+      "card": {
+        "type": "full",
+        "path": "bisou-hero.jpg",
+        "alt": "Lorem ipsum dolor sit amet."
+      },
+      "hero": {
+        "path": "bisou-hero.jpg",
+        "alt": "Bisou ipsum dolorum herux."
+      },
+      "details": [
+        {
+          "type": "full",
+          "path": "bisou-hero.jpg",
+          "alt": "Bisou ipsum dolorum herux."
+        },
+        {
+          "type": "full",
+          "path": "bisou-hero.jpg",
+          "alt": "Bisou ipsum dolorum herux."
+        },
+        {
+          "type": "full",
+          "path": "bisou-hero.jpg",
+          "alt": "Bisou ipsum dolorum herux."
+        },
+        {
+          "type": "half",
+          "path": "bisou-hero.jpg",
+          "alt": "Bisou ipsum dolorum herux."
+        },
+        {
+          "type": "half",
+          "path": "bisou-hero.jpg",
+          "alt": "Bisou ipsum dolorum herux."
+        },
+        {
+          "type": "half",
+          "path": "bisou-hero.jpg",
+          "alt": "Bisou ipsum dolorum herux."
+        },
+        {
+          "type": "half",
+          "path": "bisou-hero.jpg",
+          "alt": "Bisou ipsum dolorum herux."
+        },
+        {
+          "type": "full",
+          "path": "bisou-hero.jpg",
+          "alt": "Bisou ipsum dolorum herux."
+        }
+      ]
+    }
+  }
+]
