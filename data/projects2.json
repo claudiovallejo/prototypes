@@ -6,6 +6,10 @@
     "location": "Monterrey, NL",
     "date": "Jan 2016",
     "client": "Carlos Bianchezi",
+    "details": [
+      "is a luxury lorem ipsum at the heart of Lorem Ipsum, DS that captures the lorem ipsum. The architecture is dolor sit amet consectetur adipiscing seit. What makes this project unique is that maecenas addantium teslae motores.",
+      "Letterae in bombo tesla ford motorae petizzione filtro in questa smokae rex. Manzanare lima peru tifoius nexus rex."
+    ],
     "images": {
       "card": {
         "type": "full",
@@ -18,44 +22,49 @@
       },
       "details": [
         {
-          "type": "full",
-          "path": "bisou-hero.jpg",
-          "alt": "Bisou ipsum dolorum herux."
+          "name": "Process",
+          "list": [
+            {
+              "type": "full",
+              "path": "bisou-hero.jpg",
+              "alt": "Bisou ipsum dolorum herux."
+            },
+            {
+              "type": "full",
+              "path": "bisou-hero.jpg",
+              "alt": "Bisou ipsum dolorum herux."
+            },
+            {
+              "type": "half",
+              "path": "bisou-hero.jpg",
+              "alt": "Bisou ipsum dolorum herux."
+            },
+            {
+              "type": "half",
+              "path": "bisou-hero.jpg",
+              "alt": "Bisou ipsum dolorum herux."
+            }
+          ]
         },
         {
-          "type": "full",
-          "path": "bisou-hero.jpg",
-          "alt": "Bisou ipsum dolorum herux."
-        },
-        {
-          "type": "full",
-          "path": "bisou-hero.jpg",
-          "alt": "Bisou ipsum dolorum herux."
-        },
-        {
-          "type": "half",
-          "path": "bisou-hero.jpg",
-          "alt": "Bisou ipsum dolorum herux."
-        },
-        {
-          "type": "half",
-          "path": "bisou-hero.jpg",
-          "alt": "Bisou ipsum dolorum herux."
-        },
-        {
-          "type": "half",
-          "path": "bisou-hero.jpg",
-          "alt": "Bisou ipsum dolorum herux."
-        },
-        {
-          "type": "half",
-          "path": "bisou-hero.jpg",
-          "alt": "Bisou ipsum dolorum herux."
-        },
-        {
-          "type": "full",
-          "path": "bisou-hero.jpg",
-          "alt": "Bisou ipsum dolorum herux."
+          "name": "Details",
+          "list": [
+            {
+              "type": "full",
+              "path": "bisou-hero.jpg",
+              "alt": "Bisou ipsum dolorum herux."
+            },
+            {
+              "type": "half",
+              "path": "bisou-hero.jpg",
+              "alt": "Bisou ipsum dolorum herux."
+            },
+            {
+              "type": "half",
+              "path": "bisou-hero.jpg",
+              "alt": "Bisou ipsum dolorum herux."
+            }
+          ]
         }
       ]
     }
@@ -67,6 +76,9 @@
     "location": "Monterrey, NL",
     "date": "Nov 2015",
     "client": "Carlos Bianchezi",
+    "details": [
+      "is a luxury lorem ipsum at the heart of Lorem Ipsum, DS that captures the lorem ipsum. The architecture is dolor sit amet consectetur adipiscing seit. What makes this project unique is that maecenas addantium teslae motores."
+    ],
     "images": {
       "card": {
         "type": "half",
@@ -79,44 +91,49 @@
       },
       "details": [
         {
-          "type": "full",
-          "path": "bisou-hero.jpg",
-          "alt": "Bisou ipsum dolorum herux."
+          "name": "Process",
+          "list": [
+            {
+              "type": "full",
+              "path": "bisou-hero.jpg",
+              "alt": "Bisou ipsum dolorum herux."
+            },
+            {
+              "type": "full",
+              "path": "bisou-hero.jpg",
+              "alt": "Bisou ipsum dolorum herux."
+            },
+            {
+              "type": "half",
+              "path": "bisou-hero.jpg",
+              "alt": "Bisou ipsum dolorum herux."
+            },
+            {
+              "type": "half",
+              "path": "bisou-hero.jpg",
+              "alt": "Bisou ipsum dolorum herux."
+            }
+          ]
         },
         {
-          "type": "full",
-          "path": "bisou-hero.jpg",
-          "alt": "Bisou ipsum dolorum herux."
-        },
-        {
-          "type": "full",
-          "path": "bisou-hero.jpg",
-          "alt": "Bisou ipsum dolorum herux."
-        },
-        {
-          "type": "half",
-          "path": "bisou-hero.jpg",
-          "alt": "Bisou ipsum dolorum herux."
-        },
-        {
-          "type": "half",
-          "path": "bisou-hero.jpg",
-          "alt": "Bisou ipsum dolorum herux."
-        },
-        {
-          "type": "half",
-          "path": "bisou-hero.jpg",
-          "alt": "Bisou ipsum dolorum herux."
-        },
-        {
-          "type": "half",
-          "path": "bisou-hero.jpg",
-          "alt": "Bisou ipsum dolorum herux."
-        },
-        {
-          "type": "full",
-          "path": "bisou-hero.jpg",
-          "alt": "Bisou ipsum dolorum herux."
+          "name": "Details",
+          "list": [
+            {
+              "type": "full",
+              "path": "bisou-hero.jpg",
+              "alt": "Bisou ipsum dolorum herux."
+            },
+            {
+              "type": "half",
+              "path": "bisou-hero.jpg",
+              "alt": "Bisou ipsum dolorum herux."
+            },
+            {
+              "type": "half",
+              "path": "bisou-hero.jpg",
+              "alt": "Bisou ipsum dolorum herux."
+            }
+          ]
         }
       ]
     }
@@ -128,6 +145,9 @@
     "location": "Monterrey, NL",
     "date": "Jun 2015",
     "client": false,
+    "details": [
+      "is a luxury lorem ipsum at the heart of Lorem Ipsum, DS that captures the lorem ipsum. The architecture is dolor sit amet consectetur adipiscing seit. What makes this project unique is that maecenas addantium teslae motores."
+    ],
     "images": {
       "card": {
         "type": "half",
@@ -140,44 +160,49 @@
       },
       "details": [
         {
-          "type": "full",
-          "path": "bisou-hero.jpg",
-          "alt": "Bisou ipsum dolorum herux."
+          "name": "Process",
+          "list": [
+            {
+              "type": "full",
+              "path": "bisou-hero.jpg",
+              "alt": "Bisou ipsum dolorum herux."
+            },
+            {
+              "type": "full",
+              "path": "bisou-hero.jpg",
+              "alt": "Bisou ipsum dolorum herux."
+            },
+            {
+              "type": "half",
+              "path": "bisou-hero.jpg",
+              "alt": "Bisou ipsum dolorum herux."
+            },
+            {
+              "type": "half",
+              "path": "bisou-hero.jpg",
+              "alt": "Bisou ipsum dolorum herux."
+            }
+          ]
         },
         {
-          "type": "full",
-          "path": "bisou-hero.jpg",
-          "alt": "Bisou ipsum dolorum herux."
-        },
-        {
-          "type": "full",
-          "path": "bisou-hero.jpg",
-          "alt": "Bisou ipsum dolorum herux."
-        },
-        {
-          "type": "half",
-          "path": "bisou-hero.jpg",
-          "alt": "Bisou ipsum dolorum herux."
-        },
-        {
-          "type": "half",
-          "path": "bisou-hero.jpg",
-          "alt": "Bisou ipsum dolorum herux."
-        },
-        {
-          "type": "half",
-          "path": "bisou-hero.jpg",
-          "alt": "Bisou ipsum dolorum herux."
-        },
-        {
-          "type": "half",
-          "path": "bisou-hero.jpg",
-          "alt": "Bisou ipsum dolorum herux."
-        },
-        {
-          "type": "full",
-          "path": "bisou-hero.jpg",
-          "alt": "Bisou ipsum dolorum herux."
+          "name": "Details",
+          "list": [
+            {
+              "type": "full",
+              "path": "bisou-hero.jpg",
+              "alt": "Bisou ipsum dolorum herux."
+            },
+            {
+              "type": "half",
+              "path": "bisou-hero.jpg",
+              "alt": "Bisou ipsum dolorum herux."
+            },
+            {
+              "type": "half",
+              "path": "bisou-hero.jpg",
+              "alt": "Bisou ipsum dolorum herux."
+            }
+          ]
         }
       ]
     }
@@ -189,6 +214,9 @@
     "location": "Querétaro, QRO",
     "date": "Jan 2016",
     "client": "Carlos Bianchezi",
+    "details": [
+      "is a luxury lorem ipsum at the heart of Lorem Ipsum, DS that captures the lorem ipsum. The architecture is dolor sit amet consectetur adipiscing seit. What makes this project unique is that maecenas addantium teslae motores."
+    ],
     "images": {
       "card": {
         "type": "full",
@@ -201,44 +229,49 @@
       },
       "details": [
         {
-          "type": "full",
-          "path": "bisou-hero.jpg",
-          "alt": "Bisou ipsum dolorum herux."
+          "name": "Process",
+          "list": [
+            {
+              "type": "full",
+              "path": "bisou-hero.jpg",
+              "alt": "Bisou ipsum dolorum herux."
+            },
+            {
+              "type": "full",
+              "path": "bisou-hero.jpg",
+              "alt": "Bisou ipsum dolorum herux."
+            },
+            {
+              "type": "half",
+              "path": "bisou-hero.jpg",
+              "alt": "Bisou ipsum dolorum herux."
+            },
+            {
+              "type": "half",
+              "path": "bisou-hero.jpg",
+              "alt": "Bisou ipsum dolorum herux."
+            }
+          ]
         },
         {
-          "type": "full",
-          "path": "bisou-hero.jpg",
-          "alt": "Bisou ipsum dolorum herux."
-        },
-        {
-          "type": "full",
-          "path": "bisou-hero.jpg",
-          "alt": "Bisou ipsum dolorum herux."
-        },
-        {
-          "type": "half",
-          "path": "bisou-hero.jpg",
-          "alt": "Bisou ipsum dolorum herux."
-        },
-        {
-          "type": "half",
-          "path": "bisou-hero.jpg",
-          "alt": "Bisou ipsum dolorum herux."
-        },
-        {
-          "type": "half",
-          "path": "bisou-hero.jpg",
-          "alt": "Bisou ipsum dolorum herux."
-        },
-        {
-          "type": "half",
-          "path": "bisou-hero.jpg",
-          "alt": "Bisou ipsum dolorum herux."
-        },
-        {
-          "type": "full",
-          "path": "bisou-hero.jpg",
-          "alt": "Bisou ipsum dolorum herux."
+          "name": "Details",
+          "list": [
+            {
+              "type": "full",
+              "path": "bisou-hero.jpg",
+              "alt": "Bisou ipsum dolorum herux."
+            },
+            {
+              "type": "half",
+              "path": "bisou-hero.jpg",
+              "alt": "Bisou ipsum dolorum herux."
+            },
+            {
+              "type": "half",
+              "path": "bisou-hero.jpg",
+              "alt": "Bisou ipsum dolorum herux."
+            }
+          ]
         }
       ]
     }
@@ -250,6 +283,9 @@
     "location": "Puebla, PUE",
     "date": "Jan 2016",
     "client": "Carlos Bianchezi",
+    "details": [
+      "is a luxury lorem ipsum at the heart of Lorem Ipsum, DS that captures the lorem ipsum. The architecture is dolor sit amet consectetur adipiscing seit. What makes this project unique is that maecenas addantium teslae motores."
+    ],
     "images": {
       "card": {
         "type": "full",
@@ -262,44 +298,49 @@
       },
       "details": [
         {
-          "type": "full",
-          "path": "bisou-hero.jpg",
-          "alt": "Bisou ipsum dolorum herux."
+          "name": "Process",
+          "list": [
+            {
+              "type": "full",
+              "path": "bisou-hero.jpg",
+              "alt": "Bisou ipsum dolorum herux."
+            },
+            {
+              "type": "full",
+              "path": "bisou-hero.jpg",
+              "alt": "Bisou ipsum dolorum herux."
+            },
+            {
+              "type": "half",
+              "path": "bisou-hero.jpg",
+              "alt": "Bisou ipsum dolorum herux."
+            },
+            {
+              "type": "half",
+              "path": "bisou-hero.jpg",
+              "alt": "Bisou ipsum dolorum herux."
+            }
+          ]
         },
         {
-          "type": "full",
-          "path": "bisou-hero.jpg",
-          "alt": "Bisou ipsum dolorum herux."
-        },
-        {
-          "type": "full",
-          "path": "bisou-hero.jpg",
-          "alt": "Bisou ipsum dolorum herux."
-        },
-        {
-          "type": "half",
-          "path": "bisou-hero.jpg",
-          "alt": "Bisou ipsum dolorum herux."
-        },
-        {
-          "type": "half",
-          "path": "bisou-hero.jpg",
-          "alt": "Bisou ipsum dolorum herux."
-        },
-        {
-          "type": "half",
-          "path": "bisou-hero.jpg",
-          "alt": "Bisou ipsum dolorum herux."
-        },
-        {
-          "type": "half",
-          "path": "bisou-hero.jpg",
-          "alt": "Bisou ipsum dolorum herux."
-        },
-        {
-          "type": "full",
-          "path": "bisou-hero.jpg",
-          "alt": "Bisou ipsum dolorum herux."
+          "name": "Details",
+          "list": [
+            {
+              "type": "full",
+              "path": "bisou-hero.jpg",
+              "alt": "Bisou ipsum dolorum herux."
+            },
+            {
+              "type": "half",
+              "path": "bisou-hero.jpg",
+              "alt": "Bisou ipsum dolorum herux."
+            },
+            {
+              "type": "half",
+              "path": "bisou-hero.jpg",
+              "alt": "Bisou ipsum dolorum herux."
+            }
+          ]
         }
       ]
     }
