@@ -1,0 +1,21 @@
+{
+  "note": "Use bottom tab for prototype navigation",
+  "intro": "Prototypes for Filipao Nunes’ online portfolio. Filipao Nunes is an upcoming architecture and interior design studio in Monterrey, Mx.",
+  "prototypes": [
+    {
+      "name": "Prototype #1",
+      "path": "prototype1",
+      "updated": "Last updated on Sep 26, 2016"
+    },
+    {
+      "name": "Prototype #2",
+      "path": "prototype2",
+      "updated": "Last updated on Sep 26, 2016"
+    },
+    {
+      "name": "Prototype #3",
+      "path": "prototype3",
+      "updated": "Last updated on Sep 26, 2016"
+    }
+  ]
+}
