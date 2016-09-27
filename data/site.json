@@ -20,5 +20,15 @@
       "title": "Twitter",
       "path": "https://twitter.com/filipao78"
     }
+  ],
+  "prototype2": [
+    {
+      "title": "Projects",
+      "path": "projects"
+    },
+    {
+      "title": "Studio",
+      "path": "studio"
+    }
   ]
 }
