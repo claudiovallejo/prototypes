@@ -1,0 +1,7 @@
+.a1 {
+  transform: rotate(0deg);
+  -webkit-transition: transform 0.15s ease-in-out;
+  transition: transform 0.15s ease-in-out;
+}
+.rotate { transform: rotate(180deg); }
+#main-menu { bottom: -84px; }
