@@ -1,23 +1,26 @@
 ---
-layout: main1
-title: Filipao Nunes
+layout: home
+title: Filipao Nunes — Prototypes
 ---
-<div class="mw8 center">
-  <div class="ph4 mt6 mb6">
-    <h1 class="noto-sans fw4 f3 lh-title">This is who we are. This is what we do.</h1>
-  </div>
-  <div class="ph3 pb1">
-    <div class="cf">
-      <% data.projects.each_with_index do |project, r| %>
-        <div class="fl w-100 w-50-ns w-33-l ph2 mb3 dim">
-          <a class="db flex items-end h5 link pa4 cover" title="<%= project.images.card.alt %>" style="background:url(../images/<%= project.images.card.path %>) no-repeat center;" href="/projects/<%= purl project.name %>">
-            <div>
-              <h4 class="mt0 mb2 noto-sans fw4 f6 white"><%= project.category %></h4>
-              <h2 class="ma0 noto-sans fw4 f4 white lh-title"><%= project.name %></h2>
-            </div>
-          </a>
+<%# Note %>
+<div class="mw8 center ph4 ph0-l tc">
+  <p class="ma0 pv4 noto-sans lh-title silver"><%= data.config.note %></p>
+  <div class="bb b--light-gray"></div>
+</div>
+<%# Intro %>
+<div class="ph4 ph5-l ph0-l mw8 center mv5">
+  <p class="noto-sans dark-gray mw6 lh-copy"><%= data.config.intro %></p>
+</div>
+<%# Prototypes %>
+<div class="ph4 mw8 center cf">
+  <% data.config.prototypes.each do |prototype| %>
+    <div class="fl-ns w-50-m w-33-l">
+      <a class="db flex items-center pa4 link dim" href="/<%= prototype.path %>">
+        <div>
+          <h2 class="ma0 pb2 noto-sans f6 fw4 tracked-mega ttu dark-gray"><%= prototype.name %></h2>
+          <h4 class="ma0 noto-sans f7 fw4 moon-gray"><%= prototype.updated %></h4>
         </div>
-      <% end %>
+      </a>
     </div>
-  </div>
+  <% end %>
 </div>
