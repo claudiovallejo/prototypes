@@ -2,15 +2,15 @@
   "links": [
     {
       "title": "Projects",
-      "path": "/projects"
+      "path": "projects"
     },
     {
       "title": "Studio",
-      "path": "/studio"
+      "path": "studio"
     },
     {
       "title": "Contact",
-      "path": "/contact"
+      "path": "contact"
     },
     {
       "title": "Instagram",
