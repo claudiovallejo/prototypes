@@ -1,0 +1,23 @@
+---
+layout: main1
+title: Filipao Nunes
+---
+<div class="mw8 center">
+  <div class="ph4 mt6 mb6">
+    <h1 class="noto-sans fw4 f3 lh-title">This is who we are. This is what we do.</h1>
+  </div>
+  <div class="ph3 pb1">
+    <div class="cf">
+      <% data.projects.each_with_index do |project, r| %>
+        <div class="fl w-100 w-50-ns w-33-l ph2 mb3 dim">
+          <a class="db flex items-end h5 link pa4 cover" title="<%= project.images.card.alt %>" style="background:url(../../images/<%= project.images.card.path %>) no-repeat center;" href="prototype1/projects/<%= purl project.name %>">
+            <div>
+              <h4 class="mt0 mb2 noto-sans fw4 f6 white"><%= project.category %></h4>
+              <h2 class="ma0 noto-sans fw4 f4 white lh-title"><%= project.name %></h2>
+            </div>
+          </a>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</div>
