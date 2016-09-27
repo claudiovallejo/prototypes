@@ -1,0 +1,57 @@
+---
+layout: main2
+---
+<div class="mw8 center">
+  <%# Caption %>
+  <div class="ph4 ph0-l mv5 mv6-ns">
+    <h1 class="noto-sans fw4 f3 f2-ns lh-title mw6">We are a creative studio that does lorem ipsum.</h1>
+  </div>
+  <%# Featured Projects %>
+  <% second_half = false %>
+  <% data.projects2.each_with_index do |project, r| %>
+    <% if project.featured %>
+      <% if project.images.card.type == "full" %>
+        <div class="aspect-ratio aspect-ratio--16x9 mb1 mb4-l">
+          <a class="db link aspect-ratio--object cover dim" title="<%= project.images.card.alt %>" href="/prototype2/projects/<%= purl project.name %>" style="background:url(../images/<%= project.images.card.path %>) no-repeat center;">
+            <div class="pa4">
+              <h4 class="mt0 mb2 noto-sans fw4 f6 tracked-mega ttu white"><%= project.category %></h4>
+              <h2 class="ma0 noto-sans fw4 f4 white lh-title"><%= project.name %></h2>
+            </div>
+          </a>
+        </div>
+      <% elsif project.images.card.type == "half" && !second_half %>
+        <% second_half = true %>
+        <div class="cf">
+          <div class="fl-ns w-50-ns pr15-m pr3-l">
+            <div class="aspect-ratio aspect-ratio--16x9 aspect-ratio--1x1-ns mb1 mb4-l">
+              <a class="db link aspect-ratio--object cover dim" title="<%= project.images.card.alt %>" href="/prototype2/projects/<%= purl project.name %>" style="background:url(../images/<%= project.images.card.path %>) no-repeat center;">
+                <div class="pa4">
+                  <h4 class="mt0 mb2 noto-sans fw4 f6 tracked-mega ttu white"><%= project.category %></h4>
+                  <h2 class="ma0 noto-sans fw4 f4 white lh-title"><%= project.name %></h2>
+                </div>
+              </a>
+            </div>
+          </div>
+      <% elsif project.images.card.type == "half" && second_half %>
+        <% second_half = false %>
+          <div class="fl-ns w-50-ns pl15-m pl3-l">
+            <div class="aspect-ratio aspect-ratio--16x9 aspect-ratio--1x1-ns mb1 mb4-l">
+              <a class="db link aspect-ratio--object cover dim" title="<%= project.images.card.alt %>" href="/prototype2/projects/<%= purl project.name %>" style="background:url(../images/<%= project.images.card.path %>) no-repeat center;">
+                <div class="pa4">
+                  <h4 class="mt0 mb2 noto-sans fw4 f6 tracked-mega ttu white"><%= project.category %></h4>
+                  <h2 class="ma0 noto-sans fw4 f4 white lh-title"><%= project.name %></h2>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      <% end %>
+    <% end %>
+  <% end %>
+</div>
+<%# Studio Banner %>
+<%= partial "partials/p2/banner_studio" %>
+<%# Separator %>
+<div class="mw8 center ph4 ph0-l ">
+  <div class="w-100 bb b--near-white"></div>
+</div>
