@@ -1,4 +1,8 @@
 module CustomHelpers
+  ###
+  # Universal Helpers
+  ###
+
   # Pretty URL: prepares text for url
   def purl text
     url = I18n.transliterate(text).downcase.strip.gsub(' ', '-')
@@ -7,6 +11,11 @@ module CustomHelpers
   def pnum cel
     number = cel.gsub(' ', '').gsub('(', '').gsub(')', '')
   end
+
+  ###
+  # Prototype #1 Helpers
+  ###
+
   # Project Index: fetches project index value
   def project_index name
     i = 0
@@ -18,6 +27,7 @@ module CustomHelpers
     end
     i
   end
+
   # Other Projects: fetches the next two projects from the project database
   def other_projects i
     others = []
@@ -38,4 +48,33 @@ module CustomHelpers
     others.push(b)
     others
   end
+
+  ###
+  # Prototype #2 Helpers
+  ###
+
+  # Project2 Index: fetches project index value
+  def project2_index name
+    i = 0
+    data.projects2.each do |project|
+      break if name === project.name
+      if name != project.name
+        i = i + 1
+      end
+    end
+    i
+  end
+
+  # Next Project: fetches the new project from the project database
+  def next_project i
+    next_project = ""
+    projects = data.projects2
+    if i === projects.length - 1
+      next_project = projects[0]
+    else
+      next_project = projects[i + 1]
+    end
+    next_project
+  end
+
 end
