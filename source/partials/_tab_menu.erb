@@ -1,13 +1,13 @@
-<div id="tab" class="fixed bottom-0 right-1 w2 h2 flex items-center justify-center bg-light-gray pointer tc">
+<div id="tab" class="fixed bottom-0 right-1 z-max w2 h2 flex items-center justify-center bg-light-gray pointer tc a2">
   <%= image_tag "arrow.png", :id => "arrow", :class => "a1" %>
 </div>
-<div id="main-menu" class="fixed w-100 bt b--near-white bg-white">
+<div id="main-menu" class="fixed bottom--84 z-max w-100 bt b--near-white bg-white a2">
   <div class="mw8 center">
     <nav>
-      <ul class="ma0 pa4 overflow-x-auto overflow-scrolling nowrap center">
-        <li class="dib"><%= link_to "Home", "/", :class => "noto-sans link mr4 gray hover-dark-gray link" %></li>
+      <ul id="prototype-nav" class="ma0 pa4 overflow-x-auto overflow-scrolling nowrap center">
+        <li class="dib"><%= link_to "Home", "/", :class => "mr4 noto-sans dark-gray hover-silver link" %></li>
         <% data.config.prototypes.each do |section, s| %>
-          <li class="dib"><%= link_to section.name, "/#{ section.path }", :class => "mr4 noto-sans gray hover-dark-gray link" %></li>
+          <li class="dib"><%= link_to section.name, "/#{ section.path }", :class => "mr4 noto-sans fw4 dark-gray hover-silver link" %></li>
         <% end %>
       </ul>
     </nav>
