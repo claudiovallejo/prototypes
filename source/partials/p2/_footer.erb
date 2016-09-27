@@ -1,0 +1,28 @@
+<% contact = data.contact %>
+<div class="ph4 pv5">
+  <%# First Column: Studio Address + Hours %>
+  <div>
+    <%= link_to "Filipao Nunes", "/prototype2", :class => "db mb4 roboto fw9 f6 ttu tracked-mega link dark-gray" %>
+    <a class="db mb4 link dark-gray">
+      <p class="ma0 noto-sans fw4 f5 mb2"><%= contact.address.street %></p>
+      <p class="ma0 noto-sans fw4 f5 mb2"><%= contact.address.city %>, <%= contact.address.state %></p>
+      <p class="ma0 noto-sans fw4 f5"><%= contact.address.country %> <%= contact.address.zip_code %></p>
+    </a>
+    <p class="ma0 noto-sans fw4 f5 mb2 silver">Weekdays <%= contact.hours.weekdays %></p>
+    <p class="ma0 noto-sans fw4 f5 mb2 silver">Saturdays <%= contact.hours.saturdays %></p>
+    <%# Small Mobile Separator %>
+    <div></div>
+  </div>
+  <%# Second Column: Contact %>
+  <div>
+    <a><%= contact.number %></a>
+    <a><%= contact.email %></a>
+    <%# Small Mobile Separator %>
+    <div></div>
+  </div>
+  <%# Third Column: Social Media %>
+  <div>
+    <a><%= contact.social_media.instagram.name %></a>
+    <a><%= contact.social_media.twitter.name %></a>
+  </div>
+</div>
