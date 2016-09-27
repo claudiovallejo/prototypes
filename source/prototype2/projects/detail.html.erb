@@ -1,0 +1,90 @@
+---
+layout: main2
+---
+<% project = locals[:project] %>
+<%# Project Detail Hero %>
+<div class="aspect-ratio aspect-ratio--16x9 mb4 mb5-ns">
+  <%= image_tag project.images.hero.path, :alt => project.images.hero.alt, :class => "aspect-ratio--object" %>
+</div>
+<%# Project Summary %>
+<div class="mw8 center ph4 ph0-l mb5">
+  <%# Project Name + Category %>
+  <div class="mb5">
+    <h1 class="noto-sans fw4 f3 f2-ns lh-title ma0"><%= project.name %></h1>
+    <h4 class="mt2 mb2 noto-sans fw4 f6 tracked-mega ttu"><%= project.category %></h4>
+  </div>
+  <div class="cf">
+    <%# Project Date + Location + Client? %>
+    <div class="cf fl w-100 w-25-ns mb5 mb0-ns">
+      <div class="fl w-50 w-100-ns">
+        <h4 class="mt2 mb3 noto-sans fw4 f6 tracked-mega ttu silver">Date</h4>
+        <p class="mv0 noto-sans fw4 f5 lh-copy"><%= project.date %></p>
+      </div>
+      <div class="fl w-50 w-100-ns mt4-ns">
+        <h4 class="mt2 mb3 noto-sans fw4 f6 tracked-mega ttu silver">Location</h4>
+        <p class="mv0 noto-sans fw4 f5 lh-copy"><%= project.location %></p>
+      </div>
+      <% if project.client %>
+        <div class="fl w-50 w-100-ns mt4">
+          <h4 class="mt2 mb3 noto-sans fw4 f6 tracked-mega ttu silver">Client</h4>
+          <p class="mv0 noto-sans fw4 f5 lh-copy"><%= project.client %></p>
+        </div>
+      <% end %>
+    </div>
+    <%# Project Details %>
+    <div class="fl w-100 w-75-m w-50-l">
+      <h4 class="mt2 mb3 noto-sans fw4 f6 tracked-mega ttu silver">Details</h4>
+      <% t = project.details.length %>
+      <% project.details.each_with_index do |detail, d| %>
+        <p class="mt0 noto-sans fw4 f5 lh-copy <% if d != t - 1 %>mb4<% end %>"><%= project.name %> <%= detail %></p>
+      <% end %>
+    </div>
+  </div>
+</div>
+<%# Project Images %>
+<div class="mw8 center">
+  <% d = project.images.details.length %>
+  <% project.images.details.each_with_index do |section,s| %>
+    <div class="<% if s != d - 1 %>mb5<% end %>">
+      <div class="ph4 ph0-l">
+        <h4 class="mt2 mb3 noto-sans fw4 f6 tracked-mega ttu silver"><%= section.name %></h4>
+      </div>
+      <% l = section.list.length %>
+      <% second_half = false %>
+      <% section.list.each_with_index do |image, i| %>
+        <% if image.type == "full" %>
+          <div class="aspect-ratio aspect-ratio--16x9 <% if i == l - 1 %>mb0<% else %>mb1 mb4-l<% end %>">
+            <%= image_tag image.path, :alt => image.alt, :class => "aspect-ratio--object" %>
+          </div>
+        <% elsif image.type == "half" && !second_half %>
+          <% second_half = true %>
+          <div class="cf">
+            <div class="fl-ns w-50-ns pr15-m pr3-l">
+              <div class="aspect-ratio aspect-ratio--16x9 aspect-ratio--1x1-ns <% if i == l - 1 %>mb0<% else %>mb1 mb4-l<% end %>">
+                <%= image_tag image.path, :alt => image.alt, :class => "aspect-ratio--object" %>
+              </div>
+            </div>
+        <% elsif image.type == "half" && second_half %>
+          <% second_half = false %>
+            <div class="fl-ns w-50-ns pl15-m pl3-l">
+              <div class="aspect-ratio aspect-ratio--16x9 aspect-ratio--1x1-ns <% if i == l - 1 %>mb0<% else %>mb1 mb4-l<% end %>">
+                <%= image_tag image.path, :alt => image.alt, :class => "aspect-ratio--object" %>
+              </div>
+            </div>
+          </div>
+        <% end %>
+      <% end %>
+    </div>
+  <% end %>
+</div>
+<%# Contact Banner %>
+<%= partial "partials/p2/banner_contact" %>
+<%# Next Project %>
+<div class="mw8 center dim">
+  <a class="db flex items-center h5 h7-ns link pa4 cover" title="<%= project.images.card.alt %>" style="background:url(../../images/<%= project.images.card.path %>) no-repeat center;" href="prototype1/projects/<%= purl project.name %>">
+    <div>
+      <h4 class="mt0 mb2 noto-sans fw4 f6 tracked-mega ttu white"><%= project.category %></h4>
+      <h2 class="ma0 noto-sans fw4 f4 white lh-title"><%= project.name %></h2>
+    </div>
+  </a>
+</div>
