@@ -47,6 +47,7 @@
 @media screen and (min-width: 30em) {
   .aspect-ratio--1x1-ns { padding-bottom: 100%; }
   .aspect-ratio--16x9-ns { padding-bottom: 56.25%; }
+  .h7-ns { height: 20rem; }
 }
 @media screen and (min-width: 30em) and (max-width: 60em) {
   .aspect-ratio--1x1-m { padding-bottom: 100%; }
