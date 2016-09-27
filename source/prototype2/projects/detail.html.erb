@@ -80,11 +80,13 @@ layout: main2
 <%# Contact Banner %>
 <%= partial "partials/p2/banner_contact" %>
 <%# Next Project %>
+<% project_index = project2_index project.name %>
+<% next_project = next_project project_index %>
 <div class="mw8 center dim">
-  <a class="db flex items-center h5 h7-ns link pa4 cover" title="<%= project.images.card.alt %>" style="background:url(../../images/<%= project.images.card.path %>) no-repeat center;" href="prototype1/projects/<%= purl project.name %>">
+  <a class="db flex items-center h5 h7-ns link pa4 cover" title="<%= next_project.images.card.alt %>" style="background:url(../../images/<%= next_project.images.card.path %>) no-repeat center;" href="prototype2/projects/<%= purl next_project.name %>">
     <div>
-      <h4 class="mt0 mb2 noto-sans fw4 f6 tracked-mega ttu white"><%= project.category %></h4>
-      <h2 class="ma0 noto-sans fw4 f4 white lh-title"><%= project.name %></h2>
+      <h4 class="mt0 mb2 noto-sans fw4 f6 tracked-mega ttu white"><%= next_project.category %></h4>
+      <h2 class="ma0 noto-sans fw4 f4 white lh-title"><%= next_project.name %></h2>
     </div>
   </a>
 </div>
