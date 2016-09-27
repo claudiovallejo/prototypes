@@ -11,5 +11,15 @@
   "hours": {
     "weekdays": "8.30 — 19.00",
     "saturdays": "8.30 — 13.30"
+  },
+  "social_media": {
+    "instagram": {
+      "name": "Instagram",
+      "path": "https://www.instagram.com/filipao78/"
+    },
+    "twitter": {
+      "name": "Twitter",
+      "path": "https://twitter.com/filipao78"
+    }
   }
 }
