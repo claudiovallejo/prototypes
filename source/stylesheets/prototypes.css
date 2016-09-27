@@ -1,5 +1,20 @@
+/*
+
+  TRANSFORM
+
+  Bases
+    tr = transform: rotate(Ndeg);
+
+  Modifiers
+    N = degree value
+    -0 = 0 (degrees)
+    -180 = 180 (degrees)
+
+*/
+.tr-0 { transform: rotate(0deg); }
+.tr-180 { transform: rotate(180deg); }
+.tty--84 { transform: translateY(-84px); }
 .a1 {
-  transform: rotate(0deg);
   -webkit-transition: transform 0.15s ease-in-out;
   transition: transform 0.15s ease-in-out;
 }
@@ -7,7 +22,37 @@
   -webkit-transition: transform 0.25s cubic-bezier(.455, .03, .515, .955);
   transition: transform 0.25s cubic-bezier(.455, .03, .515, .955);
 }
-.tr-180 { transform: rotate(180deg); }
 .bottom--84 { bottom: -84px; }
-.tty-84 { transform: translateY(-84px); }
-#prototype-nav::-webkit-scrollbar { display: none; }
+/* Removes scrollbar */
+.scrollbar-dn::-webkit-scrollbar { display: none; }
+/* Custom Height */
+.h-16x9 { height: 200%; }
+/*
+
+   UTILITIES
+
+*/
+/* This is for fluid media that is embedded from third party sites like youtube, vimeo etc.
+ * Wrap the outer element in aspect-ratio and then extend it with the desired ratio i.e
+ * Make sure there are no height and width attributes on the embedded media.
+ * Adapted from: https://github.com/suitcss/components-flex-embed
+ *
+ * Example:
+ *
+ * <div class="aspect-ratio aspect-ratio--16x9">
+ *  <iframe class="aspect-ratio--object"></iframe>
+ * </div>
+ *
+ * */
+@media screen and (min-width: 30em) {
+  .aspect-ratio--1x1-ns { padding-bottom: 100%; }
+  .aspect-ratio--16x9-ns { padding-bottom: 56.25%; }
+}
+@media screen and (min-width: 30em) and (max-width: 60em) {
+  .aspect-ratio--1x1-m { padding-bottom: 100%; }
+  .aspect-ratio--16x9-m { padding-bottom: 56.25%; }
+}
+@media screen and (min-width: 60em) {
+  .aspect-ratio--1x1-l { padding-bottom: 100%; }
+  .aspect-ratio--16x9-l { padding-bottom: 56.25%; }
+}
