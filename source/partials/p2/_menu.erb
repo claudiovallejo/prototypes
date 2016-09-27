@@ -2,7 +2,7 @@
   <ul class="ma0 pa4 ph0-l list overflow-x-auto overflow-scrolling scrollbar-dn nowrap bg-white">
     <%= link_to "Filipao Nunes", "/prototype2", :class => "roboto fw9 f6 ttu tracked-mega link dark-gray" %>
     <% data.site.prototype2.each do |section| %>
-      <li class="dib"><%= link_to section.title, "/#{ section.path }", :class => "ml4 noto-sans fw4 silver hover-dark-gray link" %></li>
+      <li class="dib"><%= link_to section.title, "/prototype2/#{ section.path }", :class => "ml4 noto-sans fw4 silver hover-dark-gray link" %></li>
     <% end %>
   </ul>
 </nav>
