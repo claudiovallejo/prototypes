@@ -5,9 +5,12 @@
   <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700|Roboto:900" rel="stylesheet">
   <%= stylesheet_link_tag :tachyons %>
   <%= stylesheet_link_tag :p1 %>
+  <%= stylesheet_link_tag :prototypes %>
   <body>
     <%= partial "partials/p1/menu_white" %>
+    <%= partial "partials/tab_menu" %>
     <%= yield %>
     <%= javascript_include_tag :p1 %>
+    <%= javascript_include_tag :home %>
   </body>
 </html>
