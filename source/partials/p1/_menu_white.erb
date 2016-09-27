@@ -1,8 +1,8 @@
-<div class="mw8 center bb b--near-white">
-  <div class="absolute top-0 w-100 mw8 bg-transparent">
-    <div id="menu" class="absolute z-inherit w-100 ph4 animate-1 cf pv4">
+<div class="relative mw8 center bb b--near-white">
+  <div class="absolute top-0 w-100 bg-transparent">
+    <div id="menu" class="absolute z-inherit w-100 animate-1 cf pv4">
       <div class="fl w-75">
-        <%= link_to "Filipao Nunes", "/", :class => "roboto fw9 f6 ttu tracked-mega link white" %>
+        <%= link_to "Filipao Nunes", "/prototype1", :class => "roboto fw9 f6 ttu tracked-mega link white" %>
       </div>
       <div class="fr w-25 tr cursor-pointer">
         <%= image_tag "menu-white.png" %>
@@ -11,7 +11,7 @@
     <nav>
       <ul id="nav-links" class="list ma0 ph4 overflow-x-scroll overflow-y-hidden overflow-scrolling nowrap center pv4">
         <% data.site.links.each_with_index do |section, s| %>
-          <li class="dib delay<%= s + 1 %> fade-2 animate-2"><%= link_to section.title, section.path, :class => "link noto-sans mr4 white hover-near-white" %></li>
+          <li class="dib delay<%= s + 1 %> fade-2 animate-2"><%= link_to section.title, "/prototype1/#{ section.path }", :class => "link noto-sans mr4 white hover-near-white" %></li>
         <% end %>
       </ul>
     </nav>
