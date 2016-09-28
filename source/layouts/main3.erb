@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <title>Prototype #3 | <% if locals[:project] %><%= project.name %><% else %><%= current_page.data.title %><% end %></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,900" rel="stylesheet">
+  <%= stylesheet_link_tag :tachyons %>
+  <%= stylesheet_link_tag :prototypes %>
+  <body>
+    <%= partial "partials/tab_menu" %>
+    <%= partial "partials/p3/menu" %>
+    <div id="content">
+      <%= yield %>
+      <%= partial "partials/p3/footer" %>
+    </div>
+    <%= javascript_include_tag :home %>
+    <%= javascript_include_tag :p3 %>
+  </body>
+</html>
