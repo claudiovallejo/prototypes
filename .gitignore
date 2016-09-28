@@ -19,5 +19,3 @@
 
 # Ignore Gulp.js dependencies
 /node_modules
-gulpfile.js
-package.json
