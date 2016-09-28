@@ -13,7 +13,7 @@
     "images": {
       "card": {
         "type": "full",
-        "path": "bisou-hero.jpg",
+        "path": "bisou-card.jpg",
         "alt": "Lorem ipsum dolor sit amet."
       },
       "hero": {
@@ -26,12 +26,12 @@
           "list": [
             {
               "type": "full",
-              "path": "bisou-hero.jpg",
+              "path": "bisou-full-1.jpg",
               "alt": "Bisou ipsum dolorum herux."
             },
             {
               "type": "full",
-              "path": "bisou-hero.jpg",
+              "path": "bisou-full-2.jpg",
               "alt": "Bisou ipsum dolorum herux."
             },
             {
@@ -51,7 +51,7 @@
           "list": [
             {
               "type": "full",
-              "path": "bisou-hero.jpg",
+              "path": "bisou-full-3.jpg",
               "alt": "Bisou ipsum dolorum herux."
             },
             {
@@ -75,18 +75,18 @@
     "category": "Restaurant",
     "location": "Monterrey, NL",
     "date": "Nov 2015",
-    "client": "Carlos Bianchezi",
+    "client": "Sandro Denali",
     "details": [
       "is a luxury lorem ipsum at the heart of Lorem Ipsum, DS that captures the lorem ipsum. The architecture is dolor sit amet consectetur adipiscing seit. What makes this project unique is that maecenas addantium teslae motores."
     ],
     "images": {
       "card": {
         "type": "half",
-        "path": "bisou-hero.jpg",
+        "path": "hula-half-1.jpg",
         "alt": "Lorem ipsum dolor sit amet."
       },
       "hero": {
-        "path": "bisou-hero.jpg",
+        "path": "hula-full-1.jpg",
         "alt": "Bisou ipsum dolorum herux."
       },
       "details": [
@@ -95,22 +95,22 @@
           "list": [
             {
               "type": "full",
-              "path": "bisou-hero.jpg",
+              "path": "hula-full-2.jpg",
               "alt": "Bisou ipsum dolorum herux."
             },
             {
               "type": "full",
-              "path": "bisou-hero.jpg",
+              "path": "hula-full-1.jpg",
               "alt": "Bisou ipsum dolorum herux."
             },
             {
               "type": "half",
-              "path": "bisou-hero.jpg",
+              "path": "hula-half-1.jpg",
               "alt": "Bisou ipsum dolorum herux."
             },
             {
               "type": "half",
-              "path": "bisou-hero.jpg",
+              "path": "hula-half-1.jpg",
               "alt": "Bisou ipsum dolorum herux."
             }
           ]
@@ -120,17 +120,17 @@
           "list": [
             {
               "type": "full",
-              "path": "bisou-hero.jpg",
+              "path": "hula-full-2.jpg",
               "alt": "Bisou ipsum dolorum herux."
             },
             {
               "type": "half",
-              "path": "bisou-hero.jpg",
+              "path": "hula-half-1.jpg",
               "alt": "Bisou ipsum dolorum herux."
             },
             {
               "type": "half",
-              "path": "bisou-hero.jpg",
+              "path": "hula-half-1.jpg",
               "alt": "Bisou ipsum dolorum herux."
             }
           ]
@@ -140,9 +140,9 @@
   },
   {
     "featured": true,
-    "name": "Macheta 15",
+    "name": "The Burger Company",
     "category": "Restaurant",
-    "location": "Monterrey, NL",
+    "location": "Queretaro, QUE",
     "date": "Jun 2015",
     "client": false,
     "details": [
@@ -151,11 +151,11 @@
     "images": {
       "card": {
         "type": "half",
-        "path": "bisou-hero.jpg",
+        "path": "burger-company-card.jpg",
         "alt": "Lorem ipsum dolor sit amet."
       },
       "hero": {
-        "path": "bisou-hero.jpg",
+        "path": "burger-company-card.jpg",
         "alt": "Bisou ipsum dolorum herux."
       },
       "details": [
@@ -164,22 +164,22 @@
           "list": [
             {
               "type": "full",
-              "path": "bisou-hero.jpg",
+              "path": "burger-company-full-1.jpg",
               "alt": "Bisou ipsum dolorum herux."
             },
             {
               "type": "full",
-              "path": "bisou-hero.jpg",
+              "path": "burger-company-full-2.jpg",
               "alt": "Bisou ipsum dolorum herux."
             },
             {
               "type": "half",
-              "path": "bisou-hero.jpg",
+              "path": "burger-company-half-1.jpg",
               "alt": "Bisou ipsum dolorum herux."
             },
             {
               "type": "half",
-              "path": "bisou-hero.jpg",
+              "path": "burger-company-half-1.jpg",
               "alt": "Bisou ipsum dolorum herux."
             }
           ]
@@ -189,17 +189,17 @@
           "list": [
             {
               "type": "full",
-              "path": "bisou-hero.jpg",
+              "path": "burger-company-full-1.jpg",
               "alt": "Bisou ipsum dolorum herux."
             },
             {
               "type": "half",
-              "path": "bisou-hero.jpg",
+              "path": "burger-company-half-1.jpg",
               "alt": "Bisou ipsum dolorum herux."
             },
             {
               "type": "half",
-              "path": "bisou-hero.jpg",
+              "path": "burger-company-half-1.jpg",
               "alt": "Bisou ipsum dolorum herux."
             }
           ]
@@ -209,8 +209,8 @@
   },
   {
     "featured": true,
-    "name": "Avanta Gardens",
-    "category": "Shops",
+    "name": "Margot",
+    "category": "Restaurant",
     "location": "Querétaro, QRO",
     "date": "Jan 2016",
     "client": "Carlos Bianchezi",
@@ -220,11 +220,11 @@
     "images": {
       "card": {
         "type": "full",
-        "path": "bisou-hero.jpg",
+        "path": "margot-card.jpg",
         "alt": "Lorem ipsum dolor sit amet."
       },
       "hero": {
-        "path": "bisou-hero.jpg",
+        "path": "margot-card.jpg",
         "alt": "Bisou ipsum dolorum herux."
       },
       "details": [
@@ -233,22 +233,22 @@
           "list": [
             {
               "type": "full",
-              "path": "bisou-hero.jpg",
+              "path": "margot-full-1.jpg",
               "alt": "Bisou ipsum dolorum herux."
             },
             {
               "type": "full",
-              "path": "bisou-hero.jpg",
+              "path": "margot-full-2.jpg",
               "alt": "Bisou ipsum dolorum herux."
             },
             {
               "type": "half",
-              "path": "bisou-hero.jpg",
+              "path": "margot-half-1.jpg",
               "alt": "Bisou ipsum dolorum herux."
             },
             {
               "type": "half",
-              "path": "bisou-hero.jpg",
+              "path": "margot-half-1.jpg",
               "alt": "Bisou ipsum dolorum herux."
             }
           ]
@@ -258,17 +258,17 @@
           "list": [
             {
               "type": "full",
-              "path": "bisou-hero.jpg",
+              "path": "margot-full-1.jpg",
               "alt": "Bisou ipsum dolorum herux."
             },
             {
               "type": "half",
-              "path": "bisou-hero.jpg",
+              "path": "margot-half-1.jpg",
               "alt": "Bisou ipsum dolorum herux."
             },
             {
               "type": "half",
-              "path": "bisou-hero.jpg",
+              "path": "margot-half-1.jpg",
               "alt": "Bisou ipsum dolorum herux."
             }
           ]
@@ -278,22 +278,22 @@
   },
   {
     "featured": true,
-    "name": "Gardenia",
-    "category": "Residential",
-    "location": "Puebla, PUE",
-    "date": "Jan 2016",
-    "client": "Carlos Bianchezi",
+    "name": "Wavex",
+    "category": "Building",
+    "location": "London, UK",
+    "date": "May 2017",
+    "client": "Hall & Co.",
     "details": [
       "is a luxury lorem ipsum at the heart of Lorem Ipsum, DS that captures the lorem ipsum. The architecture is dolor sit amet consectetur adipiscing seit. What makes this project unique is that maecenas addantium teslae motores."
     ],
     "images": {
       "card": {
         "type": "full",
-        "path": "bisou-hero.jpg",
+        "path": "wavex-card.jpg",
         "alt": "Lorem ipsum dolor sit amet."
       },
       "hero": {
-        "path": "bisou-hero.jpg",
+        "path": "wavex-hero.jpg",
         "alt": "Bisou ipsum dolorum herux."
       },
       "details": [
@@ -302,22 +302,22 @@
           "list": [
             {
               "type": "full",
-              "path": "bisou-hero.jpg",
+              "path": "wavex-full-1.jpg",
               "alt": "Bisou ipsum dolorum herux."
             },
             {
               "type": "full",
-              "path": "bisou-hero.jpg",
+              "path": "wavex-full-2.jpg",
               "alt": "Bisou ipsum dolorum herux."
             },
             {
               "type": "half",
-              "path": "bisou-hero.jpg",
+              "path": "wavex-half-1.jpg",
               "alt": "Bisou ipsum dolorum herux."
             },
             {
               "type": "half",
-              "path": "bisou-hero.jpg",
+              "path": "wavex-half-2.jpg",
               "alt": "Bisou ipsum dolorum herux."
             }
           ]
@@ -327,17 +327,17 @@
           "list": [
             {
               "type": "full",
-              "path": "bisou-hero.jpg",
+              "path": "wavex-full-3.jpg",
               "alt": "Bisou ipsum dolorum herux."
             },
             {
               "type": "half",
-              "path": "bisou-hero.jpg",
+              "path": "wavex-half-3.jpg",
               "alt": "Bisou ipsum dolorum herux."
             },
             {
               "type": "half",
-              "path": "bisou-hero.jpg",
+              "path": "wavex-half-4.jpg",
               "alt": "Bisou ipsum dolorum herux."
             }
           ]
