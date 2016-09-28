@@ -3,12 +3,12 @@
     "featured": true,
     "name": "Bisou",
     "category": "Nightclub",
-    "location": "Monterrey, MX",
+    "location": "Monterrey, NL",
     "date": "Jan 2016",
     "client": "Carlos Bianchezi",
     "images": {
       "card": {
-        "path": "bisou-hero.jpg",
+        "path": "bisou-card.jpg",
         "alt": "Lorem ipsum dolor sit amet."
       },
       "hero": {
@@ -18,42 +18,42 @@
       "details": [
         {
           "type": "full",
+          "path": "bisou-full-1.jpg",
+          "alt": "Bisou ipsum dolorum herux."
+        },
+        {
+          "type": "full",
+          "path": "bisou-full-2.jpg",
+          "alt": "Bisou ipsum dolorum herux."
+        },
+        {
+          "type": "full",
+          "path": "bisou-full-3.jpg",
+          "alt": "Bisou ipsum dolorum herux."
+        },
+        {
+          "type": "half",
+          "path": "bisou-hero.jpg",
+          "alt": "Bisou ipsum dolorum herux."
+        },
+        {
+          "type": "half",
+          "path": "bisou-hero.jpg",
+          "alt": "Bisou ipsum dolorum herux."
+        },
+        {
+          "type": "half",
+          "path": "bisou-hero.jpg",
+          "alt": "Bisou ipsum dolorum herux."
+        },
+        {
+          "type": "half",
           "path": "bisou-hero.jpg",
           "alt": "Bisou ipsum dolorum herux."
         },
         {
           "type": "full",
-          "path": "bisou-hero.jpg",
-          "alt": "Bisou ipsum dolorum herux."
-        },
-        {
-          "type": "full",
-          "path": "bisou-hero.jpg",
-          "alt": "Bisou ipsum dolorum herux."
-        },
-        {
-          "type": "half",
-          "path": "bisou-hero.jpg",
-          "alt": "Bisou ipsum dolorum herux."
-        },
-        {
-          "type": "half",
-          "path": "bisou-hero.jpg",
-          "alt": "Bisou ipsum dolorum herux."
-        },
-        {
-          "type": "half",
-          "path": "bisou-hero.jpg",
-          "alt": "Bisou ipsum dolorum herux."
-        },
-        {
-          "type": "half",
-          "path": "bisou-hero.jpg",
-          "alt": "Bisou ipsum dolorum herux."
-        },
-        {
-          "type": "full",
-          "path": "bisou-hero.jpg",
+          "path": "bisou-full-3.jpg",
           "alt": "Bisou ipsum dolorum herux."
         }
       ]
@@ -67,59 +67,59 @@
   },
   {
     "featured": true,
-    "name": "Bisou",
-    "category": "Nightclub",
-    "location": "Monterrey, MX",
-    "date": "Jan 2016",
-    "client": "Carlos Bianchezi",
+    "name": "Hula",
+    "category": "Restaurant",
+    "location": "Monterrey, NL",
+    "date": "Nov 2015",
+    "client": "Sandro Denali",
     "images": {
       "card": {
-        "path": "bisou-hero.jpg",
+        "path": "hula-full-1.jpg",
         "alt": "Lorem ipsum dolor sit amet."
       },
       "hero": {
-        "path": "bisou-hero.jpg",
+        "path": "hula-full-1.jpg",
         "alt": "Bisou ipsum dolorum herux."
       },
       "details": [
         {
           "type": "full",
+          "path": "hula-full-2.jpg",
+          "alt": "Bisou ipsum dolorum herux."
+        },
+        {
+          "type": "full",
+          "path": "hula-full-1.jpg",
+          "alt": "Bisou ipsum dolorum herux."
+        },
+        {
+          "type": "full",
+          "path": "hula-full-2.jpg",
+          "alt": "Bisou ipsum dolorum herux."
+        },
+        {
+          "type": "half",
+          "path": "hula-full-1.jpg",
+          "alt": "Bisou ipsum dolorum herux."
+        },
+        {
+          "type": "half",
+          "path": "bisou-hero.jpg",
+          "alt": "Bisou ipsum dolorum herux."
+        },
+        {
+          "type": "half",
+          "path": "hula-full-1.jpg",
+          "alt": "Bisou ipsum dolorum herux."
+        },
+        {
+          "type": "half",
           "path": "bisou-hero.jpg",
           "alt": "Bisou ipsum dolorum herux."
         },
         {
           "type": "full",
-          "path": "bisou-hero.jpg",
-          "alt": "Bisou ipsum dolorum herux."
-        },
-        {
-          "type": "full",
-          "path": "bisou-hero.jpg",
-          "alt": "Bisou ipsum dolorum herux."
-        },
-        {
-          "type": "half",
-          "path": "bisou-hero.jpg",
-          "alt": "Bisou ipsum dolorum herux."
-        },
-        {
-          "type": "half",
-          "path": "bisou-hero.jpg",
-          "alt": "Bisou ipsum dolorum herux."
-        },
-        {
-          "type": "half",
-          "path": "bisou-hero.jpg",
-          "alt": "Bisou ipsum dolorum herux."
-        },
-        {
-          "type": "half",
-          "path": "bisou-hero.jpg",
-          "alt": "Bisou ipsum dolorum herux."
-        },
-        {
-          "type": "full",
-          "path": "bisou-hero.jpg",
+          "path": "hula-full-2.jpg",
           "alt": "Bisou ipsum dolorum herux."
         }
       ]
@@ -133,59 +133,59 @@
   },
   {
     "featured": true,
-    "name": "Bisou",
-    "category": "Nightclub",
-    "location": "Monterrey, MX",
-    "date": "Jan 2016",
-    "client": "Carlos Bianchezi",
+    "name": "The Burger Company",
+    "category": "Restaurant",
+    "location": "Queretaro, QUE",
+    "date": "Jun 2015",
+    "client": "Silvia Balenciaga",
     "images": {
       "card": {
-        "path": "bisou-hero.jpg",
+        "path": "burger-company-card.jpg",
         "alt": "Lorem ipsum dolor sit amet."
       },
       "hero": {
-        "path": "bisou-hero.jpg",
+        "path": "burger-company-card.jpg",
         "alt": "Bisou ipsum dolorum herux."
       },
       "details": [
         {
           "type": "full",
+          "path": "burger-company-full-1.jpg",
+          "alt": "Bisou ipsum dolorum herux."
+        },
+        {
+          "type": "full",
+          "path": "burger-company-full-2.jpg",
+          "alt": "Bisou ipsum dolorum herux."
+        },
+        {
+          "type": "full",
+          "path": "burger-company-full-1.jpg",
+          "alt": "Bisou ipsum dolorum herux."
+        },
+        {
+          "type": "half",
+          "path": "burger-company-half-1.jpg",
+          "alt": "Bisou ipsum dolorum herux."
+        },
+        {
+          "type": "half",
+          "path": "bisou-hero.jpg",
+          "alt": "Bisou ipsum dolorum herux."
+        },
+        {
+          "type": "half",
+          "path": "burger-company-half-1.jpg",
+          "alt": "Bisou ipsum dolorum herux."
+        },
+        {
+          "type": "half",
           "path": "bisou-hero.jpg",
           "alt": "Bisou ipsum dolorum herux."
         },
         {
           "type": "full",
-          "path": "bisou-hero.jpg",
-          "alt": "Bisou ipsum dolorum herux."
-        },
-        {
-          "type": "full",
-          "path": "bisou-hero.jpg",
-          "alt": "Bisou ipsum dolorum herux."
-        },
-        {
-          "type": "half",
-          "path": "bisou-hero.jpg",
-          "alt": "Bisou ipsum dolorum herux."
-        },
-        {
-          "type": "half",
-          "path": "bisou-hero.jpg",
-          "alt": "Bisou ipsum dolorum herux."
-        },
-        {
-          "type": "half",
-          "path": "bisou-hero.jpg",
-          "alt": "Bisou ipsum dolorum herux."
-        },
-        {
-          "type": "half",
-          "path": "bisou-hero.jpg",
-          "alt": "Bisou ipsum dolorum herux."
-        },
-        {
-          "type": "full",
-          "path": "bisou-hero.jpg",
+          "path": "burger-company-full-1.jpg",
           "alt": "Bisou ipsum dolorum herux."
         }
       ]
@@ -199,34 +199,34 @@
   },
   {
     "featured": true,
-    "name": "Bisou",
-    "category": "Nightclub",
-    "location": "Monterrey, MX",
+    "name": "Margot",
+    "category": "Restaurant",
+    "location": "Monterrey, NL",
     "date": "Jan 2016",
-    "client": "Carlos Bianchezi",
+    "client": "Federico Forte",
     "images": {
       "card": {
-        "path": "bisou-hero.jpg",
+        "path": "margot-card.jpg",
         "alt": "Lorem ipsum dolor sit amet."
       },
       "hero": {
-        "path": "bisou-hero.jpg",
+        "path": "margot-card.jpg",
         "alt": "Bisou ipsum dolorum herux."
       },
       "details": [
         {
           "type": "full",
-          "path": "bisou-hero.jpg",
+          "path": "margot-full-1.jpg",
           "alt": "Bisou ipsum dolorum herux."
         },
         {
           "type": "full",
-          "path": "bisou-hero.jpg",
+          "path": "margot-full-2.jpg",
           "alt": "Bisou ipsum dolorum herux."
         },
         {
           "type": "full",
-          "path": "bisou-hero.jpg",
+          "path": "margot-half-1.jpg",
           "alt": "Bisou ipsum dolorum herux."
         },
         {
@@ -236,7 +236,7 @@
         },
         {
           "type": "half",
-          "path": "bisou-hero.jpg",
+          "path": "margot-half-1.jpg",
           "alt": "Bisou ipsum dolorum herux."
         },
         {
@@ -246,12 +246,78 @@
         },
         {
           "type": "half",
-          "path": "bisou-hero.jpg",
+          "path": "margot-half-1.jpg",
           "alt": "Bisou ipsum dolorum herux."
         },
         {
           "type": "full",
-          "path": "bisou-hero.jpg",
+          "path": "margot-full-1.jpg",
+          "alt": "Bisou ipsum dolorum herux."
+        }
+      ]
+    },
+    "details": {
+      "intro": [
+        "The paragraph should summarize the scope and other important factors that lead to the published piece.",
+        "More details can be added to describe unexpected challenges or particularly fascinating areas of the project."
+      ]
+    }
+  },
+  {
+    "featured": true,
+    "name": "Wavex",
+    "category": "Building",
+    "location": "London, UK",
+    "date": "May 2017",
+    "client": "Hall & Co.",
+    "images": {
+      "card": {
+        "path": "wavex-card.jpg",
+        "alt": "Lorem ipsum dolor sit amet."
+      },
+      "hero": {
+        "path": "wavex-hero.jpg",
+        "alt": "Bisou ipsum dolorum herux."
+      },
+      "details": [
+        {
+          "type": "full",
+          "path": "wavex-full-1.jpg",
+          "alt": "Bisou ipsum dolorum herux."
+        },
+        {
+          "type": "full",
+          "path": "wavex-full-2.jpg",
+          "alt": "Bisou ipsum dolorum herux."
+        },
+        {
+          "type": "full",
+          "path": "wavex-full-3.jpg",
+          "alt": "Bisou ipsum dolorum herux."
+        },
+        {
+          "type": "half",
+          "path": "wavex-half-1.jpg",
+          "alt": "Bisou ipsum dolorum herux."
+        },
+        {
+          "type": "half",
+          "path": "wavex-half-2.jpg",
+          "alt": "Bisou ipsum dolorum herux."
+        },
+        {
+          "type": "half",
+          "path": "wavex-half-3.jpg",
+          "alt": "Bisou ipsum dolorum herux."
+        },
+        {
+          "type": "half",
+          "path": "wavex-half-2.jpg",
+          "alt": "Bisou ipsum dolorum herux."
+        },
+        {
+          "type": "full",
+          "path": "wavex-full-3.jpg",
           "alt": "Bisou ipsum dolorum herux."
         }
       ]
