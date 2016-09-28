@@ -1,0 +1,77 @@
+[
+  {
+    "name": "Bisou",
+    "category": "Nightclub",
+    "featured": true,
+    "location": "London, United Kingdom",
+    "date": "January 2016",
+    "images": {
+      "card": {
+        "aspect_ratio": "6x4",
+        "align": "",
+        "path": "",
+        "alt": "A Lorem Ipsum on Dolor Sit Amet Street."
+      }
+    }
+  },
+  {
+    "name": "Hula",
+    "category": "Restaurant",
+    "featured": true,
+    "location": "Monterrey, Mexico",
+    "date": "September 2014",
+    "images": {
+      "card": {
+        "aspect_ratio": "4x6",
+        "align": "right",
+        "path": "",
+        "alt": "A view from the dolor sit amet showing several lorem ipsums."
+      }
+    }
+  },
+  {
+    "name": "The Burger Company",
+    "category": "Restaurant",
+    "featured": true,
+    "location": "Monterrey, Mexico",
+    "date": "September 2014",
+    "images": {
+      "card": {
+        "aspect_ratio": "4x6",
+        "align": "left",
+        "path": "",
+        "alt": "A view from the dolor sit amet showing several lorem ipsums."
+      }
+    }
+  },
+  {
+    "name": "Margot",
+    "category": "Restaurant",
+    "featured": true,
+    "location": "Queretaro, Mexico",
+    "date": "June 2016",
+    "images": {
+      "card": {
+        "aspect_ratio": "1x1",
+        "align": "",
+        "path": "",
+        "alt": "A view from the dolor sit amet showing several lorem ipsums."
+      }
+    }
+  },
+  {
+    "name": "Wavex",
+    "category": "Building",
+    "featured": true,
+    "location": "London, United Kingdom",
+    "date": "May 2017",
+    "images": {
+      "card": {
+        "aspect_ratio": "4x6",
+        "align": "right",
+        "path": "",
+        "alt": "A view from the dolor sit amet showing several lorem ipsums."
+      }
+    }
+  }
+]
