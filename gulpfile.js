@@ -47,4 +47,4 @@ gulp.task('sitemap', function() {
 });
 
 // Run previously declared tasks on `gulp`
-gulp.task('default', ['markdown', 'styles', 'scripts', 'sitemap', 'images']);
+gulp.task('build', ['markdown', 'styles', 'scripts', 'sitemap', 'images']);
