@@ -1,0 +1,28 @@
+{
+  "name": "prototype",
+  "version": "1.0.0",
+  "description": "I'll be sharing my prototyping process as I continue to design Filipao Nunes's [portfolio](http://filipaonunes.com). If you have any feedback or comments about my code, design or process let me know [@claudiovallejop](https://twitter.com/claudiovallejop).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/claudiovallejo/prototypes.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/claudiovallejo/prototypes/issues"
+  },
+  "homepage": "https://github.com/claudiovallejo/prototypes#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-gzip": "^1.4.0",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-imagemin": "^3.0.3",
+    "gulp-sitemap": "^4.2.0",
+    "gulp-uglify": "^2.0.0"
+  }
+}
