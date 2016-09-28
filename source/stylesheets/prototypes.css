@@ -35,6 +35,54 @@
 /* Custom Height */
 .h-16x9 { height: 200%; }
 /*
+   SPACING
+   Docs: http://tachyons.io/docs/layout/spacing/
+
+   An eight step powers of two scale ranging from 0 to 16rem.
+
+   Base:
+     p = padding
+     m = margin
+
+   Modifiers:
+     a = all
+     h = horizontal
+     v = vertical
+     t = top
+     r = right
+     b = bottom
+     l = left
+
+     0 = none
+     1 = 1st step in spacing scale
+     2 = 2nd step in spacing scale
+     3 = 3rd step in spacing scale
+     4 = 4th step in spacing scale
+     5 = 5th step in spacing scale
+     6 = 6th step in spacing scale
+     7 = 7th step in spacing scale
+
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
+
+*/
+.mb8 { margin-bottom: 5rem; }
+.mv8 { margin-top: 6rem; margin-bottom: 6rem; }
+/*
+
+   LETTER SPACING
+   Docs: http://tachyons.io/docs/typography/tracking/
+
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
+
+*/
+.tracked-uber { letter-spacing: .45em; }
+/*
 
    UTILITIES
 
@@ -59,6 +107,7 @@
 @media screen and (min-width: 30em) and (max-width: 60em) {
   .aspect-ratio--1x1-m { padding-bottom: 100%; }
   .aspect-ratio--16x9-m { padding-bottom: 56.25%; }
+  .ph8-m { padding-right: 3rem; padding-left: 3rem; }
 }
 @media screen and (min-width: 60em) {
   .aspect-ratio--1x1-l { padding-bottom: 100%; }
