@@ -27,11 +27,12 @@ title: Projects
       <% data.projects2.each_with_index do |project, r| %>
         <% if project.images.card.type == "full" %>
           <div class="aspect-ratio aspect-ratio--16x9 <% if r == length - 1 %>mb0<% else %>mb1 mb4-l<% end %>" data-category="<%= project.category %>">
-            <a class="db link aspect-ratio--object cover dim" title="<%= project.images.card.alt %>" href="/prototype2/projects/<%= purl project.name %>" style="background:url(../../images/<%= project.images.card.path %>) no-repeat center;">
-              <div class="pa4">
+            <a class="db aspect-ratio--object cover dim no-underline" title="<%= project.images.card.alt %>" href="/prototype2/projects/<%= purl project.name %>" style="background:url(../../images/<%= project.images.card.path %>) no-repeat center;">
+              <div class="absolute z-5 pa4">
                 <h4 class="mt0 mb2 noto-sans fw4 f6 tracked-mega ttu white"><%= project.category %></h4>
                 <h2 class="ma0 noto-sans fw4 f4 white lh-title"><%= project.name %></h2>
               </div>
+              <div class="absolute w-100 h-100 bg-black-60"></div>
             </a>
           </div>
         <% elsif project.images.card.type == "half" && !second_half %>
@@ -39,11 +40,12 @@ title: Projects
           <div class="cf">
             <div class="fl-ns w-50-ns pr15-m pr3-l">
               <div class="aspect-ratio aspect-ratio--16x9 aspect-ratio--1x1-ns <% if r == length - 1 %>mb0<% else %>mb1 mb4-l<% end %>" data-category="<%= project.category %>">
-                <a class="db link aspect-ratio--object cover dim" title="<%= project.images.card.alt %>" href="/prototype2/projects/<%= purl project.name %>" style="background:url(../../images/<%= project.images.card.path %>) no-repeat center;">
-                  <div class="pa4">
+                <a class="db aspect-ratio--object cover dim no-underline" title="<%= project.images.card.alt %>" href="/prototype2/projects/<%= purl project.name %>" style="background:url(../../images/<%= project.images.card.path %>) no-repeat center;">
+                  <div class="absolute z-5 pa4">
                     <h4 class="mt0 mb2 noto-sans fw4 f6 tracked-mega ttu white"><%= project.category %></h4>
                     <h2 class="ma0 noto-sans fw4 f4 white lh-title"><%= project.name %></h2>
                   </div>
+                  <div class="absolute w-100 h-100 bg-black-60"></div>
                 </a>
               </div>
             </div>
@@ -51,11 +53,12 @@ title: Projects
           <% second_half = false %>
             <div class="fl-ns w-50-ns pl15-m pl3-l">
               <div class="aspect-ratio aspect-ratio--16x9 aspect-ratio--1x1-ns <% if r == length - 1 %>mb0<% else %>mb1 mb4-l<% end %>" data-category="<%= project.category %>">
-                <a class="db link aspect-ratio--object cover dim" title="<%= project.images.card.alt %>" href="/prototype2/projects/<%= purl project.name %>" style="background:url(../../images/<%= project.images.card.path %>) no-repeat center;">
-                  <div class="pa4">
+                <a class="db aspect-ratio--object cover dim no-underline" title="<%= project.images.card.alt %>" href="/prototype2/projects/<%= purl project.name %>" style="background:url(../../images/<%= project.images.card.path %>) no-repeat center;">
+                  <div class="absolute z-5 pa4">
                     <h4 class="mt0 mb2 noto-sans fw4 f6 tracked-mega ttu white"><%= project.category %></h4>
                     <h2 class="ma0 noto-sans fw4 f4 white lh-title"><%= project.name %></h2>
                   </div>
+                  <div class="absolute w-100 h-100 bg-black-60"></div>
                 </a>
               </div>
             </div>
