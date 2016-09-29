@@ -1,7 +1,7 @@
 <nav class="mw8 center">
   <%# Mobile Menu %>
-  <div class="db dn-ns pa4 ph0-l">
-    <ul class="pa0 list overflow-x-auto overflow-scrolling scrollbar-dn nowrap bg-white">
+  <div class="db dn-ns">
+    <ul class="pa4 list overflow-x-auto overflow-scrolling scrollbar-dn nowrap bg-white">
       <%= link_to "Filipao Nunes", "/prototype2", :class => "roboto fw9 f6 ttu tracked-mega dark-gray dim no-underline" %>
       <% data.site.prototype2.each do |section| %>
         <li class="dib"><%= link_to section.title, "/prototype2/#{ section.path }", :class => "ml4 noto-sans fw4 silver link" %></li>
