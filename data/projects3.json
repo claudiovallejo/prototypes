@@ -14,6 +14,50 @@
       },
       "detail": [
         {
+          "aspect_ratio": "4x6",
+          "align": "right",
+          "path": "",
+          "alt": "A Lorem Ipsum on Dolor Sit Amet Street."
+        },
+        {
+          "aspect_ratio": "1x1",
+          "align": "",
+          "path": "",
+          "alt": "A Lorem Ipsum on Dolor Sit Amet Street."
+        },
+        {
+          "aspect_ratio": "4x6",
+          "align": "left",
+          "path": "",
+          "alt": "A Lorem Ipsum on Dolor Sit Amet Street."
+        },
+        {
+          "aspect_ratio": "6x4",
+          "align": "",
+          "path": "",
+          "alt": "A Lorem Ipsum on Dolor Sit Amet Street."
+        }
+      ]
+    },
+    "detail": {
+      "introduction": "is a new alegro mozar in tandem ven venti in strinne nesorio. The project took place over a lorem ipsum dolor sit amet, and it was all about the lorem molas."
+    }
+  },
+  {
+    "name": "Hula",
+    "category": "Restaurant",
+    "featured": true,
+    "location": "Monterrey, Mexico",
+    "date": "September 2014",
+    "images": {
+      "card": {
+        "aspect_ratio": "4x6",
+        "align": "right",
+        "path": "",
+        "alt": "A view from the dolor sit amet showing several lorem ipsums."
+      },
+      "detail": [
+        {
           "aspect_ratio": "6x4",
           "align": "",
           "path": "",
@@ -44,24 +88,6 @@
     }
   },
   {
-    "name": "Hula",
-    "category": "Restaurant",
-    "featured": true,
-    "location": "Monterrey, Mexico",
-    "date": "September 2014",
-    "images": {
-      "card": {
-        "aspect_ratio": "4x6",
-        "align": "right",
-        "path": "",
-        "alt": "A view from the dolor sit amet showing several lorem ipsums."
-      }
-    },
-    "detail": {
-      "introduction": "is a new alegro mozar in tandem ven venti in strinne nesorio. The project took place over a lorem ipsum dolor sit amet, and it was all about the lorem molas."
-    }
-  },
-  {
     "name": "The Burger Company",
     "category": "Restaurant",
     "featured": true,
@@ -76,14 +102,14 @@
       },
       "detail": [
         {
-          "aspect_ratio": "6x4",
-          "align": "",
+          "aspect_ratio": "4x6",
+          "align": "right",
           "path": "",
           "alt": "A Lorem Ipsum on Dolor Sit Amet Street."
         },
         {
-          "aspect_ratio": "4x6",
-          "align": "right",
+          "aspect_ratio": "6x4",
+          "align": "",
           "path": "",
           "alt": "A Lorem Ipsum on Dolor Sit Amet Street."
         },
