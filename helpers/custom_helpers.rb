@@ -77,4 +77,32 @@ module CustomHelpers
     next_project
   end
 
+  ###
+  # Prototype #3 Helpers
+  ###
+
+  # Project3 Index: fetches project index value
+  def project3_index name
+    i = 0
+    data.projects3.each do |project|
+      break if name === project.name
+      if name != project.name
+        i = i + 1
+      end
+    end
+    i
+  end
+
+  # Next Project: fetches the new project from the project database
+  def next_project i
+    next_project = ""
+    projects = data.projects3
+    if i === projects.length - 1
+      next_project = projects[0]
+    else
+      next_project = projects[i + 1]
+    end
+    next_project
+  end
+
 end
