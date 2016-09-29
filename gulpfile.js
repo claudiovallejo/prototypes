@@ -1,6 +1,7 @@
 var gulp = require('gulp'),
-    cssmin = require('gulp-cssmin'),
     htmlmin = require('gulp-htmlmin'),
+    uncss = require('gulp-uncss'),
+    csso = require('gulp-csso'),
     gzip = require('gulp-gzip'),
     uglify = require('gulp-uglify'),
     sitemap = require('gulp-sitemap'),
@@ -12,12 +13,16 @@ gulp.task('markdown', function(){
     .pipe(htmlmin({collapseWhitespace: true}))
     .pipe(gulp.dest('build/'))
 });
-//  Minify and compress .css
+//  Minify, compress, gzip and remove unused css
 gulp.task('styles', function() {
-  gulp.src('build/stylesheets/*.css')
-    .pipe(cssmin())
+  return gulp.src('build/stylesheets/**/*.css')
+    .pipe(uncss({
+      html: ['build/**/*.html']
+    }))
+    .pipe(csso())
+    .pipe(gulp.dest('./build/stylesheets'))
     .pipe(gzip())
-    .pipe(gulp.dest('build/stylesheets'));
+    .pipe(gulp.dest('./build/stylesheets'));
 });
 
 //  Optimize images
@@ -41,7 +46,7 @@ gulp.task('sitemap', function() {
     read: false
   })
   .pipe(sitemap({
-    siteUrl: 'https://www.tymforest.com'
+    siteUrl: 'http://prototypes.netlify.com/'
   }))
   .pipe(gulp.dest('./build'));
 });
