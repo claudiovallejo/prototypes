@@ -81,7 +81,12 @@ layout: main2
 <%= partial "partials/p2/banner_contact" %>
 <%# Next Project %>
 <% project_index = project2_index project.name %>
-<% next_project = next_project project_index %>
+<% projects = data.projects2 %>
+<% if project_index == projects.length - 1 %>
+  <% next_project = projects[0] %>
+<% else %>
+  <% next_project = projects[project_index + 1] %>
+<% end %>
 <div class="mw8 center dim">
   <a class="db flex items-center h5 h7-ns pa4 cover no-underline" title="<%= next_project.images.card.alt %>" style="background:url(../../images/<%= next_project.images.card.path %>) no-repeat center;" href="/prototype2/projects/<%= purl next_project.name %>">
     <div>
