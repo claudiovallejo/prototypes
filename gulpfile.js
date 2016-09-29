@@ -15,7 +15,7 @@ gulp.task('markdown', function(){
 });
 //  Minify, compress, gzip and remove unused css
 gulp.task('styles', function() {
-  return gulp.src('build/stylesheets/**/*.css')
+  return gulp.src('build/stylesheets/tachyons.css')
     .pipe(uncss({
       html: ['build/**/*.html']
     }))
