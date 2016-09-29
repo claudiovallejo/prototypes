@@ -2,16 +2,16 @@
   <%# Mobile Menu %>
   <div class="db dn-ns pa4 ph0-l">
     <ul class="pa0 list overflow-x-auto overflow-scrolling scrollbar-dn nowrap bg-white">
-      <%= link_to "Filipao Nunes", "/prototype2", :class => "roboto fw9 f6 ttu tracked-mega dark-gray link dim" %>
+      <%= link_to "Filipao Nunes", "/prototype2", :class => "roboto fw9 f6 ttu tracked-mega dark-gray dim no-underline" %>
       <% data.site.prototype2.each do |section| %>
-        <li class="dib"><%= link_to section.title, "/prototype2/#{ section.path }", :class => "ml4 noto-sans fw4 silver hover-dark-gray link" %></li>
+        <li class="dib"><%= link_to section.title, "/prototype2/#{ section.path }", :class => "ml4 noto-sans fw4 silver link" %></li>
       <% end %>
     </ul>
   </div>
   <%# Tablet+ Menu %>
   <div class="dn db-ns cf ma0 pa4 ph0-l">
     <div class="fl w-50">
-      <%= link_to "Filipao Nunes", "/prototype2", :class => "roboto fw9 f6 ttu tracked-mega dark-gray link dim" %>
+      <%= link_to "Filipao Nunes", "/prototype2", :class => "roboto fw9 f6 ttu tracked-mega dark-gray dim no-underline" %>
     </div>
     <div class="fr w-50 tr">
       <% data.site.prototype2.each do |section| %>
