@@ -1,20 +1,8 @@
-/*
-
-  TRANSFORM
-
-  Bases
-    tr = transform: rotate(Ndeg);
-
-  Modifiers
-    N = degree value
-    -0 = 0 (degrees)
-    -180 = 180 (degrees)
-
-*/
+/* TRANSFORM */
 .tr-0 { transform: rotate(0deg); }
 .tr-180 { transform: rotate(180deg); }
 .tty--84 { transform: translateY(-84px); }
-/* Custom Animations */
+/* ANIMATIONS */
 .a1 {
   -webkit-transition: transform 0.15s ease-in-out;
   transition: transform 0.15s ease-in-out;
@@ -30,75 +18,19 @@
 .fi { opacity: 1; transform: translateY(0); pointer-events: auto; }
 .fo { opacity: 0; transform: translateY(0); pointer-events: none; }
 .bottom--84 { bottom: -84px; }
-/* Removes scrollbar */
+/* SCROLL */
 .scrollbar-dn::-webkit-scrollbar { display: none; }
-/* Custom Height */
+/* HEIGHT */
 .h-16x9 { height: 200%; }
-/*
-   SPACING
-   Docs: http://tachyons.io/docs/layout/spacing/
-
-   An eight step powers of two scale ranging from 0 to 16rem.
-
-   Base:
-     p = padding
-     m = margin
-
-   Modifiers:
-     a = all
-     h = horizontal
-     v = vertical
-     t = top
-     r = right
-     b = bottom
-     l = left
-
-     0 = none
-     1 = 1st step in spacing scale
-     2 = 2nd step in spacing scale
-     3 = 3rd step in spacing scale
-     4 = 4th step in spacing scale
-     5 = 5th step in spacing scale
-     6 = 6th step in spacing scale
-     7 = 7th step in spacing scale
-
-   Media Query Extensions:
-     -ns = not-small
-     -m  = medium
-     -l  = large
-
-*/
+/* SPACING */
+.mt8 { margin-top: 5rem; }
 .mb8 { margin-bottom: 5rem; }
 .mv8 { margin-top: 6rem; margin-bottom: 6rem; }
-/*
-
-   LETTER SPACING
-   Docs: http://tachyons.io/docs/typography/tracking/
-
-   Media Query Extensions:
-     -ns = not-small
-     -m  = medium
-     -l  = large
-
-*/
+/* LETTER SPACING */
 .tracked-uber { letter-spacing: .45em; }
-/*
-
-   UTILITIES
-
-*/
-/* This is for fluid media that is embedded from third party sites like youtube, vimeo etc.
- * Wrap the outer element in aspect-ratio and then extend it with the desired ratio i.e
- * Make sure there are no height and width attributes on the embedded media.
- * Adapted from: https://github.com/suitcss/components-flex-embed
- *
- * Example:
- *
- * <div class="aspect-ratio aspect-ratio--16x9">
- *  <iframe class="aspect-ratio--object"></iframe>
- * </div>
- *
- * */
+/* DISPLAY */
+.dn-i { display: none !important; }
+/* UTILITIES */
 @media screen and (min-width: 30em) {
   .aspect-ratio--1x1-ns { padding-bottom: 100%; }
   .aspect-ratio--16x9-ns { padding-bottom: 56.25%; }
