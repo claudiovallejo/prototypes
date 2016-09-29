@@ -14,7 +14,7 @@ title: Filipao Nunes
     <% align = project.images.card.align %>
     <% if project.featured %>
       <% if aspect_ratio === "1x1" || aspect_ratio === "6x4" %>
-        <a class="db link dim <% if r != l - 1 %>mb8<% end %>" href="/prototype3/projects/<%= purl project.name %>">
+        <a class="db dim no-underline <% if r != l - 1 %>mb8<% end %>" href="/prototype3/projects/<%= purl project.name %>">
           <div class="aspect-ratio aspect-ratio--<%= aspect_ratio %>">
             <div class="aspect-ratio--object bg-near-white"></div>
           </div>
@@ -22,7 +22,7 @@ title: Filipao Nunes
         </a>
       <% else %>
         <div class="cf">
-          <a class="db <% if align === "right" %>fr<% else %>fl<% end %> w-two-thirds link dim <% if r != l - 1 %>mb8<% end %>" href="/prototype3/projects/<%= purl project.name %>">
+          <a class="db <% if align === "right" %>fr<% else %>fl<% end %> w-two-thirds dim no-underline <% if r != l - 1 %>mb8<% end %>" href="/prototype3/projects/<%= purl project.name %>">
             <div class="aspect-ratio aspect-ratio--<%= aspect_ratio %>">
               <div class="aspect-ratio--object bg-near-white"></div>
             </div>
