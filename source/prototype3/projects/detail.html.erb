@@ -26,14 +26,14 @@ layout: main3
   <% aspect_ratio = image.aspect_ratio %>
   <% align = image.align %>
     <% if aspect_ratio === "1x1" || aspect_ratio === "6x4" %>
-      <div class="<% if i != l - 1 %>mb8<% end %>" href="/prototype3/projects/<%= purl project.name %>">
+      <div class="<% if i != l - 1 %>mb8<% end %>">
         <div class="aspect-ratio aspect-ratio--<%= aspect_ratio %>">
           <div class="aspect-ratio--object bg-near-white"></div>
         </div>
       </div>
     <% else %>
       <div class="cf">
-        <div class="<% if align === "right" %>fr<% else %>fl<% end %> w-two-thirds <% if i != l - 1 %>mb8<% end %>" href="/prototype3/projects/<%= purl project.name %>">
+        <div class="<% if align === "right" %>fr<% else %>fl<% end %> w-two-thirds <% if i != l - 1 %>mb8<% end %>">
           <div class="aspect-ratio aspect-ratio--<%= aspect_ratio %>">
             <div class="aspect-ratio--object bg-near-white"></div>
           </div>
