@@ -67,14 +67,13 @@ module CustomHelpers
 
   # Next Project: fetches the new project from the project database
   def next_project i
-    next_project = ""
     projects = data.projects2
     if i === projects.length - 1
-      next_project = projects[0]
+      project = projects[0]
     else
-      next_project = projects[i + 1]
+      project = projects[i + 1]
     end
-    next_project
+    project
   end
 
   ###
