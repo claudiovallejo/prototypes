@@ -3,10 +3,10 @@
   Fades in content
 
 */
-// const $content = document.getElementById('content');
-// setTimeout(function(){
-//   $content.classList.add('fi');
-// }, 250);
+const $content = document.getElementById('content');
+setTimeout(function(){
+  $content.classList.add('fi');
+}, 250);
 /*
 
   Project Filter: Tab menu that filters projects by category
