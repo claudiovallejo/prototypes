@@ -25,11 +25,13 @@ $tab.addEventListener('click', function(){
 */
 const $cards = document.getElementsByClassName('pc');
 const $note = document.getElementsByClassName('note')[0];
-setTimeout(function(){
-  for (var i = 0; i < $cards.length; i++) {
-    $cards[i].classList.add('fi');
-  }
-}, 250);
-setTimeout(function(){
-  $note.classList.add('opacity-1');
-}, 1300);
+if ($cards.length > 0) {
+  setTimeout(function(){
+    for (var i = 0; i < $cards.length; i++) {
+      $cards[i].classList.add('fi');
+    }
+  }, 250);
+  setTimeout(function(){
+    $note.classList.add('opacity-1');
+  }, 1300);
+}
