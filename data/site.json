@@ -40,5 +40,19 @@
       "title": "Studio",
       "path": "studio"
     }
+  ],
+  "prototype4": [
+    {
+      "title": "Projects",
+      "path": "projects"
+    },
+    {
+      "title": "Studio",
+      "path": "studio"
+    },
+    {
+      "title": "Contact",
+      "path": "contact"
+    }
   ]
 }
