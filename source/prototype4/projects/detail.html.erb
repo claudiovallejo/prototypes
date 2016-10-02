@@ -1,0 +1,67 @@
+---
+layout: main4
+---
+<% project = locals[:project] %>
+<div class="mw8 center mt10 ph4 ph8-m ph0-l">
+  <%# Header %>
+  <div class="mb9">
+    <h4 class="ma0 mb3 roboto fw4 f6 tracked-mega ttu silver"><%= project.category %></h4>
+    <h1 class="ma0 roboto fw4 f3 f2-ns lh-title dark-gray"><%= project.name %></h1>
+  </div>
+  <%# Details %>
+  <div class="cf mb8">
+    <div class="cf fl-ns w-third-ns mb5 mb0-ns">
+      <div class="fl fn-ns w-50 w-100-ns mb4-ns">
+        <h4 class="ma0 mb3 roboto fw4 f6 tracked-mega ttu silver">Location</h4>
+        <p class="mv0 roboto fw3 f5 lh-copy"><%= project.location %></p>
+      </div>
+      <div class="fl fn-ns w-50 w-100-ns">
+        <h4 class="ma0 mb3 roboto fw4 f6 tracked-mega ttu silver">Date</h4>
+        <p class="mv0 roboto fw3 f5 lh-copy"><%= project.date %></p>
+      </div>
+    </div>
+    <div class="fl-ns w-two-thirds-ns">
+      <h4 class="ma0 mb3 roboto fw4 f6 tracked-mega ttu silver">Details</h4>
+      <p class="mv0 roboto fw3 f5 lh-copy cc-2-l cg-1-l"><%= project.detail.prototype4 %></p>
+    </div>
+  </div>
+  <%# Gallery %>
+  <% l = project.images.detail.length %>
+  <% project.images.detail.each do |image, i| %>
+  <% aspect_ratio = image.aspect_ratio %>
+  <% align = image.align %>
+    <% if aspect_ratio === "1x1" || aspect_ratio === "6x4" %>
+      <div class="<% if i != l - 1 %>mb8<% end %>">
+        <div class="aspect-ratio aspect-ratio--<%= aspect_ratio %>">
+          <div class="aspect-ratio--object bg-near-white"></div>
+        </div>
+        <p class="roboto fw3 f6 silver"><%= image.alt %></p>
+      </div>
+    <% else %>
+      <div class="cf">
+        <div class="<% if align === "right" %>fr-ns<% else %>fl-ns<% end %> w-two-thirds-ns <% if i != l - 1 %>mb8<% end %>">
+          <div class="aspect-ratio aspect-ratio--<%= aspect_ratio %>">
+            <div class="aspect-ratio--object bg-near-white"></div>
+          </div>
+          <p class="roboto fw3 f6 silver"><%= image.alt %></p>
+        </div>
+      </div>
+    <% end %>
+  <% end %>
+  </div>
+</div>
+<%# Other Projects %>
+<div class="mv5 pv5 bt bb b--light-gray">
+  <h4 class="ma0 mb4 roboto fw4 f6 tracked-mega ttu silver">Other Projects</h4>
+  <div class="cf">
+    <% (0..2).each do |i| %>
+      <a class="db fl w-100 w-third-ns pa2 dim no-underline" href="/prototype4/projects/<%= purl project.name %>">
+        <div class="aspect-ratio aspect-ratio--6x4">
+          <div class="aspect-ratio--object bg-near-white"></div>
+        </div>
+        <p class="mt2 mb0 roboto fw3 lh-title dark-gray">
+          <%= project.name %> \ <span class="silver"><%= project.category %></span>
+        </p>
+      </a>
+    <% end %>
+  </div>
