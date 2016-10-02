@@ -10,7 +10,9 @@
     <%= partial "partials/tab_menu" %>
     <div id="content" class="a5">
       <%= yield %>
-      <%= partial "partials/p4/footer" %>
+      <% if current_page.data.title != "Contact" %>
+        <%= partial "partials/p4/footer" %>
+      <% end %>
     </div>
     <%= javascript_include_tag :home %>
     <%= javascript_include_tag :p3 %>
