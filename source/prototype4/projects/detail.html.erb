@@ -2,7 +2,7 @@
 layout: main4
 ---
 <% project = locals[:project] %>
-<div class="mw8 center mt10 ph4 ph8-m ph0-l">
+<div class="mw8 center mt10 mb10 ph4 ph8-m ph0-l">
   <%# Header %>
   <div class="mb9">
     <h4 class="ma0 mb3 roboto fw4 f6 tracked-mega ttu silver"><%= project.category %></h4>
@@ -50,18 +50,3 @@ layout: main4
   <% end %>
   </div>
 </div>
-<%# Other Projects %>
-<div class="mv5 pv5 bt bb b--light-gray">
-  <h4 class="ma0 mb4 roboto fw4 f6 tracked-mega ttu silver">Other Projects</h4>
-  <div class="cf">
-    <% (0..2).each do |i| %>
-      <a class="db fl w-100 w-third-ns pa2 dim no-underline" href="/prototype4/projects/<%= purl project.name %>">
-        <div class="aspect-ratio aspect-ratio--6x4">
-          <div class="aspect-ratio--object bg-near-white"></div>
-        </div>
-        <p class="mt2 mb0 roboto fw3 lh-title dark-gray">
-          <%= project.name %> \ <span class="silver"><%= project.category %></span>
-        </p>
-      </a>
-    <% end %>
-  </div>
