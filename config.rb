@@ -26,6 +26,11 @@ data.projects3.each do |project|
   proxy "prototype3/projects/#{ I18n.transliterate(project.name).downcase.strip.gsub(' ', '-') }/index.html", "prototype3/projects/detail.html", :locals => { :project => project }, :ignore => true
 end
 
+# Prototype #4 Project Details
+data.projects3.each do |project|
+    proxy "prototype4/projects/#{ I18n.transliterate(project.name).downcase.strip.gsub(' ', '-') }/index.html", "prototype4/projects/detail.html", :locals => { :project => project }, :ignore => true
+end
+
 # Relative Links & Directory Indexing
 activate :directory_indexes
 set :relative_links, true
