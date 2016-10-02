@@ -35,7 +35,7 @@ layout: main4
         <div class="aspect-ratio aspect-ratio--<%= aspect_ratio %>">
           <div class="aspect-ratio--object bg-near-white"></div>
         </div>
-        <% if image.caption %>
+        <% if image.caption != false %>
           <p class="roboto fw3 f6 silver"><%= image.caption %></p>
         <% end %>
       </div>
@@ -45,7 +45,7 @@ layout: main4
           <div class="aspect-ratio aspect-ratio--<%= aspect_ratio %>">
             <div class="aspect-ratio--object bg-near-white"></div>
           </div>
-          <% if image.caption %>
+          <% if image.caption != false %>
             <p class="roboto fw3 f6 silver"><%= image.caption %></p>
           <% end %>
         </div>
@@ -57,13 +57,17 @@ layout: main4
 <%# Other Projects %>
 <% project_index = project3_index project.name %>
 <% other_projects = other_projects_3 project_index %>
-<div class="mw9 center mb5 mb6-ns pv5 ph4-m ph6-l" style="background-color: #fafafa;">
+<div class="mw8 center ph4 ph8-m ph0-l">
+  <div class="bb b--light-gray"></div>
+</div>
+<div class="mw9 center pv5 ph4-m ph6-l">
   <div class="ph4 ph3-m">
     <h4 class="ma0 mb4 pl3-l roboto fw4 f6 tracked-mega ttu silver">Other Projects</h4>
   </div>
   <div class="cf ph4 ph0-m">
+    <% l = other_projects.length %>
     <% other_projects.each_with_index do |other, o| %>
-      <div class="fl w-100 w-third-ns mb4 mb0-ns pt3-l pr3-ns pl3-ns dim">
+      <div class="fl w-100 w-third-ns <% if o != l - 1 %>mb4<% end %> mb0-ns pt3-l pr3-ns pl3-ns dim">
         <a class="no-underline" href="/prototype4/projects/<%= purl other.name %>">
           <div class="aspect-ratio aspect-ratio--6x4">
             <div class="aspect-ratio--object bg-near-white"></div>
@@ -75,4 +79,7 @@ layout: main4
       </div>
     <% end %>
   </div>
+</div>
+<div class="mw8 center mb5 mb6-ns ph4 ph8-m ph0-l">
+  <div class="bb b--light-gray"></div>
 </div>
