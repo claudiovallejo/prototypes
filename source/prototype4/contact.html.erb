@@ -1,0 +1,60 @@
+---
+layout: main4
+title: Contact
+---
+<% contact = data.contact %>
+<% studio = data.studio3 %>
+<div class="mw8 center mt10">
+  <%# Hero %>
+  <div class="aspect-ratio aspect-ratio--<%= studio.images.hero.aspect_ratio %>">
+    <div class="aspect-ratio--object bg-near-white"></div>
+  </div>
+  <%# Contact Details %>
+  <div class="cf mt6 mb6-ns ph4-m ph0-l">
+    <div class="fl-ns w-50-ns mb5 ph4 mb0-ns ph0-ns">
+      <h4 class="ma0 mb3 roboto fw4 f6 tracked-mega ttu silver">Number</h4>
+      <a class="pa0 roboto f4 link dark-gray hover-moon-gray" href="tel:<%= pnum contact.number %>"><%= contact.number %></a>
+    </div>
+    <div class="fl-ns w-50-ns mb5 ph4 mb0-ns ph0-ns">
+      <h4 class="ma0 mb3 roboto fw4 f6 tracked-mega ttu silver">Email</h4>
+      <a class="pa0 roboto f4 link dark-gray hover-moon-gray" href="mailto:<%= contact.email %>"><%= contact.email %></a>
+    </div>
+  </div>
+  <%# Location Details %>
+  <div class="cf mb6-ns ph4-m ph0-l">
+    <div class="fl-ns w-50-ns mb5 ph4 mb0-ns ph0-ns">
+      <h4 class="ma0 mb3 roboto fw4 f6 tracked-mega ttu silver">Address</h4>
+      <a class="pa0 roboto f4 link dark-gray hover-moon-gray" href="/">
+        <p class="pa0 mb2">
+          <%= contact.address.street %>
+        </p>
+        <p class="pa0 mt0 mb2">
+          <%= contact.address.city %>, <%= contact.address.state %>
+        </p>
+        <p class="pa0 mt0 mb2">
+          <%= contact.address.country %> <%= contact.address.zip_code %>
+        </p>
+      </a>
+    </div>
+    <div class="fl-ns w-50-ns mb5 ph4 mb0-ns ph0-ns">
+      <h4 class="ma0 mb3 roboto fw4 f6 tracked-mega ttu silver">Hours</h4>
+      <p class="pa0 mb2 roboto f4 dark-gray">
+        Weekdays from <%= contact.hours.weekdays %>
+      </p>
+      <p class="pa0 mt0 roboto f4 dark-gray">
+        Saturdays from <%= contact.hours.saturdays %>
+      </p>
+    </div>
+  </div>
+  <div class="cf mb6-ns ph4-m ph0-l">
+    <div class="fl-ns w-50-ns mb5 ph4 mb0-ns ph0-ns">
+      <h4 class="ma0 mb3 roboto fw4 f6 tracked-mega ttu silver">Social Media</h4>
+      <a class="pa0 roboto f4 link dark-gray hover-moon-gray" href="<%= contact.social_media.instagram.path %>">
+        <p><%= contact.social_media.instagram.name %></p>
+      </a>
+      <a class="pa0 roboto f4 link dark-gray hover-moon-gray" href="<%= contact.social_media.twitter.path %>">
+        <p><%= contact.social_media.twitter.name %></p>
+      </a>
+    </div>
+  </div>
+</div>
