@@ -104,4 +104,30 @@ module CustomHelpers
     next_project
   end
 
+  ###
+  # Prototype #4 Helpers
+  ###
+
+  def other_projects_3 i
+    others = []
+    projects = data.projects3
+    if i === projects.length - 3
+      a = projects[projects.length - 2]
+      b = projects[projects.length - 1]
+      c = projects[0]
+    elsif i === projects.length - 1
+      a = projects[projects.length - 1]
+      b = projects[0]
+      c = projects[1]
+    else
+      a = projects[0]
+      b = projects[1]
+      c = projects[2]
+    end
+    others.push(a)
+    others.push(b)
+    others.push(c)
+    others
+  end
+
 end
