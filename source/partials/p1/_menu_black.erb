@@ -1,19 +1,24 @@
-<div class="mw8 center">
-  <div class="w-100 mw8 bg-white">
-    <div id="menu" class="absolute z-inherit w-100 mw8 ph4 animate-1 cf pv4">
-      <div class="fl w-75">
-        <%= link_to "Filipao Nunes", "/prototype1", :class => "roboto fw9 f6 ttu tracked-mega link dark-gray" %>
-      </div>
-      <div class="fr w-25 tr cursor-pointer">
-        <%= image_tag "menu-black.svg" %>
-      </div>
-    </div>
-    <nav>
-      <ul id="nav-links" class="list ma0 ph4 overflow-x-scroll overflow-y-hidden overflow-scrolling nowrap center pv4">
-        <% data.site.links.each_with_index do |section, s| %>
-          <li class="dib delay<%= s + 1 %> fade-2 animate-2"><%= link_to section.title, "/prototype1/#{ section.path }", :class => "link noto-sans mr4 gray hover-dark-gray" %></li>
+<nav class="bg-white-80 fixed top-0 z-max w-100">
+  <div class="mw8 center">
+    <%# Mobile Menu %>
+    <div class="db dn-ns">
+      <ul class="ma0 pa4 list overflow-x-auto overflow-scrolling scrollbar-dn nowrap bg-white">
+        <%= link_to "Filipao Nunes", "/prototype1", :class => "roboto fw9 f6 ttu tracked-mega dark-gray dim no-underline" %>
+        <% data.site.links.each do |section| %>
+          <li class="dib"><%= link_to section.title, "/prototype1/#{ section.path }", :class => "ml4 noto-sans fw4 silver link" %></li>
         <% end %>
       </ul>
-    </nav>
+    </div>
+    <%# Tablet+ Menu %>
+    <div class="dn db-ns cf ma0 pa4 ph8-m ph0-l">
+      <div class="fl w-50">
+        <%= link_to "Filipao Nunes", "/prototype1", :class => "roboto fw9 f6 ttu tracked-mega dark-gray dim no-underline" %>
+      </div>
+      <div class="fr w-50 tr">
+        <% data.site.links.each do |section| %>
+          <li class="dib"><%= link_to section.title, "/prototype1/#{ section.path }", :class => "ml4 noto-sans fw4 silver hover-dark-gray link" %></li>
+        <% end %>
+      </div>
+    </div>
   </div>
-</div>
+</nav>
