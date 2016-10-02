@@ -1,0 +1,24 @@
+<nav class="bg-white-80 fixed top-0 z-max w-100">
+  <div class="mw8 center">
+    <%# Mobile Menu %>
+    <div class="db dn-ns">
+      <ul class="ma0 pa4 list overflow-x-auto overflow-scrolling scrollbar-dn nowrap bg-white">
+        <%= link_to "Filipao Nunes", "/prototype4", :class => "roboto fw9 f6 ttu tracked-mega dark-gray dim no-underline" %>
+        <% data.site.prototype4.each do |section| %>
+          <li class="dib"><%= link_to section.title, "/prototype4/#{ section.path }", :class => "ml4 noto-sans fw4 silver link" %></li>
+        <% end %>
+      </ul>
+    </div>
+    <%# Tablet+ Menu %>
+    <div class="dn db-ns cf ma0 pa4 ph8-m ph0-l">
+      <div class="fl w-50">
+        <%= link_to "Filipao Nunes", "/prototype4", :class => "roboto fw9 f6 ttu tracked-mega dark-gray dim no-underline" %>
+      </div>
+      <div class="fr w-50 tr">
+        <% data.site.prototype4.each do |section| %>
+          <li class="dib"><%= link_to section.title, "/prototype4/#{ section.path }", :class => "ml4 noto-sans fw4 silver hover-dark-gray link" %></li>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</nav>
