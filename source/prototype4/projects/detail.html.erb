@@ -2,7 +2,7 @@
 layout: main4
 ---
 <% project = locals[:project] %>
-<div class="mw8 center mt10 mb10 ph4 ph8-m ph0-l">
+<div class="mw8 center mt10 mb10-ns ph4 ph8-m ph0-l">
   <%# Header %>
   <div class="mb9">
     <h4 class="ma0 mb3 roboto fw4 f6 tracked-mega ttu silver"><%= project.category %></h4>
@@ -25,7 +25,7 @@ layout: main4
       <p class="mv0 roboto fw3 f5 lh-copy cc-2-l cg-1-l"><%= project.detail.prototype4 %></p>
     </div>
   </div>
-  <%# Gallery %>
+  <%# Images %>
   <% l = project.images.detail.length %>
   <% project.images.detail.each do |image, i| %>
   <% aspect_ratio = image.aspect_ratio %>
@@ -35,7 +35,9 @@ layout: main4
         <div class="aspect-ratio aspect-ratio--<%= aspect_ratio %>">
           <div class="aspect-ratio--object bg-near-white"></div>
         </div>
-        <p class="roboto fw3 f6 silver"><%= image.alt %></p>
+        <% if image.caption %>
+          <p class="roboto fw3 f6 silver"><%= image.caption %></p>
+        <% end %>
       </div>
     <% else %>
       <div class="cf">
@@ -43,10 +45,34 @@ layout: main4
           <div class="aspect-ratio aspect-ratio--<%= aspect_ratio %>">
             <div class="aspect-ratio--object bg-near-white"></div>
           </div>
-          <p class="roboto fw3 f6 silver"><%= image.alt %></p>
+          <% if image.caption %>
+            <p class="roboto fw3 f6 silver"><%= image.caption %></p>
+          <% end %>
         </div>
       </div>
     <% end %>
   <% end %>
+  </div>
+</div>
+<%# Other Projects %>
+<% project_index = project3_index project.name %>
+<% other_projects = other_projects_3 project_index %>
+<div class="mw9 center mb5 mb6-ns pv5 ph4-m ph6-l" style="background-color: #fafafa;">
+  <div class="ph4 ph3-m">
+    <h4 class="ma0 mb4 pl3-l roboto fw4 f6 tracked-mega ttu silver">Other Projects</h4>
+  </div>
+  <div class="cf ph4 ph0-m">
+    <% other_projects.each_with_index do |other, o| %>
+      <div class="fl w-100 w-third-ns mb4 mb0-ns pt3-l pr3-ns pl3-ns dim">
+        <a class="no-underline" href="/prototype4/projects/<%= purl other.name %>">
+          <div class="aspect-ratio aspect-ratio--6x4">
+            <div class="aspect-ratio--object bg-near-white"></div>
+          </div>
+          <p class="mt2 mb0 roboto fw3 lh-title dark-gray">
+            <%= other.name %><% if o % 2 == 0 %>  \  <% else %>  /  <% end %><span class="silver"><%= other.category %></span>
+          </p>
+        </a>
+      </div>
+    <% end %>
   </div>
 </div>
