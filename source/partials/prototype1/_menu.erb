@@ -5,7 +5,9 @@
       <ul class="ma0 pa4 list overflow-x-auto overflow-scrolling scrollbar-dn nowrap">
         <%= link_to "Filipao Nunes", "/prototype1", :class => "roboto fw9 f6 ttu tracked-mega white dim no-underline" %>
         <% data.menu.each do |section| %>
-          <li class="dib"><%= link_to section.name, "/prototype1/#{ purl section.name }", :class => "ml4 roboto fw4 light-gray no-underline" %></li>
+          <% if section.show %>
+            <li class="dib"><%= link_to section.name, "/prototype1/#{ purl section.name }", :class => "ml4 roboto fw4 light-gray no-underline" %></li>
+          <% end %>
         <% end %>
       </ul>
     </div>
@@ -16,7 +18,9 @@
       </div>
       <ul class="ma0 list fr tr">
         <% data.menu.each do |section| %>
-          <li class="dib"><%= link_to section.name, "/prototype1/#{ purl section.name }", :class => "ml4 roboto fw4 light-gray dim no-underline" %></li>
+          <% if section.show %>
+            <li class="dib"><%= link_to section.name, "/prototype1/#{ purl section.name }", :class => "ml4 roboto fw4 light-gray dim no-underline" %></li>
+          <% end %>
         <% end %>
       </ul>
     </div>
