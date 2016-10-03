@@ -65,7 +65,7 @@
 @media screen and (min-width: 30em) and (max-width: 60em) {
   .aspect-ratio--1x1-m { padding-bottom: 100%; }
   .aspect-ratio--16x9-m { padding-bottom: 56.25%; }
-  .ph8-m { padding-right: 3rem; padding-left: 3rem; }
+  .ph9-m { padding-right: 3rem; padding-left: 3rem; }
   .f8-m { font-size: 2rem; }
 }
 @media screen and (min-width: 60em) {
