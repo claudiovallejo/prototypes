@@ -1,14 +1,14 @@
 {
   "number": {
-    "section": "call",
+    "section": "number",
     "content": "+52 81 2317 4740"
   },
   "email": {
-    "section": "message",
+    "section": "email",
     "content": "info@filipaonunes.com"
   },
   "location": {
-    "section": "visit",
+    "section": "address",
     "street": "Bosques de Himalaya 106-9",
     "neighborhood": "Bosques del Valle",
     "city": "San Pedro Garza García",
@@ -20,5 +20,15 @@
   "hours": {
     "weekdays": "Weekdays from 8.30 - 19.00",
     "saturdays": "Saturdays from 8.30 - 13.00"
+  },
+  "social_media": {
+    "instagram": {
+      "name": "Instagram",
+      "path": "https://www.instagram.com/filipao78/"
+    },
+    "twitter": {
+      "name": "Twitter",
+      "path": "https://twitter.com/filipao78"
+    }
   }
 }
