@@ -9,26 +9,31 @@ title: Projects
   <% end %>
 <% end %>
 <div class="mw8 center">
-  <nav class="mt6 mb4">
-    <ul id="filters" class="list ma0 ph4 overflow-x-scroll overflow-y-hidden overflow-scrolling nowrap center pv4">
+  <nav class="mt11">
+    <ul id="filters" class="list ma0 pa4 ph9-m ph0-l overflow-x-auto overflow-scrolling scrollbar-dn nowrap center">
       <li class="dib"><%= link_to "All", "/", :class => "filter link noto-sans mr4 dark-gray hover-dark-gray" %></li>
       <% categories.each do |category| %>
         <li class="dib"><%= link_to category, "/", :class => "filter link noto-sans mr4 moon-gray hover-dark-gray" %></li>
       <% end %>
     </ul>
   </nav>
-  <div class="ph3 pb1">
-    <div id="projects" class="cf animate-4">
-      <% data.projects.each do |project| %>
-        <div class="project fl w-100 w-50-ns w-33-l ph2 mb3 dim" data-category="<%= project.category %>">
-          <a class="db flex items-end h5 link pa4 cover" title="<%= project.images.card.alt %>" style="background:url(../../images/<%= project.images.card.path %>) no-repeat center;" href="/prototype1/projects/<%= purl project.name %>">
-            <div>
-              <h4 class="mt0 mb2 noto-sans fw4 f6 white"><%= project.category %></h4>
-              <h2 class="ma0 noto-sans fw4 f4 white lh-title"><%= project.name %></h2>
-            </div>
-          </a>
-        </div>
-      <% end %>
-    </div>
+</div>
+<div class="mw8 center ph225-m ph0-l">
+  <!-- Removed `animate-4` from #projects -->
+  <div id="projects" class="cf">
+    <% l = data.projects.length %>
+    <% data.projects.each_with_index do |project, r| %>
+      <div class="fl-ns w-50-ns ph075-m">
+        <a class="db <% if r != l - 1 %>mb9 mb8-l<% else %>mb8<% end %> dim no-underline <% if r % 2 == 0 %>pr075-l<% else %>pl075-l<% end %>" href="/prototype1/projects/equipage">
+          <div class="aspect-ratio aspect-ratio--6x4">
+            <%= image_tag project.card.six_four.path, :alt => "#{ project.alt }" %>
+          </div>
+          <div class="mt2 mb0 pl4 pl0-ns roboto fw4 f5">
+            <p class="mb12 silver"><%= project.category %></p>
+            <p class="mv0 dark-gray"><%= project.name %></p>
+          </div>
+        </a>
+      </div>
+    <% end %>
   </div>
 </div>
