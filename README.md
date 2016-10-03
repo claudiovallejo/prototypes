@@ -29,3 +29,4 @@ I want to share how I work not because I think I know what I'm doing, but rather
 As I polish and rebuild the prototypes before the first client evaluation, I'm starting to notice many areas where I could polish and improve my code, for example —
 + `/partials/prototype1/_menu.erb` should only have one unordered list.
 + `tachyons.css` will be optimized and minified to only use the modules and classes needed as well as optimize and personalize all the `rem` values for margins, font sizing, paddings, etc.
++ Fix `pnum` helper in `/helpers/custom_helpers.rb`. It can't process the number values being passed.
