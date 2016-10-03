@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Projects",
+    "display": true
+  },
+  {
+    "name": "Studio",
+    "display": true
+  },
+  {
+    "name": "Contact",
+    "display": false
+  }
+]
