@@ -3,21 +3,25 @@ layout: main1
 title: Filipao Nunes
 ---
 <div class="mw8 center">
-  <div class="ph4 mt6 mb6">
-    <h1 class="noto-sans fw4 f3 lh-title">This is who we are. This is what we do.</h1>
+  <%# Caption %>
+  <div class="cf mt11 mb8 ph4 ph0-l">
+    <h1 class="w-two-thirds-m roboto fw4 f3 f8-ns lh-title"><%= data.index.caption %></h1>
   </div>
-  <div class="ph3 pb1">
-    <div class="cf">
-      <% data.projects.each_with_index do |project, r| %>
-        <div class="fl w-100 w-50-ns w-33-l ph2 mb3 dim">
-          <a class="db flex items-end h5 link pa4 cover" title="<%= project.images.card.alt %>" style="background:url(../../images/<%= project.images.card.path %>) no-repeat center;" href="prototype1/projects/<%= purl project.name %>">
-            <div>
-              <h4 class="mt0 mb2 noto-sans fw4 f6 white"><%= project.category %></h4>
-              <h2 class="ma0 noto-sans fw4 f4 white lh-title"><%= project.name %></h2>
-            </div>
-          </a>
-        </div>
+  <div class="ph4 ph0-l">
+    <%# Featured Projects %>
+    <% l = data.projects.length %>
+    <% data.projects.each_with_index do |project, r| %>
+      <% if project.featured.prototype1 %>
+        <a class="db dim no-underline <% if r != l - 1 %>mb9 mb8-l<% else %>mb8<% end %>" href="/prototype4/projects/<%= purl project.name %>">
+          <div class="aspect-ratio aspect-ratio--6x4">
+            <div class="aspect-ratio--object bg-near-white"></div>
+          </div>
+          <div class="mt2 mb0 pl4 pl0-ns roboto fw4 f5">
+            <p class="mb12 silver"><%= project.category %></p>
+            <p class="mv0 dark-gray"><%= project.name %></p>
+          </div>
+        </a>
       <% end %>
-    </div>
+    <% end %>
   </div>
 </div>
