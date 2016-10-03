@@ -7,14 +7,14 @@ title: Filipao Nunes
   <div class="cf mt11 mb8 ph4 ph0-l">
     <h1 class="w-two-thirds-m roboto fw4 f3 f8-ns lh-title"><%= data.index.caption %></h1>
   </div>
-  <div class="ph4 ph0-l">
+  <div class="ph4-m ph0-l">
     <%# Featured Projects %>
     <% l = data.projects.length %>
     <% data.projects.each_with_index do |project, r| %>
       <% if project.featured.prototype1 %>
-        <a class="db dim no-underline <% if r != l - 1 %>mb9 mb8-l<% else %>mb8<% end %>" href="/prototype4/projects/<%= purl project.name %>">
+        <a class="db dim no-underline <% if r != l - 1 %>mb9 mb8-l<% else %>mb8<% end %>" href="/prototype1/projects/equipage">
           <div class="aspect-ratio aspect-ratio--6x4">
-            <div class="aspect-ratio--object bg-near-white"></div>
+            <%= image_tag project.card.six_four.path, :alt => "#{ project.alt }" %>
           </div>
           <div class="mt2 mb0 pl4 pl0-ns roboto fw4 f5">
             <p class="mb12 silver"><%= project.category %></p>
