@@ -1,31 +1,61 @@
-<% contact= data.contact %>
-<div class="pv4 pv9-ns ph4 ph8-m ph0-l bg-dark-gray">
-  <div class="cf">
+<% contact = data.contact %>
+<div class="pv4 pv9-ns ph4 ph9-m ph0-l bg-dark-gray">
+  <div class="mw8 center cf">
     <%# First Column: Logo %>
-    <div class="fl-ns w-33-ns mb5 mb0-ns">
-      <%= image_tag "branding/icon-light.svg", :alt => "Filipao Nunes logo." %>
+    <div class="fl-ns w-third-m w-50-l mb4 mb0-ns">
+      <%= image_tag "branding/icon-light.svg", :alt => "Filipao Nunes icon." %>
     </div>
-    <%# Second Column: Location Details %>
-    <div class="fl-ns w-33-ns">
-      <% link_to contact.location.path, :class => "db mb4 roboto white dim no-underline" do %>
-        <p class="ma0 roboto fw4 f5 mb2"><%= contact.location.street %></p>
-        <p class="ma0 roboto fw4 f5 mb2"><%= contact.location.city %>, <%= contact.location.state %></p>
-        <p class="ma0 roboto fw4 f5 mb2"><%= contact.location.country %> <%= contact.location.zip_code %></p>
-      <% end %>
-      <div class="mb5 mb0-ns">
-        <p class="ma0 roboto fw4 f5 mb2 white"><%= contact.hours.weekdays %></p>
-        <p class="ma0 roboto fw4 f5 mb2 white"><%= contact.hours.saturdays %></p>
+    <%# Second Column: Content %>
+    <div class="fl-ns w-two-thirds-m w-50-l">
+      <div class="cf mb4-ns">
+        <%# First Row, First Column: Address %>
+        <div class="fl-ns w-50-ns mb4 mb0-ns">
+          <p class="mt0 mb3 roboto fw3 f5 silver">Address</p>
+          <a class="db roboto fw4 white dim no-underline" href="<%= contact.location.path %>" target="_blank">
+            <p class="ma0 mb2 roboto fw4 f5">
+              <%= contact.location.street %>
+            </p>
+            <p class="ma0 mb2 roboto fw4 f5">
+              <%= contact.location.city %>, <%= contact.location.state %>
+            </p>
+            <p class="ma0 mb2 roboto fw4 f5">
+              <%= contact.location.country %> <%= contact.location.zip_code %>
+            </p>
+          </a>
+        </div>
+        <%# First Row, Second Column: Hours %>
+        <div class="fl-ns w-50-ns mb4 mb0-ns">
+          <p class="mt0 mb3 roboto fw3 f5 silver">Hours</p>
+          <p class="ma0 mb2 roboto fw4 f5 white">
+            <%= contact.hours.weekdays %>
+          </p>
+          <p class="ma0 mb2 roboto fw4 f5 white">
+            <%= contact.hours.saturdays %>
+          </p>
+        </div>
       </div>
-    </div>
-    <%# Third Column: Contact Details %>
-    <div class="fl-ns w-33-ns">
-      <a class="db mb3 roboto fw4 f5 white dim no-underline" href="tel:<%= contact.number.content %>" target="_blank"><%= contact.number.content %></a>
-      <a class="db mb5 mb4-ns roboto fw4 f5 white dim no-underline" href="mailto:<%= contact.email.content %>" target="_blank"><%= contact.email.content %></a>
-    </div>
-    <%# Fourth Column: Social Media Details %>
-    <div class="fl-ns w-33-ns">
-      <a class="db mb3 roboto fw4 f5 white dim no-underline" href="<%= contact.social_media.instagram.path %>" target="_blank"><%= contact.social_media.instagram.name %></a>
-      <a class="db roboto fw4 f5 white dim no-underline" href="<%= contact.social_media.twitter.path %>" target="_blank"><%= contact.social_media.twitter.name %></a>
+      <div class="cf">
+        <%# Second Row, First Column: Contact %>
+        <div class="fl-ns w-50-ns mb4 mb0-ns">
+          <p class="mt0 mb3 roboto fw3 f5 silver">Contact</p>
+          <a class="db mb2 roboto fw4 f5 white dim no-underline" href="tel:<%= contact.number.content %>">
+            <%= contact.number.content %>
+          </a>
+          <a class="db roboto fw4 f5 white dim no-underline" href="mailto:<%= contact.email.content %>">
+            <%= contact.email.content %>
+          </a>
+        </div>
+        <%# Second Row, Second Column: Social %>
+        <div class="fl-ns w-50-ns">
+          <p class="mt0 mb3 roboto fw3 f5 silver">Social</p>
+          <a class="db mb2 roboto fw4 f5 white dim no-underline" href="<%= contact.social_media.instagram.path %>" target="_blank">
+            <%= contact.social_media.instagram.name %>
+          </a>
+          <a class="db roboto fw4 f5 white dim no-underline" href="<%= contact.social_media.twitter.path %>" target="_blank">
+            <%= contact.social_media.twitter.name %>
+          </a>
+        </div>
+      </div>
     </div>
   </div>
 </div>
