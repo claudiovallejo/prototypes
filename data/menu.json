@@ -1,14 +1,14 @@
 [
   {
     "name": "Projects",
-    "display": true
+    "show": true
   },
   {
     "name": "Studio",
-    "display": true
+    "show": true
   },
   {
     "name": "Contact",
-    "display": false
+    "show": false
   }
 ]
