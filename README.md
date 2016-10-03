@@ -28,5 +28,5 @@ I want to share how I work not because I think I know what I'm doing, but rather
 # Development Notes
 As I polish and rebuild the prototypes before the first client evaluation, I'm starting to notice many areas where I could polish and improve my code, for example —
 + `/partials/prototype1/_menu.erb` should only have one unordered list.
-+ `tachyons.css` will be optimized and minified to only use the modules and classes needed as well as optimize and personalize all the `rem` values for margins, font sizing, paddings, etc.
++ `tachyons.css` classes and scales will be taylored to the measurements of the project. It find hard to remember the values for each spacing, font size, etc. I think I'll probably use a literal notation. For example, `f1` is equal to `font-size: 1rem;`, `mb05` is equal to `margin-bottom: 0.5rem;`, and so on.
 + Fix `pnum` helper in `/helpers/custom_helpers.rb`. It can't process the number values being passed.
