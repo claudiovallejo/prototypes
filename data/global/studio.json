@@ -1,0 +1,71 @@
+{
+  "caption": "We believe that building is lorem ipsum dolor sit amet.",
+  "images": [
+    {
+      "6x4": {
+        "aspect_ratio": "6x4",
+        "align": false,
+        "path": "projects/studio-a-6x4.jpg",
+        "caption": false,
+        "alt": "Helvetica normcore migas intelligentsia affogato, shoreditch."
+      },
+      "4x6": {
+        "aspect_ratio": "4x6",
+        "align": "right",
+        "path": "projects/studio-a-4x6.jpg",
+        "caption": false,
+        "alt": "Helvetica normcore migas intelligentsia affogato, shoreditch."
+      }
+    },
+    {
+      "6x4": {
+        "aspect_ratio": "6x4",
+        "align": false,
+        "path": "projects/studio-b-6x4.jpg",
+        "caption": false,
+        "alt": "Duis cardigan try-hard cronut beard hella."
+      },
+      "4x6": {
+        "aspect_ratio": "4x6",
+        "align": "left",
+        "path": "projects/studio-b-4x6.jpg",
+        "caption": false,
+        "alt": "Duis cardigan try-hard cronut beard hella."
+      }
+    },
+    {
+      "6x4": {
+        "aspect_ratio": "6x4",
+        "align": false,
+        "path": "projects/studio-c-6x4.jpg",
+        "caption": false,
+        "alt": "Fap eu 3 wolf moon mumblecore literally keffiyeh yr nostrud velit odio."
+      }
+    },
+    {
+      "6x4": {
+        "aspect_ratio": "6x4",
+        "align": false,
+        "path": "projects/studio-d-6x4.jpg",
+        "caption": false,
+        "alt": "Lyft air plant brooklyn shabby chic tumeric woke af marfa."
+      },
+      "4x6": {
+        "aspect_ratio": "4x6",
+        "align": "right",
+        "path": "projects/studio-d-4x6.jpg",
+        "caption": false,
+        "alt": "Lyft air plant brooklyn shabby chic tumeric woke af marfa."
+      }
+    }
+  ],
+  "detail": [
+    "Laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+  ],
+  "conslusion": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+  "link": {
+    "title": "Get in touch",
+    "path": "/contact"
+  }
+}
