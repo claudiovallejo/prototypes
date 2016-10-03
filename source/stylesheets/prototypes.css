@@ -47,6 +47,7 @@
 .mb10 { margin-bottom: 10rem; }
 .mt11 { margin-top: 9rem; }
 .mb12 { margin-bottom: 0.5rem; }
+.pv9 { padding-top: 3rem; padding-bottom: 3rem; }
 /* LETTER SPACING */
 .tracked-uber { letter-spacing: .45em; }
 /* DISPLAY */
@@ -59,6 +60,7 @@
   .aspect-ratio--16x9-ns { padding-bottom: 56.25%; }
   .h7-ns { height: 20rem; }
   .f8-ns { font-size: 2rem; }
+  .pv9-ns { padding-top: 3rem; padding-bottom: 3rem; }
 }
 @media screen and (min-width: 30em) and (max-width: 60em) {
   .aspect-ratio--1x1-m { padding-bottom: 100%; }
