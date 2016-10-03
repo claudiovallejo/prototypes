@@ -1,0 +1,31 @@
+<% contact= data.contact %>
+<div class="pv4 pv9-ns ph4 ph8-m ph0-l bg-dark-gray">
+  <div class="cf">
+    <%# First Column: Logo %>
+    <div class="fl-ns w-33-ns mb5 mb0-ns">
+      <%= image_tag "branding/icon-light.svg", :alt => "Filipao Nunes logo." %>
+    </div>
+    <%# Second Column: Location Details %>
+    <div class="fl-ns w-33-ns">
+      <% link_to contact.location.path, :class => "db mb4 roboto white dim no-underline" do %>
+        <p class="ma0 roboto fw4 f5 mb2"><%= contact.location.street %></p>
+        <p class="ma0 roboto fw4 f5 mb2"><%= contact.location.city %>, <%= contact.location.state %></p>
+        <p class="ma0 roboto fw4 f5 mb2"><%= contact.location.country %> <%= contact.location.zip_code %></p>
+      <% end %>
+      <div class="mb5 mb0-ns">
+        <p class="ma0 roboto fw4 f5 mb2 white"><%= contact.hours.weekdays %></p>
+        <p class="ma0 roboto fw4 f5 mb2 white"><%= contact.hours.saturdays %></p>
+      </div>
+    </div>
+    <%# Third Column: Contact Details %>
+    <div class="fl-ns w-33-ns">
+      <a class="db mb3 roboto fw4 f5 white dim no-underline" href="tel:<%= contact.number.content %>" target="_blank"><%= contact.number.content %></a>
+      <a class="db mb5 mb4-ns roboto fw4 f5 white dim no-underline" href="mailto:<%= contact.email.content %>" target="_blank"><%= contact.email.content %></a>
+    </div>
+    <%# Fourth Column: Social Media Details %>
+    <div class="fl-ns w-33-ns">
+      <a class="db mb3 roboto fw4 f5 white dim no-underline" href="<%= contact.social_media.instagram.path %>" target="_blank"><%= contact.social_media.instagram.name %></a>
+      <a class="db roboto fw4 f5 white dim no-underline" href="<%= contact.social_media.twitter.path %>" target="_blank"><%= contact.social_media.twitter.name %></a>
+    </div>
+  </div>
+</div>
