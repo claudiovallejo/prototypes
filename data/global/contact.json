@@ -1,0 +1,24 @@
+{
+  "number": {
+    "section": "call",
+    "content": "+52 81 2317 4740"
+  },
+  "email": {
+    "section": "message",
+    "content": "info@filipaonunes.com"
+  },
+  "location": {
+    "section": "visit",
+    "street": "Bosques de Himalaya 106-9",
+    "neighborhood": "Bosques del Valle",
+    "city": "San Pedro Garza García",
+    "state": "NL",
+    "country": "Mexico",
+    "zip_code": "66250",
+    "path": "https://www.google.com.mx/maps/place/Av+Bosques+del+Valle+106,+Bosques+del+Valle+1er+Sector,+66250+San+Pedro+Garza+Garc%C3%ADa,+N.L./@25.6506196,-100.3777239,17z/data=!3m1!4b1!4m5!3m4!1s0x8662bd944bbd157d:0x984a04536e723f29!8m2!3d25.6506196!4d-100.3755352"
+  },
+  "hours": {
+    "weekdays": "Weekdays from 8.30 - 19.00",
+    "saturdays": "Saturdays from 8.30 - 13.00"
+  }
+}
