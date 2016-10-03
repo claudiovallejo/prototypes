@@ -65,6 +65,8 @@
 @media screen and (min-width: 30em) and (max-width: 60em) {
   .aspect-ratio--1x1-m { padding-bottom: 100%; }
   .aspect-ratio--16x9-m { padding-bottom: 56.25%; }
+  .ph225-m { padding-right: 2.25rem; padding-left: 2.25rem; }
+  .ph075-m { padding-right: 0.75rem; padding-left: 0.75rem; }
   .ph9-m { padding-right: 3rem; padding-left: 3rem; }
   .f8-m { font-size: 2rem; }
 }
@@ -73,6 +75,8 @@
   .aspect-ratio--16x9-l { padding-bottom: 56.25%; }
   .f8-l { font-size: 2rem; }
   .mb8-l { margin-bottom: 5rem; }
+  .pr075-l { padding-right: 0.75rem; }
+  .pl075-l { padding-left: 0.75rem; }
   /* COLUMNS */
   .cc-2-l { -webkit-column-count: 2; column-count: 2; }
   .cg-1-l { -webkit-column-gap: 1.5rem; column-gap: 1.5rem; }
