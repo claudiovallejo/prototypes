@@ -45,24 +45,32 @@
 .mv8 { margin-top: 6rem; margin-bottom: 6rem; }
 .mt10 { margin-top: 10rem; }
 .mb10 { margin-bottom: 10rem; }
+.mt11 { margin-top: 9rem; }
+.mb12 { margin-bottom: 0.5rem; }
 /* LETTER SPACING */
 .tracked-uber { letter-spacing: .45em; }
 /* DISPLAY */
 .dn-i { display: none !important; }
+/* FONT SIZING */
+.f8 { font-size: 2rem; }
 /* UTILITIES */
 @media screen and (min-width: 30em) {
   .aspect-ratio--1x1-ns { padding-bottom: 100%; }
   .aspect-ratio--16x9-ns { padding-bottom: 56.25%; }
   .h7-ns { height: 20rem; }
+  .f8-ns { font-size: 2rem; }
 }
 @media screen and (min-width: 30em) and (max-width: 60em) {
   .aspect-ratio--1x1-m { padding-bottom: 100%; }
   .aspect-ratio--16x9-m { padding-bottom: 56.25%; }
   .ph8-m { padding-right: 3rem; padding-left: 3rem; }
+  .f8-m { font-size: 2rem; }
 }
 @media screen and (min-width: 60em) {
   .aspect-ratio--1x1-l { padding-bottom: 100%; }
   .aspect-ratio--16x9-l { padding-bottom: 56.25%; }
+  .f8-l { font-size: 2rem; }
+  .mb8-l { margin-bottom: 5rem; }
   /* COLUMNS */
   .cc-2-l { -webkit-column-count: 2; column-count: 2; }
   .cg-1-l { -webkit-column-gap: 1.5rem; column-gap: 1.5rem; }
