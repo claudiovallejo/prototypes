@@ -8,7 +8,7 @@
       "prototype3": true
     },
     "card": {
-      "6x4": {
+      "six_four": {
         "aspect_ratio": "6x4",
         "align": false,
         "path": "projects/bisou-card-6x4.jpg",
@@ -25,19 +25,19 @@
       "prototype3": true
     },
     "card": {
-      "6x4": {
+      "six_four": {
         "aspect_ratio": "6x4",
         "align": false,
         "path": "projects/hula-card-6x4.jpg",
         "alt": "Cuadrum denim nile goztil lomen nactule."
       },
-      "4x6": {
+      "four_six": {
         "aspect_ratio": "4x6",
         "align": "right",
         "path": "projects/hula-card-4x6.jpg",
         "alt": "Dolor meditation assumenda heirloom, fugiat blog hell of pariatur nostrud."
       },
-      "1x1": {
+      "one_one": {
         "aspect_ratio": "1x1",
         "align": false,
         "path": "projects/hula-card-1x1.jpg",
@@ -54,19 +54,19 @@
       "prototype3": true
     },
     "card": {
-      "6x4": {
+      "six_four": {
         "aspect_ratio": "6x4",
         "align": false,
         "path": "projects/burger-factory-card-6x4.jpg",
         "alt": "Dolor meditation assumenda heirloom, fugiat blog hell of pariatur nostrud."
       },
-      "4x6": {
+      "four_six": {
         "aspect_ratio": "4x6",
         "align": "left",
         "path": "projects/burger-factory-card-4x6.jpg",
         "alt": "Dolor meditation assumenda heirloom, fugiat blog hell of pariatur nostrud."
       },
-      "1x1": {
+      "one_one": {
         "aspect_ratio": "1x1",
         "align": false,
         "path": "projects/burger-factory-card-1x1.jpg",
@@ -83,7 +83,7 @@
       "prototype3": true
     },
     "card": {
-      "6x4": {
+      "six_four": {
         "aspect_ratio": "6x4",
         "align": false,
         "path": "projects/casa-canela-card-6x4.jpg",
@@ -100,7 +100,7 @@
       "prototype3": true
     },
     "card": {
-      "6x4": {
+      "six_four": {
         "aspect_ratio": "6x4",
         "align": false,
         "path": "projects/casa-canela-card-6x4.jpg",
@@ -113,7 +113,7 @@
       "details": "Laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "images": [
         {
-          "6x4": {
+          "six_four": {
             "aspect_ratio": "6x4",
             "align": false,
             "path": "projects/casa-canela-card-6x4.jpg",
@@ -122,14 +122,14 @@
           }
         },
         {
-          "6x4": {
+          "six_four": {
             "aspect_ratio": "6x4",
             "align": false,
             "path": "projects/b-6x4.jpg",
             "caption": false,
             "alt": "Bespoke pug quinoa ut 8-bit vinyl occaecat."
           },
-          "4x6": {
+          "four_six": {
             "aspect_ratio": "4x6",
             "align": "left",
             "path": "projects/b-4x6.jpg",
@@ -138,7 +138,7 @@
           }
         },
         {
-          "4x6": {
+          "four_six": {
             "aspect_ratio": "4x6",
             "align": "right",
             "path": "projects/c-4x6.jpg",
@@ -147,21 +147,21 @@
           }
         },
         {
-          "1x1": {
+          "one_one": {
             "aspect_ratio": "1x1",
             "align": false,
             "path": "projects/d-1x1.jpg",
             "caption": "Biodiesel distillery 8-bit fanny pack marfa.",
             "alt": "Helvetica normcore migas intelligentsia affogato, shoreditch."
           },
-          "6x4": {
+          "six_four": {
             "aspect_ratio": "6x4",
             "align": false,
             "path": "projects/d-6x4.jpg",
             "caption": "Biodiesel distillery 8-bit fanny pack marfa.",
             "alt": "Helvetica normcore migas intelligentsia affogato, shoreditch."
           },
-          "4x6": {
+          "four_six": {
             "aspect_ratio": "4x6",
             "align": false,
             "path": "projects/d-4x6.jpg",
@@ -170,14 +170,14 @@
           }
         },
         {
-          "6x4": {
+          "six_four": {
             "aspect_ratio": "6x4",
             "align": false,
             "path": "projects/e-6x4.jpg",
             "caption": "Master cleanse mumblecore copper mug, quinoa brooklyn craft.",
             "alt": "Wayfarers viral fap enamel pin raclette four loko."
           },
-          "4x6": {
+          "four_six": {
             "aspect_ratio": "4x6",
             "align": false,
             "path": "projects/e-4x6.jpg",
@@ -186,14 +186,14 @@
           }
         },
         {
-          "6x4": {
+          "six_four": {
             "aspect_ratio": "6x4",
             "align": false,
             "path": "projects/f-6x4.jpg",
             "caption": false,
             "alt": "Iceland chambray microdosing, meggings ennui adipisicing everyday."
           },
-          "4x6": {
+          "four_six": {
             "aspect_ratio": "4x6",
             "align": "right",
             "path": "projects/f-4x6.jpg",
