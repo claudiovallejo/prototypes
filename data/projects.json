@@ -215,7 +215,7 @@
           },
           "four_six": {
             "aspect_ratio": "4x6",
-            "align": "right",
+            "align": "left",
             "path": "projects/f-4x6.jpg",
             "caption": false,
             "alt": "Iceland chambray microdosing, meggings ennui adipisicing everyday."
