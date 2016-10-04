@@ -81,6 +81,7 @@
   .ph075-m { padding-right: 0.75rem; padding-left: 0.75rem; }
   .pa9-m { padding-top: 3rem; padding-right: 3rem; padding-bottom: 3rem; padding-left: 3rem; }
   .ph9-m { padding-right: 3rem; padding-left: 3rem; }
+  .pv9-m { padding-top: 3rem; padding-bottom: 3rem; }
   .f8-m { font-size: 2rem; }
 }
 @media screen and (min-width: 60em) {
