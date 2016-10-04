@@ -5,21 +5,11 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,900" rel="stylesheet">
   <%= stylesheet_link_tag :tachyons %>
   <%= stylesheet_link_tag :prototypes %>
-  <%= stylesheet_link_tag :p1 %>
   <body>
-    <%= partial "partials/p2/menu" %>
+    <%= partial "partials/prototype2/menu" %>
     <%= partial "partials/tab_menu" %>
-    <div id="content" class="animate-3">
-      <%= yield %>
-      <%= partial "partials/p2/footer" %>
-    </div>
+    <%= yield %>
+    <%= partial "partials/prototype2/footer" %>
     <%= javascript_include_tag :home %>
-    <%= javascript_include_tag :p2 %>
-    <script>
-      const $content = document.getElementById('content');
-      setTimeout(function(){
-        $content.classList.add('fi');
-      }, 250);
-    </script>
   </body>
 </html>
