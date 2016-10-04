@@ -1,0 +1,53 @@
+---
+layout: main1
+---
+<% studio = data.studio %>
+<div class="mw8 center">
+  <%# Caption %>
+  <div class="cf mt11 mb8 ph4 ph0-l">
+    <h1 class="w-two-thirds-ns w-50-l ma0 roboto fw4 f3 f8-ns lh-title"><%= studio.caption %></h1>
+  </div>
+  <%# Hero %>
+  <% hero = studio.images[0] %>
+  <%= image_tag hero.six_four.path, :class => "w-100", :alt => hero.six_four.alt %>
+  <%# Detail %>
+  <div class="cf ph4 ph9-m ph0-l pv9">
+    <% studio.detail.each do |detail| %>
+      <div class="fl-ns w-50-ns">
+        <p class="roboto fw3 f5 dark-gray lh-copy"><%= detail %></p>
+      </div>
+    <% end %>
+  </div>
+  <div class="ph9-m ph0-l">
+    <%# Studio Image Gallery %>
+    <% l = studio.images.length %>
+    <% studio.images.each_with_index do |image, i| %>
+      <% if i > 0 %>
+        <% if i === 1 || i === 2 %>
+          <% if i % 2 != 0 %>
+            <div class="cf">
+          <% end %>
+              <div class="fl-ns w-50-ns mb12 mb15-ns <% if i % 2 != 0 %>pr075-ns<% else %>pl075-ns<% end %>">
+                <div class="aspect-ratio aspect-ratio--6x4">
+                  <%= image_tag image.six_four.path, :class => "aspect-ratio--object w-100", :alt => image.six_four.alt %>
+                </div>
+              </div>
+          <% if i % 2 === 0 %>
+            </div>
+          <% end %>
+        <% else %>
+          <div class="aspect-ratio aspect-ratio--6x4">
+            <%= image_tag image.six_four.path, :class => "w-100 aspect-ratio--object", :alt => image.six_four.alt %>
+          </div>
+        <% end %>
+      <% end %>
+    <% end %>
+  </div>
+  <%# Conclusion %>
+  <div class="cf ph4 ph9-m ph0-l pv9">
+    <div class="fl-ns w-50-ns">
+      <p class="mb15 roboto fw3 f5 dark-gray lh-copy"><%= studio.conclusion %></p>
+      <a class="dib roboto fw4 f5 silver" href="mailto:<%= data.contact.email.content %>"><%= studio.link.title %></a>
+    </div>
+  </div>
+</div>
