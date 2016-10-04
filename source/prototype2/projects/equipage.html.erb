@@ -1,0 +1,94 @@
+---
+layout: main2
+---
+<% project = data.projects[4] %>
+<%# Hero %>
+<% hero = project.detail.images[0] %>
+<%= image_tag hero.six_four.path, :class => "w-100 mt82", :alt => hero.six_four.alt %>
+<div class="mw8 center">
+  <%# Project Brief %>
+  <div class="cf mv9 ph4 ph9-m ph0-l">
+    <%# Project Header %>
+    <div class="fl-ns w-50-ns">
+      <h1 class="roboto fw4 f3 f8-ns lh-title"><%= project.name %></h1>
+      <h2 class="ma0 roboto fw4 f6 tracked-mega ttu silver"><%= project.category %></h2>
+    </div>
+    <%# Project Location, Date and Details %>
+    <div class="cf fl-ns w-50-ns">
+      <div class="cf mv9">
+        <div class="fl w-50">
+          <p class="roboto fw4 f5 dark-gray"><%= project.detail.location %></p>
+          <h2 class="ma0 roboto fw4 f6 tracked-mega ttu silver">Location</h2>
+        </div>
+        <div class="fl w-50">
+          <p class="roboto fw4 f5 dark-gray"><%= project.detail.date %></p>
+          <h2 class="ma0 roboto fw4 f6 tracked-mega ttu silver">Date</h2>
+        </div>
+      </div>
+      <div class="fl-ns w-100-ns">
+        <p class="roboto fw3 f5 dark-gray lh-copy"><%= project.detail.details %></p>
+      </div>
+    </div>
+  </div>
+  <%# Image Gallery %>
+  <% l = project.detail.images.length %>
+  <% project.detail.images.each_with_index do |image, i| %>
+    <% if i === 2 || i === 3 %>
+      <% if i === 2 %>
+        <div class="cf">
+      <% end %>
+          <div class="fl-ns w-50-ns mb1 mb15-ns <% if i === 2 %>pr075-ns<% else %>pl075-ns<% end %>">
+            <div class="aspect-ratio aspect-ratio--6x4 aspect-ratio--1x1-ns">
+              <div class="aspect-ratio--object cover" title="<%= image.one_one.alt %>" style="background:url(../../images/<%= purl image.one_one.path %>) no-repeat center;"></div>
+            </div>
+          </div>
+      <% if i === 3 %>
+        </div>
+      <% end %>
+    <% else %>
+      <div class="aspect-ratio aspect-ratio--6x4 mb1 mb15-ns">
+        <div class="aspect-ratio--object cover" title="<%= image.six_four.alt %>" style="background:url(../../images/<%= purl image.six_four.path %>) no-repeat center;"></div>
+      </div>
+    <% end %>
+  <% end %>
+  <%# Share Project %>
+  <div class="pa4 pv9-m pv8-l ph9-m ph0-l">
+    <h2 class="ma0 roboto fw4 f6 tracked-mega ttu silver">Share Project</h2>
+    <ul class="ma0 pa0 list">
+      <li class="dib"><p class="mr4 roboto fw4 dark-gray">Facebook</p></li>
+      <li class="dib"><p class="mr4 roboto fw4 dark-gray">Twitter</p></li>
+      <li class="dib"><p class="mr4 roboto fw4 dark-gray">Email</p></li>
+    </ul>
+  </div>
+  <%# Other Projects %>
+  <div class="mw8 center ph9-m ph0-l">
+    <div class="bb b--dark-gray"></div>
+  </div>
+  <div class="pv9 ph9-m ph0-l">
+    <h3 class="mt0 mb15 pl4 pl0-ns roboto fw4 f3 dark-gray">Other Projects</h3>
+    <% data.projects.each_with_index do |project, r| %>
+      <% if r < 2 %>
+        <% if r === 0 %>
+          <div class="cf">
+        <% end %>
+            <div class="fl-ns w-50-ns mb1 mb15-ns <% if r === 0 %>pr075-ns<% else %>pl075-ns<% end %>">
+              <div class="aspect-ratio aspect-ratio--6x4">
+                <a class="db aspect-ratio--object cover dim no-underline" title="<%= project.card.six_four.alt %>" href="/prototype2/projects/equipage" style="background:url(../../images/<%= project.card.six_four.path %>) no-repeat center;">
+                  <div class="absolute z-5 pa4">
+                    <h2 class="mt0 mb12 roboto fw4 f4 white lh-title"><%= project.name %></h2>
+                    <h4 class="ma0 roboto fw4 f6 tracked-mega ttu white"><%= project.category %></h4>
+                  </div>
+                  <div class="absolute w-100 h-100 bg-black-60"></div>
+                </a>
+              </div>
+            </div>
+        <% if r === 1 %>
+          </div>
+        <% end %>
+      <% end %>
+    <% end %>
+  </div>
+  <div class="mw8 center ph9-m ph0-l">
+    <div class="bb b--dark-gray"></div>
+  </div>
+</div>
