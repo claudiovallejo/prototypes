@@ -138,6 +138,13 @@
           }
         },
         {
+          "six_four": {
+            "aspect_ratio": "6x4",
+            "align": false,
+            "path": "projects/c-6x4.jpg",
+            "caption": false,
+            "alt": "Everyday carry synth cred asymmetrical, plaid tilde man braid."
+          },
           "four_six": {
             "aspect_ratio": "4x6",
             "align": "right",
