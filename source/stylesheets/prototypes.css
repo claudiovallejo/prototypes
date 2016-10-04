@@ -42,7 +42,6 @@
 .f005 { font-size: 0.05rem; }
 /* SPACING */
 .mt82 { margin-top: 82px; }
-.mv9 { margin-top: 3rem; margin-bottom: 3rem; }
 .mb9 { margin-bottom: 3rem; }
 .mt8 { margin-top: 5rem; }
 .mb8 { margin-bottom: 5rem; }
@@ -52,6 +51,7 @@
 .mt11 { margin-top: 9rem; }
 .mb12 { margin-bottom: 0.5rem; }
 .mb15 { margin-bottom: 1.5rem; }
+.pv8 { padding-top: 5rem; padding-bottom: 5rem; }
 .pv9 { padding-top: 3rem; padding-bottom: 3rem; }
 .pr075 { padding-right: 0.75rem; }
 .pl075 { padding-left: 0.75rem; }
@@ -72,6 +72,7 @@
   .pv9-ns { padding-top: 3rem; padding-bottom: 3rem; }
   .pr075-ns { padding-right: 0.75rem; }
   .pl075-ns { padding-left: 0.75rem; }
+  .ph075-ns { padding-right: 0.75rem; padding-left: 0.75rem; }
 }
 @media screen and (min-width: 30em) and (max-width: 60em) {
   .aspect-ratio--1x1-m { padding-bottom: 100%; }
