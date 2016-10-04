@@ -22,6 +22,7 @@
     "saturdays": "Saturdays from 8.30 - 13.00"
   },
   "social_media": {
+    "section": "social",
     "instagram": {
       "name": "Instagram",
       "path": "https://www.instagram.com/filipao78/"
