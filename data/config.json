@@ -2,9 +2,9 @@
   "note": "Use the bottom-right plus-sign to jump between prototypes.",
   "hello": "Hello,",
   "intro": "Prototypes for Filipao Nunes’ online portfolio. Filipao Nunes is an upcoming architecture and interior design studio in Monterrey, Mx.",
-  "contact": "Above are several prototypes I'll be showing my client sometime next week (~Oct 3). You can view the project's source code over on <a class=\"light-purple link\" href=\"https://github.com/claudiovallejo/prototypes\" target=\"_blank\">GitHub</a>. If you have any comments or feedback, let me know <a class=\"light-purple link\" href=\"https://twitter.com/claudiovallejop\" target=\"_blank\">@claudiovallejop</a>.",
+  "contact": "Above are several prototypes I'll be showing my client sometime next week (~Oct 3). You can view the project's source code over on <a class=\"dark-gray link\" href=\"https://github.com/claudiovallejo/prototypes\" target=\"_blank\">GitHub</a>. If you have any comments or feedback, let me know <a class=\"dark-gray link\" href=\"https://twitter.com/claudiovallejop\" target=\"_blank\">@claudiovallejop</a>.",
   "goodbye": "Thanks for stopping by,",
-  "author": "- 🤓✌️",
+  "author": "- Claudio",
   "prototypes": [
     {
       "name": "Prototype #1",
