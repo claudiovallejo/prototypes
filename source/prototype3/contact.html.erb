@@ -1,0 +1,38 @@
+---
+layout: main3
+---
+<% contact = data.contact %>
+<div class="cf mw8 center mt8 mb10 ph4 ph9-m ph0-l">
+  <%# First Row %>
+  <div class="cf fl-ns w-100-ns mb8">
+    <%# First Column: Number %>
+    <div class="fl-ns w-50-ns mb8 mb0-ns">
+      <h3 class="ma0 mb15 roboto fw4 f6 tracked-mega ttu silver"><%= contact.number.section %></h3>
+      <a class="ma0 roboto fw4 f3 lh-title dim no-underline dark-gray" href="tel:<%= contact.number.content %>"><%= contact.number.content %></a>
+    </div>
+    <%# Second Column: Email %>
+    <div class="fl-ns w-50-ns">
+      <h3 class="ma0 mb15 roboto fw4 f6 tracked-mega ttu silver"><%= contact.email.section %></h3>
+      <a class="ma0 roboto fw4 f3 lh-title dim no-underline dark-gray" href="mailto:<%= contact.email.content %>"><%= contact.email.content %></a>
+    </div>
+  </div>
+  <%# Second Row %>
+  <div class="fl-ns w-100-ns">
+    <%# First Column: Address %>
+    <div class="fl-ns w-50-ns mb8 mb0-ns">
+      <h3 class="ma0 mb15 roboto fw4 f6 tracked-mega ttu silver"><%= contact.location.section %></h3>
+      <a class="ma0 roboto fw4 lh-title dim no-underline dark-gray" href="<%= contact.location.path %>" target="_blank">
+        <p class="ma0 f3"><%= contact.location.street %></p>
+        <p class="ma0 f3"><%= contact.location.neighborhood %></p>
+        <p class="ma0 f3"><%= contact.location.city %>, <%= contact.location.state %></p>
+        <p class="ma0 f3"><%= contact.location.country %> <%= contact.location.zip_code %></p>
+      </a>
+    </div>
+    <%# Second Column: Social Media %>
+    <div class="fl-ns w-50-ns">
+      <h3 class="ma0 mb15 roboto fw4 f6 tracked-mega ttu silver"><%= contact.social_media.section %></h3>
+      <a class="db ma0 roboto fw4 f3 lh-title dim no-underline dark-gray" href="<%= contact.social_media.instagram.path %>" target="_blank"><%= contact.social_media.instagram.name %></a>
+      <a class="db ma0 roboto fw4 f3 lh-title dim no-underline dark-gray" href="<%= contact.social_media.twitter.path %>" target="_blank"><%= contact.social_media.twitter.name %></a>
+    </div>
+  </div>
+</div>
