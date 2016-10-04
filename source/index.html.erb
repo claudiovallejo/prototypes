@@ -4,14 +4,14 @@ title: Filipao Nunes Portfolio — Prototypes by @claudiovallejop
 ---
 
 <%# Prototypes %>
-<div class="pt4 ph4 mw8 center cf">
+<div class="pt4 ph4 mw6 center">
   <div class="pc a5 delay1">
     <p class="ma0 pb4 roboto f6 fw3 lh-copy gray tc"><%= data.config.note %></p>
     <div class="w-100 mb4 bb b--light-gray"></div>
   </div>
   <% l = data.config.prototypes.length %>
   <% data.config.prototypes.each_with_index do |prototype, r| %>
-    <div class="fl-ns w-50-m w-33-l">
+    <div class="mw6 center">
       <a class="pc db flex items-center pa4 dim no-underline ba b--light-gray bg-white <% if r != l - 1 %>mb4<% end %> a5 delay<%= r + 2 %>" href="/<%= prototype.path %>">
         <div class="w-100 cf">
           <div class="fl w-90">
