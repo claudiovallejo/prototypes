@@ -1,0 +1,80 @@
+---
+layout: main3
+---
+<% project = data.projects[4] %>
+<div class="mw8 center mt9 ph4 ph9-m ph0-l">
+  <div class="pv8">
+    <%# Project Header %>
+    <h2 class="mb12 roboto fw4 f5 silver"><%= project.category %></h2>
+    <h1 class="ma0 roboto fw4 f3 f8-ns lh-title"><%= project.name %></h1>
+    <div class="cf mv9-ns">
+      <%# Project Location and Date %>
+      <div class="cf fl-ns w-third-ns mv9 mv0-ns">
+        <div class="fl fn-ns w-50 w-100-ns">
+          <h2 class="mb12 roboto fw4 f5 silver">Location</h2>
+          <p class="roboto fw3 f5 dark-gray"><%= project.detail.location %></p>
+        </div>
+        <div class="fl fn-ns w-50 w-100-ns">
+          <h2 class="mb12 roboto fw4 f5 silver">Date</h2>
+          <p class="roboto fw3 f5 dark-gray"><%= project.detail.date %></p>
+        </div>
+      </div>
+      <%# Project Details %>
+      <div class="fl-ns w-two-thirds-ns">
+        <h2 class="mb12 roboto fw4 f5 silver">Details</h2>
+        <p class="roboto fw3 f5 dark-gray lh-copy cc-2-l cg-1-l"><%= project.detail.details %></p>
+      </div>
+    </div>
+  </div>
+  <%# Detail Images %>
+  <% l = project.detail.images.length %>
+  <% project.detail.images.each_with_index do |image, i| %>
+    <% if i === 0 || i === 3 || i === 4 %>
+      <div class="mb8">
+        <div class="aspect-ratio aspect-ratio--6x4">
+          <%= image_tag "../images/#{ image.six_four.path }", :class => "aspect-ratio--object", :alt => image.six_four.alt %>
+        </div>
+        <% if image.six_four.caption != false %>
+          <p class="mt1 mb0 roboto fw3 f6 lh-title silver"><%= image.six_four.caption %></p>
+        <% end %>
+      </div>
+    <% else %>
+      <div class="cf <% if i != l - 1 %>mb8<% end %>">
+        <div class="w-two-thirds <% if image.four_six.align === "right" %>fr<% else %>fl<% end %> w-two-thirds">
+          <div class="aspect-ratio aspect-ratio--4x6">
+            <%= image_tag "../images/#{ image.four_six.path }", :class => "aspect-ratio--object", :alt => image.four_six.alt %>
+          </div>
+        </div>
+      </div>
+    <% end %>
+  <% end %>
+  <%# Share Project %>
+  <div class="pv8">
+    <h2 class="ma0 roboto fw4 f6 tracked-mega ttu silver">Share Project</h2>
+    <ul class="ma0 pa0 list">
+      <li class="dib"><p class="mr4 roboto fw4 dark-gray">Facebook</p></li>
+      <li class="dib"><p class="mr4 roboto fw4 dark-gray">Twitter</p></li>
+      <li class="dib"><p class="mr4 roboto fw4 dark-gray">Email</p></li>
+    </ul>
+  </div>
+</div>
+<%# Other Projects %>
+<div class="center ph4 ph4-m ph0-l pb5" style="max-width: 65.5rem;">
+  <h3 class="ma0 mb15 pl075-ns roboto fw4 f6 tracked-mega ttu silver">Other Projects</h3>
+  <div class="cf">
+  <% data.projects.each_with_index do |project, r| %>
+    <% if r < 3 %>
+      <div class="fl-ns w-third-ns ph075-ns mb9 mb0-ns">
+        <a class="dim no-underline" href="/prototype1/projects/equipage">
+          <div class="aspect-ratio aspect-ratio--6x4">
+            <%= image_tag project.card.six_four.path, :alt => "#{ project.card.six_four.alt }" %>
+          </div>
+          <p class="mt2 mb0 roboto fw3 lh-title dark-gray">
+            <%= project.name %><% if r % 2 == 0 %>  \  <% else %>  /  <% end %><span class="silver"><%= project.category %></span>
+          </p>
+        </a>
+      </div>
+    <% end %>
+  <% end %>
+  </div>
+</div>
