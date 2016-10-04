@@ -105,6 +105,12 @@
         "align": false,
         "path": "projects/equipage-card-6x4.jpg",
         "alt": "Nemo enim ipsam voluptatem quia voluptas."
+      },
+      "four_six": {
+        "aspect_ratio": "4x6",
+        "align": "right",
+        "path": "projects/equipage-card-4x6.jpg",
+        "alt": "Nemo enim ipsam voluptatem quia voluptas."
       }
     },
     "detail": {
