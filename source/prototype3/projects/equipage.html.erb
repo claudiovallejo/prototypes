@@ -64,8 +64,8 @@ layout: main3
   <div class="cf">
   <% data.projects.each_with_index do |project, r| %>
     <% if r < 3 %>
-      <div class="fl-ns w-third-ns ph075-ns mb9 mb0-ns">
-        <a class="dim no-underline" href="/prototype1/projects/equipage">
+      <div class="dim fl-ns w-third-ns ph075-ns mb9 mb0-ns">
+        <a class="no-underline" href="/prototype1/projects/equipage">
           <div class="aspect-ratio aspect-ratio--6x4">
             <%= image_tag project.card.six_four.path, :alt => "#{ project.card.six_four.alt }" %>
           </div>
