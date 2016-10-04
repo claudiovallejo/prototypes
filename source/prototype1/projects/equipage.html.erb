@@ -4,7 +4,7 @@ layout: main1
 <% project = data.projects[4] %>
 <%# Hero %>
 <% hero = project.detail.images[0] %>
-<%= image_tag hero.six_four.path, :class => "w-100 mt82", :alt => hero.six_four.alt %>
+<%= image_tag hero.six_four.path, :class => "w-100 mt66", :alt => hero.six_four.alt %>
 <div class="mw8 center">
   <%# Project Brief %>
   <div class="mv9 ph4 ph9-m ph0-l">
@@ -16,7 +16,7 @@ layout: main1
     <div class="cf mv9-ns">
       <%# Project Location and Date %>
       <div class="cf fl-ns w-third-ns mv9 mv0-ns">
-        <div class="fl fn-ns w-50 w-100-ns">
+        <div class="fl fn-ns w-50 w-100-ns mb15-ns">
           <h2 class="mb12 roboto fw4 f5 silver">Location</h2>
           <p class="roboto fw3 f5 dark-gray"><%= project.detail.location %></p>
         </div>
@@ -69,12 +69,18 @@ layout: main1
       <% end %>
     <% end %>
   </div>
-</div>
-<div class="mw8 center ph9-m ph0-l">
-  <div class="bb b--light-gray"></div>
+  <%# Share Project %>
+  <div class="pa4 pv9-ns ph9-m ph0-l">
+    <h2 class="ma0 roboto fw4 f6 tracked-mega ttu silver">Share Project</h2>
+    <ul class="ma0 pa0 list">
+      <li class="dib"><p class="mr4 roboto fw4 dark-gray">Facebook</p></li>
+      <li class="dib"><p class="mr4 roboto fw4 dark-gray">Twitter</p></li>
+      <li class="dib"><p class="mr4 roboto fw4 dark-gray">Email</p></li>
+    </ul>
+  </div>
 </div>
 <%# Other Projects %>
-<div class="center ph4 ph4-m ph0-l pb5" style="max-width: 65.5rem;">
+<div class="center ph4 ph4-m ph0-l pv5" style="max-width: 65.5rem;">
   <h3 class="ma0 mb15 pl075-ns roboto fw4 f6 tracked-mega ttu silver">Other Projects</h3>
   <div class="cf">
   <% data.projects.each_with_index do |project, r| %>
