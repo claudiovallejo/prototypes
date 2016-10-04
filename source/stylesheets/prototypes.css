@@ -85,12 +85,14 @@
   .aspect-ratio--1x1-l { padding-bottom: 100%; }
   .aspect-ratio--16x9-l { padding-bottom: 56.25%; }
   .f8-l { font-size: 2rem; }
+  .mt8-l { margin-top: 5rem; }
   .mb8-l { margin-bottom: 5rem; }
   .ph075-l { padding-right: 0.75rem; padding-left: 0.75rem; }
   .ph15-l { padding-right: 1.5rem; padding-left: 1.5rem; }
   .pr075-l { padding-right: 0.75rem; }
   .pl075-l { padding-left: 0.75rem; }
   .pv9-l { padding-top: 3rem; padding-bottom: 3rem; }
+  .pv8-l { padding-top: 5rem; padding-bottom: 5rem; }
   /* COLUMNS */
   .cc-2-l { -webkit-column-count: 2; column-count: 2; }
   .cg-1-l { -webkit-column-gap: 1.5rem; column-gap: 1.5rem; }
