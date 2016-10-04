@@ -4,16 +4,18 @@ layout: main1
 <% studio = data.studio %>
 <div class="mw8 center">
   <%# Caption %>
-  <div class="cf mt11 mb8 ph4 ph0-l">
+  <div class="cf mt11 mb8 ph4 ph9-m ph0-l">
     <h1 class="w-two-thirds-ns w-50-l ma0 roboto fw4 f3 f8-ns lh-title"><%= studio.caption %></h1>
   </div>
   <%# Hero %>
-  <% hero = studio.images[0] %>
-  <%= image_tag hero.six_four.path, :class => "w-100", :alt => hero.six_four.alt %>
+  <div class="ph9-m">
+    <% hero = studio.images[0] %>
+    <%= image_tag hero.six_four.path, :class => "w-100", :alt => hero.six_four.alt %>
+  </div>
   <%# Detail %>
-  <div class="cf ph4 ph9-m ph0-l pv9">
-    <% studio.detail.each do |detail| %>
-      <div class="fl-ns w-50-ns">
+  <div class="cf ph4 ph9-m ph0-l pv9 pv8-l">
+    <% studio.detail.each_with_index do |detail, d| %>
+      <div class="fl-ns w-50-ns <% if d % 2 === 0 %>pr075-ns<% else %>pl075-ns<% end %>">
         <p class="roboto fw3 f5 dark-gray lh-copy"><%= detail %></p>
       </div>
     <% end %>
@@ -44,7 +46,7 @@ layout: main1
     <% end %>
   </div>
   <%# Conclusion %>
-  <div class="cf ph4 ph9-m ph0-l pv9">
+  <div class="cf ph4 ph9-m ph0-l pv9 pv8-l">
     <div class="fl-ns w-50-ns">
       <p class="mb15 roboto fw3 f5 dark-gray lh-copy"><%= studio.conclusion %></p>
       <a class="dib roboto fw4 f5 silver" href="mailto:<%= data.contact.email.content %>"><%= studio.link.title %></a>
