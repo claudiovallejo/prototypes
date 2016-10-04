@@ -36,3 +36,4 @@ As I polish and rebuild the prototypes before the first client evaluation, I'm s
   + For my HTML tags, find the correct element name for each component / section. For example the use of `<article>`, `<figure>`, `<header>`, etc.
   + Create rules as to how to add classes to an element. For example, first add display, position, float, and position classes, then width and height classes, then margin and padding classes... and so on. I'd like to keep my classes well organized and create a habit of adding/removing classes in a certain way.
   + Whichever design is selected, I create conditional statements in the template files to control the layout from within the `.json` files rather than doing everything manually.
+  + If 'Other Projects' with 3 cards is selected, make sure to think through and carefully create the appropriate classes align that section. I haven't given that section enough time to make sure its perfect.
