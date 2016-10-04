@@ -3,74 +3,53 @@ layout: main2
 title: Projects
 ---
 <% categories = [] %>
-<% data.projects2.each do |project| %>
+<% data.projects.each do |project| %>
   <% if !categories.include? project.category %>
     <% categories.push(project.category) %>
   <% end %>
 <% end %>
+<%# Project Filter %>
 <div class="mw8 center">
-  <%# Project Category Filters %>
-  <nav class="mv5">
-    <h4 class="mt2 mb0 ph4 ph0-l noto-sans fw4 f6 tracked-mega ttu silver">Filters</h4>
-    <ul id="filters" class="list ma0 ph4 overflow-x-auto overflow-scrolling nowrap center pt3 pb4">
-      <li class="dib"><%= link_to "All", "/", :class => "filter link noto-sans mr4 dark-gray hover-dark-gray" %></li>
+  <nav class="mt11">
+    <p class="ma0 ph4 ph9-m ph0-l roboto fw4 f6 tracked-mega ttu silver">Categories</p>
+    <ul id="filters" class="list ma0 pa4 ph9-m ph0-l overflow-x-auto overflow-scrolling scrollbar-dn nowrap center">
+      <li class="dib"><%= link_to "All", "/", :class => "filter link roboto mr4 dark-gray hover-dark-gray" %></li>
       <% categories.each do |category| %>
-        <li class="dib"><%= link_to category, "/", :class => "filter link noto-sans mr4 moon-gray hover-dark-gray" %></li>
+        <li class="dib"><%= link_to category, "/", :class => "filter link roboto mr4 silver hover-dark-gray" %></li>
       <% end %>
     </ul>
   </nav>
-  <%# Project List %>
-  <div class="">
-    <div id="projects" class="a4">
-      <% second_half = false %>
-      <% length = data.projects2.length %>
-      <% data.projects2.each_with_index do |project, r| %>
-        <% if project.images.card.type == "full" %>
-          <div class="aspect-ratio aspect-ratio--16x9 <% if r == length - 1 %>mb0<% else %>mb1 mb4-l<% end %>" data-category="<%= project.category %>">
-            <a class="db aspect-ratio--object cover dim no-underline" title="<%= project.images.card.alt %>" href="/prototype2/projects/<%= purl project.name %>" style="background:url(../../images/<%= project.images.card.path %>) no-repeat center;">
-              <div class="absolute z-5 pa4">
-                <h4 class="mt0 mb2 noto-sans fw4 f6 tracked-mega ttu white"><%= project.category %></h4>
-                <h2 class="ma0 noto-sans fw4 f4 white lh-title"><%= project.name %></h2>
-              </div>
-              <div class="absolute w-100 h-100 bg-black-60"></div>
-            </a>
-          </div>
-        <% elsif project.images.card.type == "half" && !second_half %>
-          <% second_half = true %>
-          <div class="cf">
-            <div class="fl-ns w-50-ns pr15-m pr3-l">
-              <div class="aspect-ratio aspect-ratio--16x9 aspect-ratio--1x1-ns <% if r == length - 1 %>mb0<% else %>mb1 mb4-l<% end %>" data-category="<%= project.category %>">
-                <a class="db aspect-ratio--object cover dim no-underline" title="<%= project.images.card.alt %>" href="/prototype2/projects/<%= purl project.name %>" style="background:url(../../images/<%= project.images.card.path %>) no-repeat center;">
-                  <div class="absolute z-5 pa4">
-                    <h4 class="mt0 mb2 noto-sans fw4 f6 tracked-mega ttu white"><%= project.category %></h4>
-                    <h2 class="ma0 noto-sans fw4 f4 white lh-title"><%= project.name %></h2>
-                  </div>
-                  <div class="absolute w-100 h-100 bg-black-60"></div>
-                </a>
-              </div>
-            </div>
-        <% elsif project.images.card.type == "half" && second_half %>
-          <% second_half = false %>
-            <div class="fl-ns w-50-ns pl15-m pl3-l">
-              <div class="aspect-ratio aspect-ratio--16x9 aspect-ratio--1x1-ns <% if r == length - 1 %>mb0<% else %>mb1 mb4-l<% end %>" data-category="<%= project.category %>">
-                <a class="db aspect-ratio--object cover dim no-underline" title="<%= project.images.card.alt %>" href="/prototype2/projects/<%= purl project.name %>" style="background:url(../../images/<%= project.images.card.path %>) no-repeat center;">
-                  <div class="absolute z-5 pa4">
-                    <h4 class="mt0 mb2 noto-sans fw4 f6 tracked-mega ttu white"><%= project.category %></h4>
-                    <h2 class="ma0 noto-sans fw4 f4 white lh-title"><%= project.name %></h2>
-                  </div>
-                  <div class="absolute w-100 h-100 bg-black-60"></div>
-                </a>
-              </div>
-            </div>
-          </div>
-        <% end %>
+  <%# Featured Projects %>
+  <% length = data.projects.length %>
+  <% data.projects.each_with_index do |project, r| %>
+    <% if r === 1 || r === 2 %>
+      <% if r === 1 %>
+        <div class="cf">
       <% end %>
-    </div>
-  </div>
-</div>
-<%# Studio Banner %>
-<%= partial "partials/p2/banner_contact" %>
-<%# Separator %>
-<div class="mw8 center ph4 ph0-l">
-  <div class="w-100 bb b--near-white"></div>
+          <div class="fl-ns w-50-ns mb1 mb15-ns <% if r ===1 %>pr075-ns<% else %>pl075-ns<% end %>">
+            <div class="aspect-ratio aspect-ratio--6x4 aspect-ratio--1x1-ns">
+              <a class="db aspect-ratio--object cover dim no-underline" title="<%= project.card.six_four.alt %>" href="/prototype2/projects/equipage" style="background:url(../images/<%= project.card.six_four.path %>) no-repeat center;">
+                <div class="absolute z-5 pa4 pa9-m">
+                  <h2 class="mt0 mb12 roboto fw4 f4 white lh-title"><%= project.name %></h2>
+                  <h4 class="ma0 roboto fw4 f6 tracked-mega ttu white"><%= project.category %></h4>
+                </div>
+                <div class="absolute w-100 h-100 bg-black-60"></div>
+              </a>
+            </div>
+          </div>
+      <% if r === 2 %>
+        </div>
+      <% end %>
+    <% else %>
+      <div class="aspect-ratio aspect-ratio--6x4 mb1 mb15-ns">
+        <a class="relative db aspect-ratio--object cover dim no-underline" title="<%= project.card.six_four.alt %>" href="/prototype2/projects/equipage" style="background:url(../images/projects/<%= purl project.name %>-card-6x4.jpg) no-repeat center;">
+          <div class="absolute z-5 pa4 pa9-m">
+            <h2 class="mt0 mb12 roboto fw4 f4 white lh-title"><%= project.name %></h2>
+            <h4 class="ma0 roboto fw4 f6 tracked-mega ttu white"><%= project.category %></h4>
+          </div>
+          <div class="absolute w-100 h-100 bg-black-60"></div>
+        </a>
+      </div>
+    <% end %>
+  <% end %>
 </div>
