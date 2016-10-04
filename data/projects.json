@@ -116,7 +116,7 @@
           "six_four": {
             "aspect_ratio": "6x4",
             "align": false,
-            "path": "projects/casa-canela-card-6x4.jpg",
+            "path": "projects/a-6x4.jpg",
             "caption": "Nostrud austin vero aliquip brooklyn pug sartorial disrupt",
             "alt": "Tattooed gastropub accusamus austin, plaid echo park aesthetic PBR&B."
           }
@@ -138,6 +138,13 @@
           }
         },
         {
+          "one_one": {
+            "aspect_ratio": "1x1",
+            "align": false,
+            "path": "projects/c-1x1.jpg",
+            "caption": false,
+            "alt": "Everyday carry synth cred asymmetrical, plaid tilde man braid."
+          },
           "six_four": {
             "aspect_ratio": "6x4",
             "align": false,
