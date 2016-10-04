@@ -38,6 +38,8 @@
 /* OPACITY */
 .opacity-0 { opacity: 0; }
 .opacity-1 { opacity: 1; }
+/* FONT */
+.f005 { font-size: 0.05rem; }
 /* SPACING */
 .mt82 { margin-top: 82px; }
 .mv9 { margin-top: 3rem; margin-bottom: 3rem; }
