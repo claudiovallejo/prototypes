@@ -18,6 +18,11 @@ function styleFilterTabs($el) {
   $el.classList.remove('moon-gray');
   $el.classList.add('dark-gray');
 }
+//  Fades in layout content on load
+const $content = document.getElementById('content');
+setTimeout(function(){
+  $content.classList.add('fi');
+}, 250);
 //
 // function updateProjectList($el) {
 //   //
