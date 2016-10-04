@@ -8,8 +8,10 @@
   <body>
     <%= partial "partials/tab_menu" %>
     <%= partial "partials/prototype3/menu" %>
-    <%= yield %>
-    <%= partial "partials/prototype3/footer" %>
+    <div id="content" class="a5">
+      <%= yield %>
+      <%= partial "partials/prototype3/footer" %>
+    </div>
     <%= javascript_include_tag :home %>
     <%= javascript_include_tag :p1 %>
   </body>
