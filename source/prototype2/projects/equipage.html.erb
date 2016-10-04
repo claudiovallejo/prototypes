@@ -39,7 +39,7 @@ layout: main2
       <% end %>
           <div class="fl-ns w-50-ns mb1 mb15-ns <% if i === 2 %>pr075-ns<% else %>pl075-ns<% end %>">
             <div class="aspect-ratio aspect-ratio--6x4 aspect-ratio--1x1-ns">
-              <div class="aspect-ratio--object cover" title="<%= image.one_one.alt %>" style="background:url(../images/<%= purl image.one_one.path %>) no-repeat center;"></div>
+              <%= image_tag "../images/#{ image.one_one.path }", :class => "aspect-ratio--object", :alt => image.six_four.alt %>
             </div>
           </div>
       <% if i === 3 %>
@@ -47,7 +47,7 @@ layout: main2
       <% end %>
     <% else %>
       <div class="aspect-ratio aspect-ratio--6x4 mb1 mb15-ns">
-        <div class="aspect-ratio--object cover" title="<%= image.six_four.alt %>" style="background:url(../images/<%= purl image.six_four.path %>) no-repeat center;"></div>
+        <%= image_tag "../images/#{ image.six_four.path }", :class => "aspect-ratio--object", :alt => image.six_four.alt %>
       </div>
     <% end %>
   <% end %>
