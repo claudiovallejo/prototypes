@@ -14,9 +14,9 @@ title: Filipao Nunes
       <% if project.featured.prototype1 %>
         <a class="db dim no-underline <% if r != l - 1 %>mb9 mb8-l<% else %>mb8<% end %>" href="/prototype1/projects/equipage">
           <div class="aspect-ratio aspect-ratio--6x4">
-            <%= image_tag project.card.six_four.path, :alt => "#{ project.alt }" %>
+            <%= image_tag project.card.six_four.path, :class => "aspect-ratio--object", :alt => "#{ project.card.six_four.alt }" %>
           </div>
-          <div class="mt2 mb0 pl4 pl0-ns roboto fw4 f5">
+          <div class="pl4 pl0-ns roboto fw4 f5">
             <p class="mb12 silver"><%= project.category %></p>
             <p class="mv0 dark-gray"><%= project.name %></p>
           </div>
