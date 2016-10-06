@@ -61,4 +61,4 @@ For the Lázaro Rosa Violán site, he mentioned how he liked that they had a Pro
 
 The conclusion for this first meeting was that he needs some time alone to go through the prototypes and write down what he thinks is missing or how his brand can be included more. For now, there is no set date as to when he'll make the time to write down the feedback, but he did say it should be sometime before October 16th.
 
-In the meantime, I'll dedicate a one or two hours a day to look for interesting ideas and interactions I think he might enjoy. I'll make a link and pin these ideas here for reference.
+In the meantime, I'll be updating a [mood board](https://usecanvas.com/filipao-nunes/portfolio-notes-and-ideas/7cGf6LSOHZ78qJXzOANmfr) with references to websites / interactions and thought and personal critiques on the prototypes.
