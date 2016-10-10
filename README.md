@@ -40,7 +40,7 @@ Things to work on for future design explorations and projects and a couple of ob
   + When should I prototype? What types of projects should I prototype for?
   + Prototypes are very valuable because they are tangible. They make it super easy for the client to provide quality feedback.
   + Exploring (at least for me) takes time. And it's ok.
-  + Communication is _key_ to building and designing _the product_ the client (not the designer) is looking for / needs.
+  + Communication is _key_ to building and designing the product _the client_ (not the designer) is looking for / needs.
   + Web design is very different from web development. Web development is a bit more objective and there are many resources that serve as guides to help determine what good web development is. But good web design... right now I think it's very subjective. The client may love the final site but other's may question the taste or interaction or other elements. Portfolio web design is very personal. It's not like a digital product. But nonetheless a portfolio site must be usable.
 
 ---
@@ -62,3 +62,7 @@ For the Lázaro Rosa Violán site, he mentioned how he liked that they had a Pro
 The conclusion for this first meeting was that he needs some time alone to go through the prototypes and write down what he thinks is missing or how his brand can be included more. For now, there is no set date as to when he'll make the time to write down the feedback, but he did say it should be sometime before October 16th.
 
 In the meantime, I'll be updating a [mood board](https://usecanvas.com/filipao-nunes/portfolio-notes-and-ideas/7cGf6LSOHZ78qJXzOANmfr) with references to websites / interactions and thought and personal critiques on the prototypes.
+
+---
+
+
